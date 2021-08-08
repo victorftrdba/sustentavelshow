@@ -9,23 +9,199 @@ body {
   width: 100%;
 }
 
-.middle {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .fs-padrao {
   font-size: 1em;
 }
 
 .fs-media {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .fs-grande {
-  font-size: 2em;
+  font-size: 3em;
+}
+
+.fs-pequena {
+  font-size: 0.8em;
+}
+
+.fundo-marrom {
+  background-color: #5c2e00;
+}
+
+.destaque-marrom {
+  color: #5c2e00;
+}
+
+.botao-verde {
+  background: #b6c350;
+}
+
+.texto-cinza {
+  color: gray;
+}
+
+.borda-redonda {
+  border-radius: 20px;
+}
+
+#indicatorTime {
+  margin-top: -20px;
+}
+
+.img-size {
+  width: 580px;
+  height: 350px;
+}
+
+.swiper-container {
+  width: 100vw;
+  height: 100%;
+}
+
+/* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.25s;
+}
+
+.accordion {
+  width: 75%;
+  margin-top: -120px;
+}
+
+.accordion:hover {
+  width: 100%;
+}
+
+.accordion .accordion-item {
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  color: #eee;
+}
+
+.accordion h1 {
+  margin: 0;
+}
+
+.accordion .accordion-item:nth-child(1) {
+  background-color: #808000;
+  background: #808000;
+}
+
+.accordion .accordion-item:nth-child(2) {
+  background-color: #808000;
+  background: #808000;
+}
+
+.accordion .accordion-item:nth-child(3) {
+  background-color: #808000;
+  background: #808000;
+}
+
+.accordion .accordion-item:nth-child(3):hover {
+  background-color: #808000;
+  background: #808000;
+  background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
+  background-size: cover;
+}
+
+.accordion .accordion-item:nth-child(4) {
+  background-color: #808000;
+  background: #808000;
+}
+
+.accordion .accordion-item:nth-child(5) {
+  background-color: #808000;
+  background: #808000;
+}
+
+.card-slide .card {
+  width: 350px;
+  height: 500px;
+  background-color: #b6c350;
+}
+
+.info-speaker {
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.calendar-speaker {
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.background-green {
+  background-color: #b6c350;
+}
+
+.speakers {
+  position: relative;
+  height: 70%;
+}
+
+.vertical {
+  border-left: 2px solid #fff;
+  height: 150px;
+}
+
+.seta {
+  transform: scaleX(-1);
+}
+
+.timer {
+  font-family: "Arial";
+}
+
+.slide-item:hover {
+  border-bottom: 4px solid #b6c350;
+  transition: width 600ms;
+  cursor: pointer;
+}
+
+.borda-laranja {
+  border: 4px solid orange;
+  width: 100px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .hero .fs-grande {
+    font-size: 1.5em;
+  }
+
+  .hero-image {
+    height: 500px;
+  }
+
+  .img-size {
+    width: 300px;
+    height: 250px;
+  }
+
+  .vertical {
+    border-left: 2px solid #fff;
+    height: 100px;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
 }
 

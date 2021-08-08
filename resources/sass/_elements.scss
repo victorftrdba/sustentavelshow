@@ -9,14 +9,6 @@ body {
     width: 100%;
 }
 
-.middle {
-    color: $branca;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .fs-padrao {
     font-size: $padrao;
 }
@@ -27,4 +19,188 @@ body {
 
 .fs-grande {
     font-size: $grande;
+}
+
+.fs-pequena {
+    font-size: $pequena;
+}
+
+.fundo-marrom {
+    background-color: $fundo-marrom;
+}
+
+.destaque-marrom {
+    color: $marrom;
+}
+
+.botao-verde {
+    background: $verde-claro;
+}
+
+.texto-cinza {
+    color: $cinza;
+}
+
+.borda-redonda {
+    border-radius: $borda-redonda
+}
+
+#indicatorTime {
+    margin-top:-20px;
+}
+
+.img-size {
+    width:580px;
+    height: 350px;
+}
+
+.swiper-container {
+    width: 100vw;
+    height: 100%;
+  }
+
+  /* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 300px;
+    display:flex;
+    align-items:flex-end;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+
+.accordion {
+    width: 75%;
+    margin-top:-120px;
+}
+
+.accordion:hover {
+    width:100%;
+}
+
+.accordion .accordion-item {
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  color: #eee;
+}
+
+.accordion h1 {
+  margin: 0;
+}
+
+.accordion .accordion-item:nth-child(1) {
+  background-color: $fundo-verdeescuro;
+  background: $fundo-verdeescuro;
+
+}
+
+.accordion .accordion-item:nth-child(2) {
+    background-color: $fundo-verdeescuro;
+    background: $fundo-verdeescuro;
+}
+
+.accordion .accordion-item:nth-child(3) {
+    background-color: $fundo-verdeescuro;
+    background: $fundo-verdeescuro;
+}
+
+.accordion .accordion-item:nth-child(3):hover {
+    background-color: $fundo-verdeescuro;
+    background: $fundo-verdeescuro;
+    background-image:url('../../public/images/banner/foto-centro-negocios.jpg');
+    background-size: cover;
+}
+
+.accordion .accordion-item:nth-child(4) {
+    background-color: $fundo-verdeescuro;
+    background: $fundo-verdeescuro;
+}
+
+.accordion .accordion-item:nth-child(5) {
+    background-color: $fundo-verdeescuro;
+    background: $fundo-verdeescuro;
+}
+
+  .card-slide .card {
+    width:350px;
+    height:500px;
+    background-color: $fundo-verde;
+  }
+
+  .info-speaker {
+    top:0;
+    left:0;
+    margin-top:250px;
+    margin-left:20px;
+    position:absolute;
+  }
+
+  .calendar-speaker {
+    top:0;
+    left:0;
+    margin-top:20px;
+    margin-left:20px;
+    position:absolute;
+  }
+
+  .background-green {
+      background-color: $fundo-verde;
+  }
+
+  .speakers {
+      position: relative;
+      height:70%;
+  }
+
+.vertical {
+    border-left: 2px solid $branca;
+    height: 150px;
+}
+
+.seta {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.timer {
+    font-family: $fonte-arial;
+}
+
+.slide-item:hover {
+    border-bottom: 4px solid $verde-claro;
+    transition:width 600ms;
+    cursor:pointer;
+}
+
+.borda-laranja {
+    border: 4px solid orange;
+    width:100px;
+}
+
+@media only screen and (max-width:1125px) {
+.hero {
+    .fs-grande {
+        font-size:1.5em;
+    }
+}
+.hero-image {
+    height:500px;
+}
+.img-size {
+    width:300px;
+    height:250px;
+}
+.vertical {
+    border-left: 2px solid $branca;
+    height: 100px;
+}
+.menu-desktop {
+    display:none;
+}
 }
