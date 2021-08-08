@@ -1920,6 +1920,25 @@ var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.swiper-conta
     el: '.swiper-scrollbar'
   }
 });
+var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 4,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.two-next',
+    prevEl: '.two-prev'
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar'
+  }
+});
 
 /***/ }),
 

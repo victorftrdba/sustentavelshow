@@ -230,7 +230,7 @@
                 @include('layout.svg.icone-turismo')
             </div>
             <div class="col-10 mb-5">
-                <h2 class="fs-grande text-white">
+                <h2 class="fs-xgrande text-white">
                     Fórum Turismo
                 </h2>
             </div>
@@ -251,10 +251,9 @@
 </section>
 
 <section>
-<div class="container-fluid mb-5">
-    <div class="row background-green py-5 justify-content-center align-items-center">
+<div class="container-fluid background-green mb-5">
+    <div class="row py-5 justify-content-center align-items-center" style="height:200%">
         <div class="col-12 text-white">
-            @include('layout.svg.greenbars')
             <h2 class="fs-media">Centro de Integração</h2>
         </div>
         <div class="col-10 py-5 text-white d-flex justify-content-center align-items-center">
@@ -317,11 +316,63 @@
         <div class="col-12 text-white py-5">
             <h2 class="fs-media destaque-marrom">Oficinas oficiais</h2>
         </div>
+        <div class="col-12 d-flex justify-content-center align-items-center py-5">
+            <!-- Slider main container -->
+            <div class="swiper-container two d-flex justify-content-center align-items-center">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide swiper-card">
+                        <img width="100" class="img-fluid" src="{{ asset('images/enterprises/logo-1.png') }}"/>
+                    </div>
+                    <div class="swiper-slide swiper-card">
+                        <img width="100" class="img-fluid" src="{{ asset('images/enterprises/logo-2.png') }}"/>
+                    </div>
+                    <div class="swiper-slide swiper-card">
+                        <img width="100" class="img-fluid" src="{{ asset('images/enterprises/logo-3.png') }}"/>
+                    </div>
+                    <div class="swiper-slide swiper-card">
+                        <img width="100" class="img-fluid" src="{{ asset('images/enterprises/logo-4.png') }}"/>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="two-prev">@include('layout.svg.seta-fundo-marrom')</div>
+                <div class="two-next">@include('layout.svg.seta-fundo-marrom')</div>
+            </div>
+        </div>
         <div class="col-12 py-5 d-flex justify-content-center align-items-center flex-column">
                 <a href="#" class="btn rounded w-lg-25 text-white botao-verde">Ofereça uma oficina</a>
         </div>
     </div>
 </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <div class="row py-5 justify-content-center align-items-center text-white" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
+            <div class="col-10">
+                @include('layout.svg.farm-logo')
+                <p>apresenta</p>
+            </div>
+            <div class="col-10 mb-5">
+                <h2 class="fs-xgrande text-white">
+                    Sustainablewear
+                </h2>
+            </div>
+            <div class="col-10 mb-3 text-white">
+                <p class="borda-laranja mb-0 text-center py-1">16/09</p>
+                <p class="borda-laranja text-center py-1">14:30h</p>
+            </div>
+            <div class="col-10 mb-3 text-white">
+                <h2>Mais que um desfile, um manifesto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel magnam dolorem provident ex. Blanditiis, velit, fugiat ducimus tempore esse possimus eum alias fugit soluta nam expedita dignissimos, sunt consectetur incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, quos eos! Totam deleniti exercitationem molestiae quidem quisquam laborum? Nisi omnis non recusandae hic laudantium ullam consectetur fugiat quaerat rem magnam?</p>
+            </div>
+            <div class="col-10 py-5">
+                <a href="#" class="btn rounded p-3 w-lg-25 text-white botao-verde">Reserve sua cadeira</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 @endsection

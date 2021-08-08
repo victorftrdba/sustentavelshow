@@ -86,3 +86,26 @@ var x = setInterval(function() {
       el: '.swiper-scrollbar',
     },
   });
+
+  const swiper1 = new Swiper('.two', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView:4,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.two-next',
+      prevEl: '.two-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
