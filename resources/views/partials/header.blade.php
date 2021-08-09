@@ -65,7 +65,7 @@
                   <a class="nav-link" href="#"><span class="destaque-marrom">Virada sustentável</span></a>
                 </li>
                 <li class="nav-item d-flex justify-content-center align-items-center p-1">
-                  <a class="nav-link text-white borda-redonda botao-verde" href="#">Seja um expositor</a>
+                  <a class="nav-link text-center text-white borda-redonda botao-verde" href="#">Seja um expositor</a>
                 </li>
               </ul>
           </div>

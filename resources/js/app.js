@@ -20,10 +20,10 @@ var x = setInterval(function() {
 
   // Output the result in an element with id="demo"
 
-  document.getElementById("dias").innerHTML ="<div class='fs-grande ms-lg-4'>" + days + "</div>" + "<div class='ms-lg-3'>dias</div>";
-  document.getElementById("horas").innerHTML = "<div class='fs-grande ms-lg-4'>" + hours + "</div>" + "<div class='ms-lg-3'>horas</div>";
-  document.getElementById("minutos").innerHTML = "<div class='fs-grande ms-lg-4'>" + minutes + "</div>" + "<div class='ms-lg-3'>min</div>";
-  document.getElementById("segundos").innerHTML = "<div class='fs-grande ms-lg-4'>" + seconds + "</div>" + "<div class='ms-lg-3'>seg</div>";
+  document.getElementById("dias").innerHTML ="<div class='fs-grande ms-lg-4'>" + days + "</div>" + "<div class='dias ms-lg-3'>dias</div>";
+  document.getElementById("horas").innerHTML = "<div class='fs-grande ms-lg-4'>" + hours + "</div>" + "<div class='horas ms-lg-3'>horas</div>";
+  document.getElementById("minutos").innerHTML = "<div class='fs-grande ms-lg-4'>" + minutes + "</div>" + "<div class='min ms-lg-3'>min</div>";
+  document.getElementById("segundos").innerHTML = "<div class='fs-grande ms-lg-4'>" + seconds + "</div>" + "<div class='seg ms-lg-3'>seg</div>";
 
   // If the count down is over, write some text
   if (distance < 0) {
@@ -39,7 +39,7 @@ var x = setInterval(function() {
   SwiperCore.use([Navigation, Pagination]);
 
   // init Swiper:
-  const swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.one', {
     // Optional parameters
     direction: 'horizontal',
     centeredSlides: true,
@@ -48,26 +48,9 @@ var x = setInterval(function() {
     parallax:true,
     slidesPerView: 3,
     loop:true,
+    spaceBetween:10,
     autoplay: true,
     simulateTouch:true,
-    breakpoints: {
-        300: {
-            slidesPerView: 1,
-            spaceBetween: 80,
-        },
-        640: {
-            slidesPerView: 2,
-            spaceBetween: 0,
-        },
-        900: {
-            slidesPerView: 3,
-            spaceBetween: 100,
-        },
-        1200: {
-            slidesPerView: 4,
-            spaceBetween: 180,
-        }
-    },
 
     // If we need pagination
     pagination: {
@@ -92,6 +75,24 @@ var x = setInterval(function() {
     direction: 'horizontal',
     loop: true,
     slidesPerView:4,
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        900: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 15,
+        }
+    },
 
     // If we need pagination
     pagination: {
