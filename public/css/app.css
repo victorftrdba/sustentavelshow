@@ -14,6 +14,10 @@ body {
   width: 90%;
 }
 
+.marrom-claro {
+  color: #a97b50;
+}
+
 .fs-padrao {
   font-size: 1em;
 }
@@ -271,6 +275,30 @@ body {
   cursor: pointer;
 }
 
+.data5,
+.data6,
+.data7,
+.data8 {
+  background-color: white;
+  color: #f9a022;
+  z-index: 2;
+  border-bottom: 3px solid #f9a022;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #603913;
+  box-shadow: 0px white !important;
+  background-color: white;
+  border: 0px solid white;
+}
+
+.accordion-button:focus {
+  border: 0px solid white !important;
+  box-shadow: 0px white !important;
+}
+
 .data1 {
   border-top-left-radius: 20px;
   border-right: 3px solid #f9a022;
@@ -307,8 +335,8 @@ body {
 }
 
 .info-dates {
-  position: absolute;
-  margin-top: 97px;
+  position: relative;
+  margin-top: -400px;
 }
 
 .card-slide .card {
@@ -320,16 +348,16 @@ body {
 .info-speaker {
   top: 0;
   left: 0;
-  margin-top: 340px;
+  margin-top: 244px;
   margin-left: 20px;
-  position: absolute;
+  position: relative;
 }
 
 .calendar-speaker {
   top: 0;
   left: 0;
-  margin-top: 35px;
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 25px;
   position: absolute;
 }
 
@@ -341,13 +369,13 @@ body {
   background-color: #a5bc39;
 }
 .background-green:before {
-  content: url(/images/barrinhas.svg?a3793df105dbbc6668b5f174e8ea4a0c);
+  content: url(/images/barrinhas.svg?0ab47c1c1823316c7706d26524642f6b);
   top: 0;
   left: 0;
   margin-left: -350px;
 }
 .background-green:after {
-  content: url(/images/barrinhas.svg?a3793df105dbbc6668b5f174e8ea4a0c);
+  content: url(/images/barrinhas.svg?0ab47c1c1823316c7706d26524642f6b);
   position: absolute;
   right: 0;
   margin-top: -151px;
@@ -394,17 +422,31 @@ body {
 }
 
 .speaker-card {
-  height: 650px;
+  height: 520px;
   width: 100% !important;
   background-position: center;
   background-size: cover;
+  position: relative;
   background-repeat: no-repeat;
   border-radius: 20px;
   z-index: 0;
 }
+.speaker-card:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: black;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6138830532) 0%, rgba(0, 0, 0, 0) 100%);
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+}
 
 .card-slide .swiper-slide {
-  width: 37%;
+  width: 27%;
 }
 
 .speaker-content {
@@ -414,6 +456,40 @@ body {
   z-index: 1;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.data5:hover,
+.data6:hover,
+.data7:hover,
+.data8:hover {
+  background-color: #f9a022;
+  color: #fff;
+}
+
+.accordion-prog {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion-prog:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 1125px) {

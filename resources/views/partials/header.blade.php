@@ -38,34 +38,34 @@
       <div class="row">
           <div class="col-12">
               <div class="row justify-content-center align-items-center">
-                <div class="col-2">
+                <div class="col-3">
                     <a href="#">@include('layout.svg.logo')</a>
                   </div>
-                  <div class="col-10 text-nowrap">
-                      <ul class="navbar-nav menu-desktop ">
+                  <div class="col-9 d-flex text-nowrap">
+                      <ul class="navbar-nav menu-desktop" style="font-size:1em">
                         <li class="nav-item">
-                          <a class="nav-link me-2 active" aria-current="page" href="#"><span class="destaque-marrom">Palestrantes</span></a>
+                          <a class="nav-link p-2" aria-current="page" href="#"><span class="destaque-marrom">Palestrantes</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Programação</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Programação</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Fóruns</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Fóruns</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Centro de integração</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Centro de integração</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Oficinas</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Oficinas</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Desfile</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Desfile</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link me-2" href="#"><span class="destaque-marrom">Virada sustentável</span></a>
+                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Virada sustentável</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-center text-white borda-redonda botao-verde me-2" href="#" style="width:175px">Seja um expositor</a>
+                          <a class="nav-link text-center text-white borda-redonda botao-verde p-2" href="#" style="width:175px">Seja um expositor</a>
                         </li>
                       </ul>
                   </div>

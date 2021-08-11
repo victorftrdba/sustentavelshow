@@ -14,6 +14,10 @@ body {
     width: 90%;
 }
 
+.marrom-claro {
+    color: $marrom-claro;
+}
+
 .fs-padrao {
     font-size: $padrao;
 }
@@ -47,66 +51,66 @@ body {
 }
 
 .botao-verde {
-    background:$verde-claro;
+    background: $verde-claro;
 }
 
 .hero .btn {
     background: $verde-claro;
-    width:320px;
-    font-size:1.2em;
-    height:50px;
+    width: 320px;
+    font-size: 1.2em;
+    height: 50px;
     border-radius: 12px;
 }
 
 .tourism .btn {
     background: $verde-claro;
-    width:230px;
-    height:50px;
+    width: 230px;
+    height: 50px;
     border-radius: 12px;
-    font-size:1.2em;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .oficinas .btn {
-    width:220px;
-    border-radius:12px;
-    height:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    width: 220px;
+    border-radius: 12px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .oficinas .swiper-slide {
-    width:30%;
+    width: 30%;
 }
 
 .integration-center .btn {
     background: $marrom;
-    width:230px;
-    height:50px;
-    font-size:1.2em;
+    width: 230px;
+    height: 50px;
+    font-size: 1.2em;
     border-radius: 12px;
 }
 
 #divID {
-    display:none;
+    display: none;
 }
 
 .integration-center .slide1,
 .integration-center .slide2,
 .integration-center .slide3 {
-    height:30px;
-    font-size:1.5em;
+    height: 30px;
+    font-size: 1.5em;
     display: flex;
-    align-items:center;
+    align-items: center;
     border-radius: 5px;
     background-color: rgb(133, 146, 32);
 }
 
 .propevent .img-fluid {
-    height:325px;
+    height: 325px;
 }
 
 .texto-cinza {
@@ -124,49 +128,49 @@ body {
 #divID1,
 #divID2,
 #divID4,
-#divID5{
-    display:none;
+#divID5 {
+    display: none;
 }
 
 .integration-center {
-    position:relative;
+    position: relative;
 }
 
 .cartoes {
-    position:absolute;
-    right:-750px;
-    margin-top:-150px
+    position: absolute;
+    right: -750px;
+    margin-top: -150px
 }
 
 .cartao {
-    width:350px;
-    height:60px;
-    position:relative;
-    display:flex;
-    align-items:center;
-    cursor:pointer;
+    width: 350px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .cartao-3 {
-    margin-top:-80px;
-    border-radius:15px;
-    display:flex;
-    position:absolute;
-    justify-content:flex-end;
+    margin-top: -80px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
     flex-direction: column;
     background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
-    background-size:cover;
-    background-position:center;
-    height:450px;
-    width:425px;
-    cursor:pointer;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 425px;
+    cursor: pointer;
 }
 
 .cartao-3 {
     position: relative;
-  }
+}
 
-  .cartao-3:before {
+.cartao-3:before {
     /* requerido */
     content: '';
 
@@ -180,7 +184,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-  }
+}
 
 .card-slide .swiper-container {
     width: 100vw;
@@ -235,7 +239,7 @@ body {
         visibility: visible;
         position: absolute;
         display: flex;
-        height:410px;
+        height: 410px;
         align-items: flex-start;
         justify-content: flex-end;
         flex-direction: column;
@@ -269,33 +273,58 @@ body {
 .data4 {
     background-color: white;
     color: $marrom;
-    height:280px;
-    z-index:2;
-    font-size:375%;
+    height: 280px;
+    z-index: 2;
+    font-size: 375%;
     border-bottom: 3px solid $laranja;
-    font-weight:lighter;
-    cursor:pointer;
+    font-weight: lighter;
+    cursor: pointer;
 }
+
+.data5,
+.data6,
+.data7,
+.data8 {
+    background-color: white;
+    color: $laranja;
+    z-index: 2;
+    border-bottom: 3px solid $laranja;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $marrom;
+    box-shadow: 0px white !important;
+    background-color: white;
+    border: 0px solid white;
+}
+
+.accordion-button:focus {
+    border: 0px solid white !important;
+    box-shadow: 0px white !important;
+}
+
 
 .data1 {
     border-top-left-radius: 20px;
-    border-right:3px solid $laranja;
+    border-right: 3px solid $laranja;
 }
 
 .data4 {
     border-top-right-radius: 20px;
-    border-left:3px solid $laranja;
+    border-left: 3px solid $laranja;
 }
 
 .data3 {
-    border-left:3px solid $laranja;
+    border-left: 3px solid $laranja;
 }
 
 .data1:hover {
     background-color: orange;
     color: white;
     transform: scaleX(1.07);
-    transform-origin:left;
+    transform-origin: left;
 }
 
 .data2:hover,
@@ -309,12 +338,12 @@ body {
     background-color: orange;
     color: white;
     transform: scaleX(1.07);
-    transform-origin:right;
+    transform-origin: right;
 }
 
 .info-dates {
-    position:absolute;
-    margin-top:97px;
+    position: relative;
+    margin-top: -400px;
 }
 
 .card-slide .card {
@@ -326,16 +355,16 @@ body {
 .info-speaker {
     top: 0;
     left: 0;
-    margin-top: 340px;
+    margin-top: 244px;
     margin-left: 20px;
-    position: absolute;
+    position: relative;
 }
 
 .calendar-speaker {
     top: 0;
     left: 0;
-    margin-top: 35px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
     position: absolute;
 }
 
@@ -348,17 +377,17 @@ body {
 
     &:before {
         content: url('../../public/images/backgrounds/barrinhas.svg');
-        top:0;
-        left:0;
-        margin-left:-350px;
+        top: 0;
+        left: 0;
+        margin-left: -350px;
     }
 
     &:after {
         content: url('../../public/images/backgrounds/barrinhas.svg');
-        position:absolute;
-        right:0;
-        margin-top:-151px;
-        margin-right:-350px;
+        position: absolute;
+        right: 0;
+        margin-top: -151px;
+        margin-right: -350px;
     }
 }
 
@@ -370,7 +399,7 @@ body {
 .vertical {
     border-left: 2px solid $branca;
     height: 120px;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
 .seta {
@@ -403,16 +432,33 @@ body {
 }
 
 .speaker-card {
-    height: 650px;
+    height: 520px;
     width: 100% !important;
-    background-position:center;
+    background-position: center;
     background-size: cover;
+    position: relative;
     background-repeat: no-repeat;
     border-radius: $borda-redonda;
     z-index: 0;
+
+    &:after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6138830532212884) 0%, rgba(0, 0, 0, 0) 100%);
+        top: 0;
+        left: 0;
+        border-radius: 25px;
+        background-position: center;
+        position: absolute;
+        z-index: -1;
+    }
 }
 
-.card-slide .swiper-slide { width: 37% }
+.card-slide .swiper-slide {
+    width: 27%
+}
 
 .speaker-content {
     position: absolute;
@@ -421,6 +467,40 @@ body {
     z-index: 1;
     border-bottom-left-radius: $borda-redonda;
     border-bottom-right-radius: $borda-redonda;
+}
+
+.data5:hover,
+.data6:hover,
+.data7:hover,
+.data8:hover {
+    background-color: $laranja;
+    color: $branca;
+}
+
+.accordion-prog {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion-prog:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
 
 @media only screen and (max-width:1125px) {

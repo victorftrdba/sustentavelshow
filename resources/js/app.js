@@ -44,7 +44,6 @@ var x = setInterval(function() {
     direction: 'horizontal',
     parallax:true,
     slidesPerView: 'auto',
-    loop:true,
     spaceBetween:20,
     autoplay: true,
     simulateTouch:true,

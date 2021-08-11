@@ -1881,7 +1881,6 @@ var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.one', {
   direction: 'horizontal',
   parallax: true,
   slidesPerView: 'auto',
-  loop: true,
   spaceBetween: 20,
   autoplay: true,
   simulateTouch: true,

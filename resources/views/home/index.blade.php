@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="hero" style="background-size:cover;background-image: url({{ asset('images/banner/banner-home.jpg') }})">
+<section class="hero" style="padding-top:30px;padding-bottom:30px;background-size:cover;background-image: url({{ asset('images/banner/banner-home.jpg') }})">
 <div class="container-fluid">
     <div class="row text-white flex-column justify-content-center align-items-center pb-5">
         <div class="col pt-5 mt-5">
@@ -14,7 +14,7 @@
             </p>
         </div>
         <div class="col-8 text-center">
-            <p class="fs-grande" style="line-height:120%;">
+            <p style="font-size:3em;line-height:120%;">
                 O mais completo evento de sustentatibilidade
                 começa em
             </p>
@@ -52,7 +52,7 @@
                                     cotidianas da sociedade.</p>
                     </div>
                 </div>
-                    <div class="row justify-content-center align-items-center py-3 mb-5">
+                    <div class="row justify-content-center align-items-center py-3 mb-3">
                         <div class="col-6 order-1 d-flex justify-content-center align-items-center">
                             <img src="{{ asset('images/banner/foto-evento.jpg') }}" class="img-fluid borda-redonda" />
                         </div>
@@ -81,7 +81,9 @@
                 <div class="prev ms-5 fs-grande">@include('layout.svg.seta-marrom')</div>
                 <div class="next ms-5 fs-grande seta">@include('layout.svg.seta-marrom')</div>
             </div>
-            <div class="col-12 d-flex justify-content-center align-items-center mb-5">
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center mb-5 p-4">
                 <!-- Slider main container -->
                 <div class="swiper-container one d-flex justify-content-center align-items-center">
                     <!-- Additional required wrapper -->
@@ -90,16 +92,17 @@
                             <div class="speaker-card" style="background-image: url({{ asset('images/speakers/palestrante-1.jpg') }});">
                                 <div>
                                 <div class="text-white calendar-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">16/09</p>
-                                <p style="font-size:1.2em;">14:30h</p>
+                                <p class="mb-0" style="font-size:1em;">16/09</p>
+                                <p style="font-size:1em;">14:30h</p>
                             </div>
                             <div class="text-white info-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">Fórum Lar & Horta</p>
-                                <p class="fs-grande" style="font-size:2.8em;line-height:100%">Sebastião Salgado</p>
+                                <p class="mb-0" style="font-size:1em;">Fórum Lar & Horta</p>
+                                <p class="fs-grande mb-0" style="font-size:2.1em;line-height:100%">Sebastião</p>
+                                <p class="fs-grande" style="font-size:2.1em;line-height:100%">Salgado</p>
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
-                                    <h2 class="fs-padrao" style="font-size:1em;line-height:100%">Restaurando um bioma</h2>
-                                    <p style="font-size:0.85em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                    <h2 class="fs-padrao" style="font-size:0.9em;line-height:100%">Restaurando um bioma</h2>
+                                    <p style="font-size:0.8em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
                                 </div>
                             </div>
                             </div>
@@ -107,56 +110,57 @@
                         <div class="swiper-slide d-flex">
                             <div class="speaker-card" style="background-image: url({{ asset('images/speakers/palestrante-2.jpg') }});">
                             <div class="text-white calendar-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">76/09</p>
-                                <p style="font-size:1.2em;">15:00h</p>
+                                <p class="mb-0" style="font-size:1em;">76/09</p>
+                                <p style="font-size:1em;">15:00h</p>
                             </div>
                             <div class="text-white info-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">Fórum Lar & Horta</p>
-                                <p class="fs-grande" style="font-size:2.8em;line-height:100%">Fernanda Marcondes</p>
+                                <p class="mb-0" style="font-size:1em;">Fórum Lar & Horta</p>
+                                <p class="fs-grande mb-0" style="font-size:2.3em;line-height:100%">Fernanda</p>
+                                <p class="fs-grande" style="font-size:2.3em;line-height:100%">Marcondes</p>
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
-                                    <h2 class="fs-padrao" style="font-size:1em;line-height:100%">Projeto Tamar - Espécies bandeira</h2>
-                                    <p style="font-size:0.85em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <h2 class="fs-padrao" style="font-size:0.9em;line-height:100%">Projeto Tamar - Espécies bandeira</h2>
+                                    <p style="font-size:0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="speaker-card" style="background-image: url({{ asset('images/speakers/palestrante-3.jpg') }});">
                             <div class="text-white calendar-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">16/09</p>
-                                <p style="font-size:1.2em;">14:30h</p>
+                                <p class="mb-0" style="font-size:1em;">16/09</p>
+                                <p style="font-size:1em;">14:30h</p>
                             </div>
                             <div class="text-white info-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">Fórum Ecocidade</p>
-                                <p class="fs-grande" style="font-size:2.8em;line-height:100%">Arthur Alvez Pereira</p>
+                                <p class="mb-0" style="font-size:1em;">Fórum Ecocidade</p>
+                                <p class="fs-grande mb-0" style="font-size:2.3em;line-height:100%">Arthur Alvez</p>
+                                <p class="fs-grande" style="font-size:2.3em;line-height:100%">Pereira</p>
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
-                                    <h2 class="fs-padrao" style="font-size:1em;line-height:100%">A revolução do hiperadobe</h2>
-                                    <p style="font-size:0.85em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <h2 class="fs-padrao" style="font-size:0.9em;line-height:100%">A revolução do hiperadobe</h2>
+                                    <p style="font-size:0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="speaker-card" style="background-image: url({{ asset('images/speakers/palestrante-4.jpg') }});">
                             <div class="text-white calendar-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">16/09</p>
-                                <p style="font-size:1.2em;">14:30h</p>
+                                <p class="mb-0" style="font-size:1em;">16/09</p>
+                                <p style="font-size:1em;">14:30h</p>
                             </div>
                             <div class="text-white info-speaker">
-                                <p class="mb-0" style="font-size:1.2em;">Fórum Ar</p>
-                                <p class="fs-grande" style="font-size:2.8em;line-height:100%">Paula Mendes</p>
+                                <p class="mb-0" style="font-size:1em;">Fórum Ar</p>
+                                <p class="fs-grande mb-0" style="font-size:2.3em;line-height:100%">Paula</p>
+                                <p class="fs-grande mb-0" style="font-size:2.3em;line-height:100%">Mendes</p>
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
-                                    <h2 class="fs-padrao" style="font-size:1em;line-height:100%">O rio nos céus que nasce na Amazônia</h2>
-                                    <p style="font-size:0.85em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <h2 class="fs-padrao text-nowrap" style="font-size:0.9em;line-height:100%;">O rio nos céus que nasce na Amazônia</h2>
+                                    <p style="font-size:0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     </div>
                     </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -385,8 +389,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="two-prev">@include('layout.svg.seta-fundo-marrom')</div>
-                <div class="two-next">@include('layout.svg.seta-fundo-marrom')</div>
+                <div class="two-prev p-4">@include('layout.svg.seta-fundo-marrom')</div>
+                <div class="two-next p-4">@include('layout.svg.seta-fundo-marrom')</div>
             </div>
         </div>
     </div>
@@ -410,7 +414,7 @@
                     <div class="col mb-5">
                         <p style="font-size:4em;">Sustainablewear</p>
                     </div>
-                    <div class="col mb-3">
+                    <div class="col mb-3 text-center">
                         <p class="borda-laranja mb-0 p-1">16/09</p>
                         <p class="borda-laranja border-top-0 p-1">14:30h</p>
                     </div>
@@ -441,7 +445,7 @@
     </div>
 </section>
 
-<section style="background-size:cover;background-image:url({{ asset('images/banner/banner-virada.jpg') }})">
+<section style="height:1200px;background-size:cover;background-image:url({{ asset('images/banner/banner-virada.jpg') }})">
     <div class="container">
         <div class="row justify-content-center align-items-center flex-column">
             <div class="col-10">
@@ -472,29 +476,101 @@
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center align-items-center mb-5 pb-5">
-                <div class="col-12 d-flex justify-content-center align-items-center">
-                    <table class="pb-5 mb-5">
-                    <thead class="dates d-flex list-unstyled text-white mb-1">
-                        <th class="data1 p-5" onclick="openEvent('data1')">15/09</th>
-                        <th class="data2 p-5" onclick="openEvent('data2')">16/09</th>
-                        <th class="data3 p-5" onclick="openEvent('data3')">17/09</th>
-                        <th class="data4 p-5" onclick="openEvent('data4')">18/09</th>
-                    </thead>
-                </table>
-                </div>
-            </div>
             </div>
         </div>
     </div>
 </section>
 
-<section>
+<section class="container-fluid">
     <div class="container mb-5 pb-5">
         <div class="row justify-content-center align-items-center">
-            <div class="col-10">
+            <div class="col-12">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-10 info-dates mb-5 pb-5">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-column info-dates">
+
+                                    <div class="col-12 shadow">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-3 gx-0">
+                        <p class="data1 d-flex justify-content-center align-items-center mb-0" style="font-size:3.5em;height:250px">15/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data2 d-flex justify-content-center align-items-center mb-0" style="font-size:3.5em;height:250px;">16/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data3 d-flex justify-content-center align-items-center mb-0" style="font-size:3.5em;height:250px;">17/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data4 d-flex justify-content-center align-items-center mb-0" style="font-size:3.5em;height:250px;">18/09</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col gx-0">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item" style="border-bottom:3px solid orange">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingOne">
+                                <button class="accordion-button collapsed fonte-laranja" style="font-size:0.8em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="d-flex align-items-center text-center">
+                                    <p class="borda-laranja p-2">16h</p>
+                                    <p class="ms-4">Painel: Turismo com observação de baleias</p>
+                                </div>
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" style="border-bottom:3px solid orange">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fonte-laranja" type="button" style="font-size:0.8em;" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <div class="d-flex align-items-center text-center">
+                                    <p class="borda-laranja p-2">16h</p>
+                                    <p class="ms-4">Grupo de Teatro Somos Show</p>
+                                </div>
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" style="border-bottom:3px solid orange">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingThree">
+                                <button class="accordion-button collapsed fonte-laranja" type="button" style="font-size:0.8em;" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <div class="d-flex align-items-center text-center">
+                                    <p class="borda-laranja p-2">16h</p>
+                                    <p class="ms-4">Nação Zumbi</p>
+                                </div>
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingThree">
+                                <button class="accordion-button collapsed fonte-laranja" type="button" style="font-size:0.8em;" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <div class="d-flex align-items-center text-center">
+                                    <p class="borda-laranja p-2">16h</p>
+                                    <p class="ms-4">Cordel do Fogo Encantado</p>
+                                </div>
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+                {{--
+                <table>
+                    <thead class="d-flex list-unstyled text-white">
+                        <th class="data1 p-5" onclick="openEvent('data1')">15/09</th>
+                        <th class="data2 p-5" onclick="openEvent('data2')">16/09</th>
+                        <th class="data3 p-5" onclick="openEvent('data3')">17/09</th>
+                        <th class="data4 p-5" onclick="openEvent('data4')">18/09</th>
+                    </thead>
                         <tbody>
                             <tr>
                                 <td>
@@ -693,11 +769,11 @@
                         </tr>
                     </td>
                         </tbody>
-                    </div>
-                </div>
-                <div class="row justify-content-center align-items-center mb-5 pb-5 pt-5 mt-5">
-                    <div class="col-10 text-center pt-5 mt-5">
+                    </table>
+                    --}}
+                        <div class="col-12 text-center pt-5 mt-5">
                             <a href="#" class="btn rounded text-white botao-verde">Reservar ingressos</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -705,18 +781,142 @@
     </div>
 </section>
 
-<section>
-<div class="container">
-    <div class="row">
-        <div class="col-10">
+<section class="programacao bg-light pt-5 mt-5">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-media destaque-marrom mb-5">Programação completa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 shadow">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-3 gx-0">
+                        <p class="data5 d-flex justify-content-center align-items-center mb-0" style="font-size:2em;height:120px;border-top-left-radius:15px;">15/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data6 d-flex justify-content-center align-items-center mb-0" style="font-size:2em;height:120px;border-left:3px solid orange">16/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data7 d-flex justify-content-center align-items-center mb-0" style="font-size:2em;height:120px;border-right:3px solid orange;border-left:3px solid orange">17/09</p>
+                    </div>
+                    <div class="col-3 gx-0">
+                        <p class="data8 d-flex justify-content-center align-items-center mb-0" style="font-size:2em;height:120px;border-top-right-radius:15px;">18/09</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col gx-0">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item" style="border-bottom:3px solid orange">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingOne">
+                                <button class="accordion-button collapsed destaque-marrom" style="font-size:0.8em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Palestras
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" style="border-bottom:3px solid orange">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingTwo">
+                                <button class="accordion-button collapsed destaque-marrom" type="button" style="font-size:0.8em;" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Centro de Integração
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingThree">
+                                <button class="accordion-button collapsed destaque-marrom" type="button" style="font-size:0.8em;" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Fóruns
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col">
-
+                <div class="col-12 text-center pt-5 mt-5 mb-5 pb-5">
+                    <a href="#" class="btn rounded text-white botao-verde">Reservar ingressos</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<section class="pt-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col">
+                        <p class="destaque-marrom mb-3" style="font-size:1.5em;">Como chegar:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-items-start mb-3">
+                        @include('layout.svg.localization')
+                        <div class="row">
+                        <div class="col-7 m-2">
+                        <p class="destaque-marrom mb-3" style="font-size:1.2em;">Endereço</p>
+                        <p class="marrom-claro" style="font-size:0.8em;">Av. Pedro Álvares Cabral - Vila Mariana,
+                        São Paulo - SP, 04094-050</p>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-items-start mb-3">
+                        @include('layout.svg.metro')
+                        <div class="row">
+                            <div class="col m-2">
+                                <p class="destaque-marrom mb-3" style="font-size:1.2em;">Metrô</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-items-start mb-3">
+                        @include('layout.svg.bus')
+                        <div class="row">
+                            <div class="col m-2">
+                                <p class="destaque-marrom mb-3" style="font-size:1.2em;">Ônibus</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-items-start mb-3">
+                        @include('layout.svg.park')
+                        <div class="row">
+                            <div class="col m-2">
+                                <p class="destaque-marrom mb-3" style="font-size:1.2em;">Estacionamentos</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">Maxipark Fleury Ibirapuera</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">Maxipark Fleury Ibirapuera</p>
+                                <p class="marrom-claro mb-0" style="font-size:0.8em;">Maxipark Fleury Ibirapuera</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14410.81960021496!2d-49.29428415!3d-25.448127649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1628703997804!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
+        </div>
+    </div>
 </section>
 
 <script>
@@ -731,7 +931,6 @@ function openEvent(eventName) {
 
 function toggle(id){
     let element = document.getElementById(id);
-    let cart = document.querySelectorAll('.cartao-3');
     if(element.style.display === "block"){
         element.style.display = "none";
     }else{
