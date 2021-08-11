@@ -1,5 +1,6 @@
 body {
   font-family: "Varela Round", sans-serif;
+  overflow-x: hidden;
 }
 
 .hero-image {
@@ -34,20 +35,82 @@ body {
 }
 
 .fundo-marrom {
-  background-color: #5c2e00;
+  background-color: #603913;
 }
 
 .destaque-marrom {
-  color: #5c2e00;
+  color: #603913;
+}
+
+.botao-verdeescuro {
+  background-color: #879836;
 }
 
 .botao-verde {
-  background: #a0b407;
-  width: 11em;
+  background: #a5bc39;
+}
+
+.hero .btn {
+  background: #a5bc39;
+  width: 320px;
+  font-size: 1.2em;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.tourism .btn {
+  background: #a5bc39;
+  width: 230px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oficinas .btn {
+  width: 220px;
+  border-radius: 12px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oficinas .swiper-slide {
+  width: 30%;
+}
+
+.integration-center .btn {
+  background: #603913;
+  width: 230px;
+  height: 50px;
+  font-size: 1.2em;
+  border-radius: 12px;
+}
+
+#divID {
+  display: none;
+}
+
+.integration-center .slide1,
+.integration-center .slide2,
+.integration-center .slide3 {
+  height: 30px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #859220;
+}
+
+.propevent .img-fluid {
+  height: 325px;
 }
 
 .texto-cinza {
-  color: #c8c8c8;
+  color: silver;
 }
 
 .borda-redonda {
@@ -58,13 +121,72 @@ body {
   margin-top: -20px;
 }
 
-.swiper-container {
+#divID1,
+#divID2,
+#divID4,
+#divID5 {
+  display: none;
+}
+
+.integration-center {
+  position: relative;
+}
+
+.cartoes {
+  position: absolute;
+  right: -750px;
+  margin-top: -150px;
+}
+
+.cartao {
+  width: 350px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cartao-3 {
+  margin-top: -80px;
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 425px;
+  cursor: pointer;
+}
+
+.cartao-3 {
+  position: relative;
+}
+
+.cartao-3:before {
+  /* requerido */
+  content: "";
+  /* estilo de preto quase transparente */
+  background-color: black;
+  opacity: 0.5;
+  /* posiciona nos limites do elemento pai */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card-slide .swiper-container {
   width: 100vw;
   height: 100%;
 }
 
 .two {
-  width: 90vw;
+  width: 100vw;
   height: 100%;
 }
 .two .two-prev {
@@ -95,7 +217,7 @@ body {
 
 .enterprise-card:hover {
   transition: all 400ms;
-  box-shadow: 0px 4px 4px gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: white;
 }
 .enterprise-card:hover img {
@@ -104,10 +226,11 @@ body {
 }
 .enterprise-card:hover .enterprise-content {
   opacity: 1;
-  color: #c8c8c8;
+  color: silver;
   visibility: visible;
   position: absolute;
   display: flex;
+  height: 410px;
   align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
@@ -118,7 +241,8 @@ body {
 .horas,
 .min,
 .seg {
-  margin-top: -20px;
+  margin-top: -10px;
+  font-size: 1.5em;
   font-family: "Varela Round", sans-serif;
   font-weight: lighter;
 }
@@ -138,110 +262,65 @@ body {
 .data3,
 .data4 {
   background-color: white;
-  color: #5c2e00;
-  border: 2px solid orange;
+  color: #603913;
+  height: 280px;
+  z-index: 2;
+  font-size: 375%;
+  border-bottom: 3px solid #f9a022;
+  font-weight: lighter;
+  cursor: pointer;
 }
 
 .data1 {
   border-top-left-radius: 20px;
+  border-right: 3px solid #f9a022;
 }
 
 .data4 {
   border-top-right-radius: 20px;
+  border-left: 3px solid #f9a022;
 }
 
-.data1:hover,
+.data3 {
+  border-left: 3px solid #f9a022;
+}
+
+.data1:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+  transform-origin: left;
+}
+
 .data2:hover,
-.data3:hover,
+.data3:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+}
+
 .data4:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.05);
+  transform: scaleX(1.07);
+  transform-origin: right;
 }
 
-/* The Magic */
-.integration-center .accordion:hover .accordion-item:hover .accordion-item-content,
-.integration-center .accordion .accordion-item--default .accordion-item-content {
-  height: 300px;
-  display: flex;
-  align-items: flex-end;
-}
-
-.integration-center .accordion-item-content,
-.integration-center .accordion:hover .accordion-item-content {
-  height: 0;
-  overflow: hidden;
-  transition: height 0.25s;
-}
-
-.integration-center .accordion {
-  width: 75%;
-  margin-top: -150px;
-}
-@media only screen and (max-width: 1024px) {
-  .integration-center .accordion {
-    margin-top: 0px;
-  }
-}
-
-.integration-center .accordion:hover {
-  width: 100%;
-}
-
-.integration-center .accordion .accordion-item {
-  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
-  border-bottom: 1px solid #666;
-  padding: 2em;
-  color: #eee;
-}
-
-.integration-center .accordion h1 {
-  margin: 0;
-}
-
-.integration-center .accordion .accordion-item:nth-child(1) {
-  background-color: #808000;
-  background: #808000;
-}
-
-.integration-center .accordion .accordion-item:nth-child(2) {
-  background-color: #808000;
-  background: #808000;
-}
-
-.integration-center .accordion .accordion-item:nth-child(3) {
-  background-color: #808000;
-  background: #808000;
-}
-
-.integration-center .accordion .accordion-item:nth-child(3):hover {
-  background-color: #808000;
-  background: #808000;
-  background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
-  background-position: right;
-  background-size: cover;
-}
-
-.integration-center .accordion .accordion-item:nth-child(4) {
-  background-color: #808000;
-  background: #808000;
-}
-
-.integration-center .accordion .accordion-item:nth-child(5) {
-  background-color: #808000;
-  background: #808000;
+.info-dates {
+  position: absolute;
+  margin-top: 97px;
 }
 
 .card-slide .card {
   width: 350px;
   height: 500px;
-  background-color: #a0b407;
+  background-color: #a5bc39;
 }
 
 .info-speaker {
   top: 0;
   left: 0;
-  margin-top: 250px;
+  margin-top: 340px;
   margin-left: 20px;
   position: absolute;
 }
@@ -249,20 +328,30 @@ body {
 .calendar-speaker {
   top: 0;
   left: 0;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 35px;
+  margin-left: 30px;
   position: absolute;
 }
 
+.fonte-laranja {
+  color: #f9a022;
+}
+
 .background-green {
-  background-color: #a0b407;
+  background-color: #a5bc39;
 }
 .background-green:before {
-  content: url(/images/barrinhas.svg?0ab47c1c1823316c7706d26524642f6b);
-  margin-top: -48px;
-  margin-left: -380px;
-  z-index: 2;
-  overflow: hidden;
+  content: url(/images/barrinhas.svg?a3793df105dbbc6668b5f174e8ea4a0c);
+  top: 0;
+  left: 0;
+  margin-left: -350px;
+}
+.background-green:after {
+  content: url(/images/barrinhas.svg?a3793df105dbbc6668b5f174e8ea4a0c);
+  position: absolute;
+  right: 0;
+  margin-top: -151px;
+  margin-right: -350px;
 }
 
 .speakers {
@@ -273,6 +362,7 @@ body {
 .vertical {
   border-left: 2px solid #fff;
   height: 120px;
+  margin-top: -20px;
 }
 
 .seta {
@@ -280,8 +370,7 @@ body {
 }
 
 .timer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .less-text {
@@ -289,13 +378,13 @@ body {
 }
 
 .slide-item:hover {
-  border-bottom: 4px solid #a0b407;
+  border-bottom: 4px solid #a5bc39;
   transition: width 600ms;
   cursor: pointer;
 }
 
 .menu-ativo {
-  border-bottom: 4px solid #a0b407;
+  border-bottom: 4px solid #a5bc39;
   cursor: pointer;
 }
 
@@ -305,8 +394,8 @@ body {
 }
 
 .speaker-card {
-  height: 500px;
-  width: 100%;
+  height: 650px;
+  width: 100% !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -314,10 +403,14 @@ body {
   z-index: 0;
 }
 
+.card-slide .swiper-slide {
+  width: 37%;
+}
+
 .speaker-content {
   position: absolute;
   bottom: 0;
-  background-color: #a0b407;
+  background-color: #a5bc39;
   z-index: 1;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;

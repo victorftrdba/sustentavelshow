@@ -1,5 +1,6 @@
 body {
     font-family: $fonte-varela;
+    overflow-x: hidden;
 }
 
 .hero-image {
@@ -41,9 +42,71 @@ body {
     color: $marrom;
 }
 
+.botao-verdeescuro {
+    background-color: $fundo-verdeescuro;
+}
+
 .botao-verde {
+    background:$verde-claro;
+}
+
+.hero .btn {
     background: $verde-claro;
-    width: 11em;
+    width:320px;
+    font-size:1.2em;
+    height:50px;
+    border-radius: 12px;
+}
+
+.tourism .btn {
+    background: $verde-claro;
+    width:230px;
+    height:50px;
+    border-radius: 12px;
+    font-size:1.2em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.oficinas .btn {
+    width:220px;
+    border-radius:12px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.oficinas .swiper-slide {
+    width:30%;
+}
+
+.integration-center .btn {
+    background: $marrom;
+    width:230px;
+    height:50px;
+    font-size:1.2em;
+    border-radius: 12px;
+}
+
+#divID {
+    display:none;
+}
+
+.integration-center .slide1,
+.integration-center .slide2,
+.integration-center .slide3 {
+    height:30px;
+    font-size:1.5em;
+    display: flex;
+    align-items:center;
+    border-radius: 5px;
+    background-color: rgb(133, 146, 32);
+}
+
+.propevent .img-fluid {
+    height:325px;
 }
 
 .texto-cinza {
@@ -58,13 +121,74 @@ body {
     margin-top: -20px;
 }
 
-.swiper-container {
+#divID1,
+#divID2,
+#divID4,
+#divID5{
+    display:none;
+}
+
+.integration-center {
+    position:relative;
+}
+
+.cartoes {
+    position:absolute;
+    right:-750px;
+    margin-top:-150px
+}
+
+.cartao {
+    width:350px;
+    height:60px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+
+.cartao-3 {
+    margin-top:-80px;
+    border-radius:15px;
+    display:flex;
+    position:absolute;
+    justify-content:flex-end;
+    flex-direction: column;
+    background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
+    background-size:cover;
+    background-position:center;
+    height:450px;
+    width:425px;
+    cursor:pointer;
+}
+
+.cartao-3 {
+    position: relative;
+  }
+
+  .cartao-3:before {
+    /* requerido */
+    content: '';
+
+    /* estilo de preto quase transparente */
+    background-color: black;
+    opacity: 0.5;
+
+    /* posiciona nos limites do elemento pai */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+.card-slide .swiper-container {
     width: 100vw;
     height: 100%;
 }
 
 .two {
-    width: 90vw;
+    width: 100vw;
     height: 100%;
 
     .two-prev {
@@ -97,7 +221,7 @@ body {
 
 .enterprise-card:hover {
     transition: all 400ms;
-    box-shadow: 0px 4px 4px gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: white;
 
     img {
@@ -111,6 +235,7 @@ body {
         visibility: visible;
         position: absolute;
         display: flex;
+        height:410px;
         align-items: flex-start;
         justify-content: flex-end;
         flex-direction: column;
@@ -122,7 +247,8 @@ body {
 .horas,
 .min,
 .seg {
-    margin-top: -20px;
+    margin-top: -10px;
+    font-size: $media;
     font-family: $fonte-varela;
     font-weight: lighter;
 }
@@ -143,97 +269,52 @@ body {
 .data4 {
     background-color: white;
     color: $marrom;
-    border: 2px solid orange;
+    height:280px;
+    z-index:2;
+    font-size:375%;
+    border-bottom: 3px solid $laranja;
+    font-weight:lighter;
+    cursor:pointer;
 }
 
 .data1 {
     border-top-left-radius: 20px;
+    border-right:3px solid $laranja;
 }
 
 .data4 {
     border-top-right-radius: 20px;
+    border-left:3px solid $laranja;
 }
 
-.data1:hover,
+.data3 {
+    border-left:3px solid $laranja;
+}
+
+.data1:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin:left;
+}
+
 .data2:hover,
-.data3:hover,
+.data3:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+}
+
 .data4:hover {
     background-color: orange;
     color: white;
-    transform: scaleX(1.05);
+    transform: scaleX(1.07);
+    transform-origin:right;
 }
 
-/* The Magic */
-.integration-center .accordion:hover .accordion-item:hover .accordion-item-content,
-.integration-center .accordion .accordion-item--default .accordion-item-content {
-    height: 300px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.integration-center .accordion-item-content,
-.integration-center .accordion:hover .accordion-item-content {
-    height: 0;
-    overflow: hidden;
-    transition: height .25s;
-}
-
-.integration-center .accordion {
-    width: 75%;
-    margin-top: -150px;
-
-    @media only screen and (max-width:1024px) {
-        margin-top: 0px;
-    }
-}
-
-.integration-center .accordion:hover {
-    width: 100%;
-}
-
-.integration-center .accordion .accordion-item {
-    background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
-    border-bottom: 1px solid #666;
-    padding: 2em;
-    color: #eee;
-}
-
-.integration-center .accordion h1 {
-    margin: 0;
-}
-
-.integration-center .accordion .accordion-item:nth-child(1) {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
-
-}
-
-.integration-center .accordion .accordion-item:nth-child(2) {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
-}
-
-.integration-center .accordion .accordion-item:nth-child(3) {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
-}
-
-.integration-center .accordion .accordion-item:nth-child(3):hover {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
-    background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
-    background-position: right;
-    background-size: cover;
-}
-
-.integration-center .accordion .accordion-item:nth-child(4) {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
-}
-
-.integration-center .accordion .accordion-item:nth-child(5) {
-    background-color: $fundo-verdeescuro;
-    background: $fundo-verdeescuro;
+.info-dates {
+    position:absolute;
+    margin-top:97px;
 }
 
 .card-slide .card {
@@ -245,7 +326,7 @@ body {
 .info-speaker {
     top: 0;
     left: 0;
-    margin-top: 250px;
+    margin-top: 340px;
     margin-left: 20px;
     position: absolute;
 }
@@ -253,9 +334,13 @@ body {
 .calendar-speaker {
     top: 0;
     left: 0;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 35px;
+    margin-left: 30px;
     position: absolute;
+}
+
+.fonte-laranja {
+    color: $laranja;
 }
 
 .background-green {
@@ -263,10 +348,17 @@ body {
 
     &:before {
         content: url('../../public/images/backgrounds/barrinhas.svg');
-        margin-top: -48px;
-        margin-left: -380px;
-        z-index: 2;
-        overflow: hidden;
+        top:0;
+        left:0;
+        margin-left:-350px;
+    }
+
+    &:after {
+        content: url('../../public/images/backgrounds/barrinhas.svg');
+        position:absolute;
+        right:0;
+        margin-top:-151px;
+        margin-right:-350px;
     }
 }
 
@@ -278,6 +370,7 @@ body {
 .vertical {
     border-left: 2px solid $branca;
     height: 120px;
+    margin-top:-20px;
 }
 
 .seta {
@@ -286,8 +379,7 @@ body {
 }
 
 .timer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .less-text {
@@ -311,14 +403,16 @@ body {
 }
 
 .speaker-card {
-    height: 500px;
-    width: 100%;
-    background-position: center;
+    height: 650px;
+    width: 100% !important;
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: $borda-redonda;
     z-index: 0;
 }
+
+.card-slide .swiper-slide { width: 37% }
 
 .speaker-content {
     position: absolute;
@@ -326,7 +420,7 @@ body {
     background-color: $verde-claro;
     z-index: 1;
     border-bottom-left-radius: $borda-redonda;
-    border-bottom-right-radius: $borda-redonda
+    border-bottom-right-radius: $borda-redonda;
 }
 
 @media only screen and (max-width:1125px) {

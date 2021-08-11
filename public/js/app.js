@@ -1861,10 +1861,10 @@ var x = setInterval(function () {
   var minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
   var seconds = Math.floor(distance % (1000 * 60) / 1000); // Output the result in an element with id="demo"
 
-  document.getElementById("dias").innerHTML = "<div class='fs-grande ms-lg-4'>" + days + "</div>" + "<div class='dias ms-lg-3'>dias</div>";
-  document.getElementById("horas").innerHTML = "<div class='fs-grande ms-lg-4'>" + hours + "</div>" + "<div class='horas ms-lg-3'>horas</div>";
-  document.getElementById("minutos").innerHTML = "<div class='fs-grande ms-lg-4'>" + minutes + "</div>" + "<div class='min ms-lg-3'>min</div>";
-  document.getElementById("segundos").innerHTML = "<div class='fs-grande ms-lg-4'>" + seconds + "</div>" + "<div class='seg ms-lg-3'>seg</div>"; // If the count down is over, write some text
+  document.getElementById("dias").innerHTML = "<div class='fs-grande ms-lg-4'>" + days + "</div>" + "<div class='dias ms-lg-4'>dias</div>";
+  document.getElementById("horas").innerHTML = "<div class='fs-grande ms-lg-4'>" + hours + "</div>" + "<div class='horas ms-lg-4'>horas</div>";
+  document.getElementById("minutos").innerHTML = "<div class='fs-grande ms-lg-4'>" + minutes + "</div>" + "<div class='min ms-lg-4'>min</div>";
+  document.getElementById("segundos").innerHTML = "<div class='fs-grande ms-lg-4'>" + seconds + "</div>" + "<div class='seg ms-lg-4'>seg</div>"; // If the count down is over, write some text
 
   if (distance < 0) {
     clearInterval(x);
@@ -1879,13 +1879,10 @@ swiper_core__WEBPACK_IMPORTED_MODULE_0__.default.use([swiper_core__WEBPACK_IMPOR
 var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.one', {
   // Optional parameters
   direction: 'horizontal',
-  centeredSlides: true,
-  observer: true,
-  observeParents: true,
   parallax: true,
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   loop: true,
-  spaceBetween: 10,
+  spaceBetween: 20,
   autoplay: true,
   simulateTouch: true,
   // If we need pagination
@@ -1906,38 +1903,20 @@ var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.one', {
 var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
+  parallax: true,
   slidesPerView: 4,
-  breakpoints: {
-    300: {
-      slidesPerView: 1,
-      spaceBetween: 15
-    },
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 15
-    },
-    900: {
-      slidesPerView: 3,
-      spaceBetween: 15
-    },
-    1200: {
-      slidesPerView: 4,
-      spaceBetween: 15
-    }
-  },
+  spaceBetween: 10,
+  autoplay: true,
+  simulateTouch: true,
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    clickable: true
   },
   // Navigation arrows
   navigation: {
     nextEl: '.two-next',
     prevEl: '.two-prev'
-  },
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar'
   }
 });
 
