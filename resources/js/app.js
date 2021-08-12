@@ -20,10 +20,10 @@ var x = setInterval(function() {
 
   // Output the result in an element with id="demo"
 
-  document.getElementById("dias").innerHTML ="<div class='fs-grande ms-lg-4'>" + days + "</div>" + "<div class='dias ms-lg-4'>dias</div>";
-  document.getElementById("horas").innerHTML = "<div class='fs-grande ms-lg-4'>" + hours + "</div>" + "<div class='horas ms-lg-4'>horas</div>";
-  document.getElementById("minutos").innerHTML = "<div class='fs-grande ms-lg-4'>" + minutes + "</div>" + "<div class='min ms-lg-4'>min</div>";
-  document.getElementById("segundos").innerHTML = "<div class='fs-grande ms-lg-4'>" + seconds + "</div>" + "<div class='seg ms-lg-4'>seg</div>";
+  document.getElementById("dias").innerHTML ="<div class='font-2 ms-lg-4'>" + days + "</div>" + "<div class='dias ms-lg-4'>dias</div>";
+  document.getElementById("horas").innerHTML = "<div class='font-2 ms-lg-4'>" + hours + "</div>" + "<div class='horas ms-lg-4'>horas</div>";
+  document.getElementById("minutos").innerHTML = "<div class='font-2 ms-lg-4'>" + minutes + "</div>" + "<div class='min ms-lg-4'>min</div>";
+  document.getElementById("segundos").innerHTML = "<div class='font-2 ms-lg-4'>" + seconds + "</div>" + "<div class='seg ms-lg-4'>seg</div>";
 
   // If the count down is over, write some text
   if (distance < 0) {
@@ -47,6 +47,20 @@ var x = setInterval(function() {
     spaceBetween:20,
     autoplay: true,
     simulateTouch:true,
+    breakpoints: {
+        300: {
+            slidesPerView:1,
+        },
+        768: {
+            slidesPerView:2,
+        },
+        1024: {
+            slidesPerView:3,
+        },
+        1200: {
+            slidesPerView:'auto',
+        }
+    },
 
     // If we need pagination
     pagination: {
@@ -74,6 +88,27 @@ var x = setInterval(function() {
     spaceBetween:10,
     autoplay: true,
     simulateTouch:true,
+    breakpoints: {
+        300: {
+            slidesPerView:1,
+        },
+        768: {
+            slidesPerView:2,
+        },
+        1024: {
+            slidesPerView:3,
+        },
+        1200: {
+            slidesPerView:4,
+        }
+    },
+    effect: "cube", // select effect cube
+     cube: {         // set the options
+         slideShadows: true,
+         shadow: true,
+         shadowOffset: 20,
+         shadowScale: 0.94
+    },
 
     // If we need pagination
     pagination: {

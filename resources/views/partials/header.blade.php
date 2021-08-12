@@ -2,9 +2,9 @@
 
     <div class="offcanvas bg-dark w-100 offcanvas-start offcanvas-collapse" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" >
         <button type="button" class="btn-close text-reset bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        <ul class="py-5">
+        <ul class="py-5 d-flex justify-content-center align-items-center flex-column">
         <li class="nav-item">
-            <a class="nav-link active text-white p-3" aria-current="page" href="#">Palestrantes</a>
+            <a class="nav-link text-white p-3" aria-current="page" href="#">Palestrantes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white p-3" href="#">Programação</a>
@@ -36,36 +36,36 @@
 <nav class="navbar navbar-expand-xl navbar-light bg-light shadow">
   <div class="container">
       <div class="row">
-          <div class="col-12">
+          <div class="col-12 d-flex d-lg-block">
               <div class="row justify-content-center align-items-center">
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <a href="#">@include('layout.svg.logo')</a>
                   </div>
-                  <div class="col-9 d-flex text-nowrap">
+                  <div class="col-12 col-lg-9 d-flex text-nowrap">
                       <ul class="navbar-nav menu-desktop" style="font-size:1em">
                         <li class="nav-item">
-                          <a class="nav-link p-2" aria-current="page" href="#"><span class="destaque-marrom">Palestrantes</span></a>
+                          <a class="nav-link p-2" aria-current="page" href="#"><span class="brown-text">Palestrantes</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Programação</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Programação</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Fóruns</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Fóruns</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Centro de integração</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Centro de integração</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Oficinas</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Oficinas</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Desfile</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Desfile</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2" href="#"><span class="destaque-marrom">Virada sustentável</span></a>
+                          <a class="nav-link p-2" href="#"><span class="brown-text">Virada sustentável</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-center text-white borda-redonda botao-verde p-2" href="#" style="width:175px">Seja um expositor</a>
+                          <a class="nav-link text-center text-white rounded-border g-button p-2" href="#" style="width:175px">Seja um expositor</a>
                         </li>
                       </ul>
                   </div>

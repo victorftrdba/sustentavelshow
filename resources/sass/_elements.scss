@@ -1,61 +1,155 @@
 body {
-    font-family: $fonte-varela;
+    font-family: $font-varela;
     overflow-x: hidden;
+    font-size:$size1;
 }
 
-.hero-image {
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
+.font-1 {
+    font-size: $size1;
+}
+
+.font-2 {
+    font-size: $size2;
+}
+
+.font-3 {
+    font-size: $size3;
+}
+
+.font-4 {
+    font-size: $size4;
+}
+
+.font-5 {
+    font-size: $size5;
+}
+
+.font-6 {
+    font-size: $size6;
+}
+
+.font-7 {
+    font-size: $size7;
+}
+
+.font-8 {
+    font-size: $size8;
+}
+
+.font-9 {
+    font-size: $size9;
+}
+
+.font-10 {
+    font-size: $size10;
+}
+
+
+.font-11 {
+    font-size: $size11;
+}
+
+.font-12 {
+    font-size:$size12;
+}
+
+.font-13 {
+    font-size:$size13;
+}
+
+.font-14 {
+    font-size: $size14;
+}
+
+.font-15 {
+    font-size: $size15;
+}
+
+.font-16 {
+    font-size: $size16;
+}
+
+.font-17 {
+    font-size: $size17;
+}
+
+.font-18 {
+    font-size: $size18;
+}
+
+.font-19 {
+    font-size: $size19;
+}
+
+.font-20 {
+    font-size: $size20;
+}
+
+.font-21 {
+    font-size: $size21;
+}
+
+.font-22 {
+    font-size: $size22;
+}
+
+.lineheight-1 {
+    line-height:$lineheight1;
+}
+
+.lineheight-2 {
+    line-height:$lineheight2;
+}
+
+.lineheight-3 {
+    line-height:$lineheight3;
+}
+
+.lineheight-4 {
+    line-height: $lineheight4;
+}
+
+.hero {
+    padding-top:30px;
+    padding-bottom:30px;
+    background-size:cover;
+}
+
+.tourism {
+    background-position:center;
+    background-size:cover;
 }
 
 .propevent p {
     width: 90%;
 }
 
-.marrom-claro {
-    color: $marrom-claro;
+.lbrown {
+    color: $lbrown;
 }
 
-.fs-padrao {
-    font-size: $padrao;
+.lbrown-background {
+    background-color: $lbrown;
 }
 
-.fs-media {
-    font-size: $media;
+.brown-background {
+    background-color: $brown;
 }
 
-.fs-grande {
-    font-size: $grande;
+.brown-text {
+    color: $brown;
 }
 
-.fs-xgrande {
-    font-size: $xgrande;
+.dgreen-btn {
+    background-color: $dgreen;
 }
 
-.fs-pequena {
-    font-size: $pequena;
-}
-
-.fundo-marrom {
-    background-color: $fundo-marrom;
-}
-
-.destaque-marrom {
-    color: $marrom;
-}
-
-.botao-verdeescuro {
-    background-color: $fundo-verdeescuro;
-}
-
-.botao-verde {
-    background: $verde-claro;
+.g-button {
+    background: $lgreen;
 }
 
 .hero .btn {
-    background: $verde-claro;
+    background: $lgreen;
     width: 320px;
     font-size: 1.2em;
     height: 50px;
@@ -63,7 +157,7 @@ body {
 }
 
 .tourism .btn {
-    background: $verde-claro;
+    background: $lgreen;
     width: 230px;
     height: 50px;
     border-radius: 12px;
@@ -87,7 +181,7 @@ body {
 }
 
 .integration-center .btn {
-    background: $marrom;
+    background: $brown;
     width: 230px;
     height: 50px;
     font-size: 1.2em;
@@ -113,12 +207,12 @@ body {
     height: 325px;
 }
 
-.texto-cinza {
-    color: $cinza;
+.gray-text {
+    color: $gray;
 }
 
-.borda-redonda {
-    border-radius: $borda-redonda
+.rounded-border {
+    border-radius: $rounded-border;
 }
 
 #indicatorTime {
@@ -155,7 +249,7 @@ body {
     margin-top: -80px;
     border-radius: 15px;
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: flex-end;
     flex-direction: column;
     background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
@@ -215,27 +309,28 @@ body {
     height: 430px;
     transition: all 400ms;
     display: flex;
-    border-radius: $borda-redonda;
+    border-radius: $rounded-border;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 50px;
+    transition: all 200ms;
 }
 
 .enterprise-card:hover {
-    transition: all 400ms;
+    transition: all ease-in-out 200ms;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: white;
 
     img {
         margin-top: -200px;
-        transition: all 600ms;
+        transition: all ease-in-out 200ms;
     }
 
     .enterprise-content {
         opacity: 1;
-        color: $cinza;
+        color: $gray;
         visibility: visible;
         position: absolute;
         display: flex;
@@ -243,7 +338,7 @@ body {
         align-items: flex-start;
         justify-content: flex-end;
         flex-direction: column;
-        transition: all 600ms;
+        transition: all ease-in-out 200ms;
     }
 }
 
@@ -252,8 +347,8 @@ body {
 .min,
 .seg {
     margin-top: -10px;
-    font-size: $media;
-    font-family: $fonte-varela;
+    font-size: $size13;
+    font-family: $font-varela;
     font-weight: lighter;
 }
 
@@ -272,11 +367,11 @@ body {
 .data3,
 .data4 {
     background-color: white;
-    color: $marrom;
+    color: $brown;
     height: 280px;
     z-index: 2;
     font-size: 375%;
-    border-bottom: 3px solid $laranja;
+    border-bottom: 3px solid $orange;
     font-weight: lighter;
     cursor: pointer;
 }
@@ -286,15 +381,15 @@ body {
 .data7,
 .data8 {
     background-color: white;
-    color: $laranja;
+    color: $orange;
     z-index: 2;
-    border-bottom: 3px solid $laranja;
+    border-bottom: 4px solid $orange;
     font-weight: lighter;
     cursor: pointer;
 }
 
 .accordion-button:not(.collapsed) {
-    color: $marrom;
+    color: $brown;
     box-shadow: 0px white !important;
     background-color: white;
     border: 0px solid white;
@@ -308,16 +403,16 @@ body {
 
 .data1 {
     border-top-left-radius: 20px;
-    border-right: 3px solid $laranja;
+    border-right: 3px solid $orange;
 }
 
 .data4 {
     border-top-right-radius: 20px;
-    border-left: 3px solid $laranja;
+    border-left: 3px solid $orange;
 }
 
 .data3 {
-    border-left: 3px solid $laranja;
+    border-left: 3px solid $orange;
 }
 
 .data1:hover {
@@ -343,13 +438,18 @@ body {
 
 .info-dates {
     position: relative;
-    margin-top: -400px;
+    margin-top: -650px;
+}
+
+.virada {
+    height:1400px;
+    background-size:cover;
 }
 
 .card-slide .card {
     width: 350px;
     height: 500px;
-    background-color: $fundo-verde;
+    background-color: $lgreen;
 }
 
 .info-speaker {
@@ -368,12 +468,12 @@ body {
     position: absolute;
 }
 
-.fonte-laranja {
-    color: $laranja;
+.orange-font {
+    color: $orange;
 }
 
 .background-green {
-    background-color: $fundo-verde;
+    background-color: $lgreen;
 
     &:before {
         content: url('../../public/images/backgrounds/barrinhas.svg');
@@ -397,7 +497,7 @@ body {
 }
 
 .vertical {
-    border-left: 2px solid $branca;
+    border-left: 2px solid $white;
     height: 120px;
     margin-top: -20px;
 }
@@ -416,19 +516,23 @@ body {
 }
 
 .slide-item:hover {
-    border-bottom: 4px solid $verde-claro;
+    border-bottom: 4px solid $lgreen;
     transition: width 600ms;
     cursor: pointer;
 }
 
 .menu-ativo {
-    border-bottom: 4px solid $verde-claro;
+    border-bottom: 4px solid $lgreen;
     cursor: pointer;
 }
 
-.borda-laranja {
-    border: 4px solid orange;
+.orange-border {
+    border: 4px solid $orange;
     width: 100px;
+}
+
+.orange-border-bottom {
+    border-bottom: 4px solid $orange;
 }
 
 .speaker-card {
@@ -438,7 +542,7 @@ body {
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    border-radius: $borda-redonda;
+    border-radius: $rounded-border;
     z-index: 0;
 
     &:after {
@@ -463,18 +567,18 @@ body {
 .speaker-content {
     position: absolute;
     bottom: 0;
-    background-color: $verde-claro;
+    background-color: $lgreen;
     z-index: 1;
-    border-bottom-left-radius: $borda-redonda;
-    border-bottom-right-radius: $borda-redonda;
+    border-bottom-left-radius: $rounded-border;
+    border-bottom-right-radius: $rounded-border;
 }
 
 .data5:hover,
 .data6:hover,
 .data7:hover,
 .data8:hover {
-    background-color: $laranja;
-    color: $branca;
+    background-color: $orange;
+    color: $white;
 }
 
 .accordion-prog {
@@ -503,36 +607,71 @@ body {
     overflow: hidden;
 }
 
-@media only screen and (max-width:1125px) {
-    .hero {
-        .fs-grande {
-            font-size: 1.5em;
-        }
+@media only screen and (max-width:1024px) {
+    html {
+        overflow-x:hidden;
     }
-
     .hero-image {
         height: 500px;
     }
 
     .vertical {
-        border-left: 2px solid $branca;
+        border-left: 2px solid $white;
         height: 100px;
+    }
+
+    .font-2 {
+        font-size:$size9;
     }
 
     .menu-desktop {
         display: none;
     }
 
-    .fs-xgrande {
-        font-size: 2.5em;
+    .turning .accordion-header {
+        font-size: $size5;
     }
 
-    .dias,
-    .horas,
-    .min,
-    .seg {
-        margin-top: -10px;
-        font-family: $fonte-varela;
-        font-weight: lighter;
+    .turning .accordion-body {
+        font-size: $size7;
+    }
+
+    .programacao .accordion-header {
+        font-size: $size12;
+    }
+
+    .programacao .accordion-body {
+        font-size: $size7;
+    }
+
+    .font-15 {
+        font-size:$size6;
+    }
+
+    .font-10 {
+        font-size:$size2;
+    }
+
+    .font-16,
+    .font-18 {
+        font-size:$size5;
+    }
+
+    .font-17 {
+        font-size:$size19;
+    }
+
+    .data1,
+    .data2,
+    .data3,
+    .data4 {
+        font-size: $size4;
+    }
+
+    .data5,
+    .data6,
+    .data7,
+    .data8 {
+        font-size:$size4;
     }
 }
