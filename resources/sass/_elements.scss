@@ -1,3 +1,4 @@
+html,
 body {
     font-family: $font-varela;
     overflow-x: hidden;
@@ -91,6 +92,10 @@ body {
 
 .font-22 {
     font-size: $size22;
+}
+
+.font-23 {
+    font-size: $size23;
 }
 
 .lineheight-1 {
@@ -188,8 +193,8 @@ body {
     border-radius: 12px;
 }
 
-#divID {
-    display: none;
+.integration-center {
+    position: relative;
 }
 
 .integration-center .slide1,
@@ -219,6 +224,10 @@ body {
     margin-top: -20px;
 }
 
+#divID {
+    display: none;
+}
+
 #divID1,
 #divID2,
 #divID4,
@@ -226,30 +235,29 @@ body {
     display: none;
 }
 
-.integration-center {
-    position: relative;
+.cartoes {
+    margin-top: -135px;
 }
 
-.cartoes {
-    position: absolute;
-    right: -750px;
-    margin-top: -150px
+.swipe-right {
+    margin-top:-80px;
+    height:32px;
+    z-index:5;
 }
 
 .cartao {
     width: 350px;
     height: 60px;
     position: relative;
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
 
 .cartao-3 {
-    margin-top: -80px;
+    margin-top: -92px;
     border-radius: 15px;
     display: flex;
     position: relative;
+    align-items:flex-start;
     justify-content: flex-end;
     flex-direction: column;
     background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
@@ -265,24 +273,126 @@ body {
 }
 
 .cartao-3:before {
-    /* requerido */
     content: '';
-
-    /* estilo de preto quase transparente */
     background-color: black;
-    opacity: 0.5;
-
-    /* posiciona nos limites do elemento pai */
+    opacity: 0.7;
     position: absolute;
     top: 0;
+    border-radius:20px;
     right: 0;
     bottom: 0;
     left: 0;
 }
 
-.card-slide .swiper-container {
+.dias,
+.horas,
+.min,
+.seg {
+    margin-top: -10px;
+    font-size: $size13;
+    font-family: $font-varela;
+    font-weight: lighter;
+}
+
+.data5,
+.data6,
+.data7,
+.data8 {
+    background-color: white;
+    color: $orange;
+    z-index: 2;
+    border-bottom: 4px solid $orange;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.data5:hover,
+.data6:hover,
+.data7:hover,
+.data8:hover {
+    background-color: $orange;
+    color: $white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $brown;
+    box-shadow: 0px white !important;
+    background-color: white;
+    border: 0px solid white;
+}
+
+.accordion-button:focus {
+    border: 0px solid white !important;
+    box-shadow: 0px white !important;
+}
+
+
+.data1 {
+    border-top-left-radius: 20px;
+    border-right: 3px solid $orange;
+}
+
+.data1,
+.data2,
+.data3,
+.data4 {
+    background-color: white;
+    color: $brown;
+    height: 280px;
+    z-index: 2;
+    font-size: 375%;
+    border-bottom: 3px solid $orange;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.data1:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin: left;
+}
+
+.data4 {
+    border-top-right-radius: 20px;
+    border-left: 3px solid $orange;
+}
+
+.data4:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin: right;
+}
+
+.data3 {
+    border-left: 3px solid $orange;
+}
+
+.data2:hover,
+.data3:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+}
+
+.info-dates {
+    position: relative;
+    margin-top: -580px;
+}
+
+.virada {
+    height:1200px;
+    background-size:cover;
+}
+
+.one {
     width: 100vw;
     height: 100%;
+}
+
+.one .swiper-slide {
+    width: 27%
 }
 
 .two {
@@ -305,152 +415,6 @@ body {
     }
 }
 
-.enterprise-card {
-    height: 430px;
-    transition: all 400ms;
-    display: flex;
-    border-radius: $rounded-border;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 50px;
-    transition: all 200ms;
-}
-
-.enterprise-card:hover {
-    transition: all ease-in-out 200ms;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background: white;
-
-    img {
-        margin-top: -200px;
-        transition: all ease-in-out 200ms;
-    }
-
-    .enterprise-content {
-        opacity: 1;
-        color: $gray;
-        visibility: visible;
-        position: absolute;
-        display: flex;
-        height: 410px;
-        align-items: flex-start;
-        justify-content: flex-end;
-        flex-direction: column;
-        transition: all ease-in-out 200ms;
-    }
-}
-
-.dias,
-.horas,
-.min,
-.seg {
-    margin-top: -10px;
-    font-size: $size13;
-    font-family: $font-varela;
-    font-weight: lighter;
-}
-
-.enterprise-content {
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-}
-
-.data1,
-.data2,
-.data3,
-.data4 {
-    background-color: white;
-    color: $brown;
-    height: 280px;
-    z-index: 2;
-    font-size: 375%;
-    border-bottom: 3px solid $orange;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
-.data5,
-.data6,
-.data7,
-.data8 {
-    background-color: white;
-    color: $orange;
-    z-index: 2;
-    border-bottom: 4px solid $orange;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
-.accordion-button:not(.collapsed) {
-    color: $brown;
-    box-shadow: 0px white !important;
-    background-color: white;
-    border: 0px solid white;
-}
-
-.accordion-button:focus {
-    border: 0px solid white !important;
-    box-shadow: 0px white !important;
-}
-
-
-.data1 {
-    border-top-left-radius: 20px;
-    border-right: 3px solid $orange;
-}
-
-.data4 {
-    border-top-right-radius: 20px;
-    border-left: 3px solid $orange;
-}
-
-.data3 {
-    border-left: 3px solid $orange;
-}
-
-.data1:hover {
-    background-color: orange;
-    color: white;
-    transform: scaleX(1.07);
-    transform-origin: left;
-}
-
-.data2:hover,
-.data3:hover {
-    background-color: orange;
-    color: white;
-    transform: scaleX(1.07);
-}
-
-.data4:hover {
-    background-color: orange;
-    color: white;
-    transform: scaleX(1.07);
-    transform-origin: right;
-}
-
-.info-dates {
-    position: relative;
-    margin-top: -650px;
-}
-
-.virada {
-    height:1400px;
-    background-size:cover;
-}
-
-.card-slide .card {
-    width: 350px;
-    height: 500px;
-    background-color: $lgreen;
-}
 
 .info-speaker {
     top: 0;
@@ -531,6 +495,52 @@ body {
     width: 100px;
 }
 
+.turning .orange-border {
+    border: 2px solid $orange;
+    width: 100px;
+}
+
+.calendar-turning {
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top:410px;
+    margin-left:30px;
+    z-index:9;
+}
+
+.calendar-border {
+    border: 4px solid $orange;
+    width:80px;
+}
+
+.turning {
+    position:relative;
+
+    &:after {
+        content:url('../../public/images/backgrounds/pontinhos.svg');
+        position:absolute;
+        top:0;
+        right:20px;
+        z-index:-1;
+        margin-top:320px;
+    }
+}
+
+.programacao {
+    position:relative;
+    z-index:1;
+
+    &:before {
+        content:url('../../public/images/backgrounds/pontinhos.svg');
+        position:absolute;
+        top:0;
+        left:-200px;
+        margin-top:55px;
+        z-index:-1;
+    }
+}
+
 .orange-border-bottom {
     border-bottom: 4px solid $orange;
 }
@@ -560,10 +570,6 @@ body {
     }
 }
 
-.card-slide .swiper-slide {
-    width: 27%
-}
-
 .speaker-content {
     position: absolute;
     bottom: 0;
@@ -573,12 +579,51 @@ body {
     border-bottom-right-radius: $rounded-border;
 }
 
-.data5:hover,
-.data6:hover,
-.data7:hover,
-.data8:hover {
-    background-color: $orange;
-    color: $white;
+.enterprise-card {
+    height: 430px;
+    transition: all 400ms;
+    display: flex;
+    border-radius: $rounded-border;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    transition: all 200ms;
+}
+
+.enterprise-content {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.enterprise-card:hover {
+    transition: all ease-in-out 200ms;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+
+    img {
+        margin-top: -200px;
+        transition: all ease-in-out 200ms;
+    }
+
+    .enterprise-content {
+        opacity: 1;
+        color: $gray;
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        height: 410px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+        transition: all ease-in-out 200ms;
+    }
 }
 
 .accordion-prog {
@@ -593,18 +638,82 @@ body {
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.accordion-prog:hover {
-    background-color: #ccc;
+.bus {
+    position:relative;
+
+    &:before {
+        content:url('../../public/images/icons/onibus.svg');
+        width:32px;
+        height:32px;
+        position:absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+    }
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
+.metro {
+    position:relative;
+
+    &:before {
+        content:url('../../public/images/icons/metro.svg');
+        width:28px;
+        height:28px;
+        position:absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+    }
+}
+
+.localization {
+    position:relative;
+
+    &:before {
+        content:url('../../public/images/icons/endereco.svg');
+        width:28px;
+        height:28px;
+        position:absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+    }
+}
+
+.park {
+    position:relative;
+
+    &:before {
+        content:url('../../public/images/icons/estacionamento.svg');
+        width:28px;
+        height:28px;
+        position:absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+    }
+}
+
+.pavilhao {
+    height:350px;
+    background-color: $orange;
+    width:300px;
+    border: 1px solid $orange;
+    margin-top:-50px;
+}
+
+.pavilion-item {
+    border-bottom: 1px solid $white;
+}
+
+.accordion-button:after {
+    background-image: url("../../public/images/icons/seta-marrom.svg") !important;
+    background-size: 0.75rem !important;
+    transform: rotate(-90deg);
+  }
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-270deg)!important;
 }
 
 @media only screen and (max-width:1024px) {
@@ -613,6 +722,11 @@ body {
     }
     .hero-image {
         height: 500px;
+    }
+
+    .cartoes {
+        margin-top: -15px;
+        padding-top:80px;
     }
 
     .vertical {
@@ -644,7 +758,8 @@ body {
         font-size: $size7;
     }
 
-    .font-15 {
+    .font-15,
+    .font-23 {
         font-size:$size6;
     }
 

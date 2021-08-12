@@ -1,3 +1,4 @@
+html,
 body {
   font-family: "Varela Round", sans-serif;
   overflow-x: hidden;
@@ -90,6 +91,10 @@ body {
 
 .font-22 {
   font-size: 3.5em;
+}
+
+.font-23 {
+  font-size: 4.88em;
 }
 
 .lineheight-1 {
@@ -187,8 +192,8 @@ body {
   border-radius: 12px;
 }
 
-#divID {
-  display: none;
+.integration-center {
+  position: relative;
 }
 
 .integration-center .slide1,
@@ -218,6 +223,10 @@ body {
   margin-top: -20px;
 }
 
+#divID {
+  display: none;
+}
+
 #divID1,
 #divID2,
 #divID4,
@@ -225,30 +234,29 @@ body {
   display: none;
 }
 
-.integration-center {
-  position: relative;
+.cartoes {
+  margin-top: -135px;
 }
 
-.cartoes {
-  position: absolute;
-  right: -750px;
-  margin-top: -150px;
+.swipe-right {
+  margin-top: -80px;
+  height: 32px;
+  z-index: 5;
 }
 
 .cartao {
   width: 350px;
   height: 60px;
   position: relative;
-  display: flex;
-  align-items: center;
   cursor: pointer;
 }
 
 .cartao-3 {
-  margin-top: -80px;
+  margin-top: -92px;
   border-radius: 15px;
   display: flex;
   position: relative;
+  align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
   background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
@@ -264,75 +272,15 @@ body {
 }
 
 .cartao-3:before {
-  /* requerido */
   content: "";
-  /* estilo de preto quase transparente */
   background-color: black;
-  opacity: 0.5;
-  /* posiciona nos limites do elemento pai */
+  opacity: 0.7;
   position: absolute;
   top: 0;
+  border-radius: 20px;
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.card-slide .swiper-container {
-  width: 100vw;
-  height: 100%;
-}
-
-.two {
-  width: 100vw;
-  height: 100%;
-}
-.two .two-prev {
-  position: absolute;
-  z-index: 999;
-  left: 0;
-  width: 64px;
-}
-.two .two-next {
-  position: absolute;
-  z-index: 999;
-  right: 0;
-  transform: scaleX(-1);
-  width: 64px;
-}
-
-.enterprise-card {
-  height: 430px;
-  transition: all 400ms;
-  display: flex;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  transition: all 200ms;
-}
-
-.enterprise-card:hover {
-  transition: all ease-in-out 200ms;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: white;
-}
-.enterprise-card:hover img {
-  margin-top: -200px;
-  transition: all ease-in-out 200ms;
-}
-.enterprise-card:hover .enterprise-content {
-  opacity: 1;
-  color: silver;
-  visibility: visible;
-  position: absolute;
-  display: flex;
-  height: 410px;
-  align-items: flex-start;
-  justify-content: flex-end;
-  flex-direction: column;
-  transition: all ease-in-out 200ms;
 }
 
 .dias,
@@ -345,30 +293,6 @@ body {
   font-weight: lighter;
 }
 
-.enterprise-content {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-}
-
-.data1,
-.data2,
-.data3,
-.data4 {
-  background-color: white;
-  color: #603913;
-  height: 280px;
-  z-index: 2;
-  font-size: 375%;
-  border-bottom: 3px solid #f9a022;
-  font-weight: lighter;
-  cursor: pointer;
-}
-
 .data5,
 .data6,
 .data7,
@@ -379,6 +303,14 @@ body {
   border-bottom: 4px solid #f9a022;
   font-weight: lighter;
   cursor: pointer;
+}
+
+.data5:hover,
+.data6:hover,
+.data7:hover,
+.data8:hover {
+  background-color: #f9a022;
+  color: white;
 }
 
 .accordion-button:not(.collapsed) {
@@ -398,13 +330,18 @@ body {
   border-right: 3px solid #f9a022;
 }
 
+.data1,
+.data2,
+.data3,
 .data4 {
-  border-top-right-radius: 20px;
-  border-left: 3px solid #f9a022;
-}
-
-.data3 {
-  border-left: 3px solid #f9a022;
+  background-color: white;
+  color: #603913;
+  height: 280px;
+  z-index: 2;
+  font-size: 375%;
+  border-bottom: 3px solid #f9a022;
+  font-weight: lighter;
+  cursor: pointer;
 }
 
 .data1:hover {
@@ -414,11 +351,9 @@ body {
   transform-origin: left;
 }
 
-.data2:hover,
-.data3:hover {
-  background-color: orange;
-  color: white;
-  transform: scaleX(1.07);
+.data4 {
+  border-top-right-radius: 20px;
+  border-left: 3px solid #f9a022;
 }
 
 .data4:hover {
@@ -428,20 +363,52 @@ body {
   transform-origin: right;
 }
 
+.data3 {
+  border-left: 3px solid #f9a022;
+}
+
+.data2:hover,
+.data3:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+}
+
 .info-dates {
   position: relative;
-  margin-top: -650px;
+  margin-top: -580px;
 }
 
 .virada {
-  height: 1400px;
+  height: 1200px;
   background-size: cover;
 }
 
-.card-slide .card {
-  width: 350px;
-  height: 500px;
-  background-color: #a5bc39;
+.one {
+  width: 100vw;
+  height: 100%;
+}
+
+.one .swiper-slide {
+  width: 27%;
+}
+
+.two {
+  width: 100vw;
+  height: 100%;
+}
+.two .two-prev {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  width: 64px;
+}
+.two .two-next {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  transform: scaleX(-1);
+  width: 64px;
 }
 
 .info-speaker {
@@ -520,6 +487,50 @@ body {
   width: 100px;
 }
 
+.turning .orange-border {
+  border: 2px solid #f9a022;
+  width: 100px;
+}
+
+.calendar-turning {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 410px;
+  margin-left: 30px;
+  z-index: 9;
+}
+
+.calendar-border {
+  border: 4px solid #f9a022;
+  width: 80px;
+}
+
+.turning {
+  position: relative;
+}
+.turning:after {
+  content: url(/images/pontinhos.svg?e80846a9ae457c951a5a5209a1016597);
+  position: absolute;
+  top: 0;
+  right: 20px;
+  z-index: -1;
+  margin-top: 320px;
+}
+
+.programacao {
+  position: relative;
+  z-index: 1;
+}
+.programacao:before {
+  content: url(/images/pontinhos.svg?e80846a9ae457c951a5a5209a1016597);
+  position: absolute;
+  top: 0;
+  left: -200px;
+  margin-top: 55px;
+  z-index: -1;
+}
+
 .orange-border-bottom {
   border-bottom: 4px solid #f9a022;
 }
@@ -548,10 +559,6 @@ body {
   z-index: -1;
 }
 
-.card-slide .swiper-slide {
-  width: 27%;
-}
-
 .speaker-content {
   position: absolute;
   bottom: 0;
@@ -561,12 +568,49 @@ body {
   border-bottom-right-radius: 20px;
 }
 
-.data5:hover,
-.data6:hover,
-.data7:hover,
-.data8:hover {
-  background-color: #f9a022;
-  color: white;
+.enterprise-card {
+  height: 430px;
+  transition: all 400ms;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  transition: all 200ms;
+}
+
+.enterprise-content {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.enterprise-card:hover {
+  transition: all ease-in-out 200ms;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: white;
+}
+.enterprise-card:hover img {
+  margin-top: -200px;
+  transition: all ease-in-out 200ms;
+}
+.enterprise-card:hover .enterprise-content {
+  opacity: 1;
+  color: silver;
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  height: 410px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  transition: all ease-in-out 200ms;
 }
 
 .accordion-prog {
@@ -581,18 +625,78 @@ body {
   transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.accordion-prog:hover {
-  background-color: #ccc;
+.bus {
+  position: relative;
+}
+.bus:before {
+  content: url(/images/onibus.svg?7e89447e41d3326403ad7e4a8aaa0e26);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+.metro {
+  position: relative;
+}
+.metro:before {
+  content: url(/images/metro.svg?e0f77d29ea53350a613854010ec3b7eb);
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.localization {
+  position: relative;
+}
+.localization:before {
+  content: url(/images/endereco.svg?06beb5d157dd8c02e2517bdf9d517cd1);
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.park {
+  position: relative;
+}
+.park:before {
+  content: url(/images/estacionamento.svg?684a793aeb2113b54ceb43e31bfb474f);
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.pavilhao {
+  height: 350px;
+  background-color: #f9a022;
+  width: 300px;
+  border: 1px solid #f9a022;
+  margin-top: -50px;
+}
+
+.pavilion-item {
+  border-bottom: 1px solid white;
+}
+
+.accordion-button:after {
+  background-image: url(/images/seta-marrom.svg?6e1338559a2104c6783dfda9408bdb88) !important;
+  background-size: 0.75rem !important;
+  transform: rotate(-90deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(-270deg) !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -602,6 +706,11 @@ body {
 
   .hero-image {
     height: 500px;
+  }
+
+  .cartoes {
+    margin-top: -15px;
+    padding-top: 80px;
   }
 
   .vertical {
@@ -633,7 +742,8 @@ body {
     font-size: 0.8em;
   }
 
-  .font-15 {
+  .font-15,
+.font-23 {
     font-size: 2.1em;
   }
 

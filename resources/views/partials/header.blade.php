@@ -33,7 +33,7 @@
         </ul>
     </div>
 
-<nav class="navbar navbar-expand-xl navbar-light bg-light shadow">
+<nav class="navbar navbar-expand-xl navbar-light bg-light shadow" data-aos="fade-down">
   <div class="container">
       <div class="row">
           <div class="col-12 d-flex d-lg-block">
