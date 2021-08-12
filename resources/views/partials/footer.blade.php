@@ -37,8 +37,8 @@
                     </div>
                 </div>
                 <div class="row text-white">
-                    <div class="col-12 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start align-items-center mb-3">
-                        <input type="email" class="input-group mb-3 mb-lg-0 w-50 p-3 brown-text" placeholder="Seu e-mail" />
+                    <div class="col-12 d-flex justify-content-center justify-content-lg-start align-items-center mb-3">
+                        <input type="email" class="input-group mb-lg-0 w-50 p-3 brown-text" placeholder="Seu e-mail" />
                         <a href="#" class="btn text-white g-button ms-2 rounded-0 p-3 w-25">Assinar</a>
                     </div>
                 </div>
