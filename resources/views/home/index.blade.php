@@ -516,7 +516,7 @@
                                     </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body d-block d-lg-flex">
+                                    <div class="accordion-body d-block text-center text-lg-start d-lg-flex">
                                         <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid" />
                                         <div class="d-flex flex-column mt-2">
                                         <h3 class="ms-lg-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
