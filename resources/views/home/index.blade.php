@@ -903,6 +903,9 @@
                                     </table>
                                     </div>
                                     @endfor
+                                </div>
+                            </div>
+                        </div>
 
                                     <div class="three d-flex justify-content-center align-items-center flex-column d-block d-lg-none">
                                     <div class="swiper-wrapper">
