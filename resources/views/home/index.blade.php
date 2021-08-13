@@ -13,7 +13,7 @@
                 15 a 18 de setembro de 2022
             </p>
         </div>
-        <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center text-center flex-column">
+        <div class="col-12 col-lg-8 col-xl-7 d-flex justify-content-center align-items-center text-center flex-column">
             <h1 class="font-2 lineheight-1">
                 O mais completo evento de sustentatibilidade
                 começa em
@@ -40,7 +40,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-10">
                 <div class="row justify-content-center align-items-center py-5" data-aos="fade-right">
-                    <div class="col-12 col-lg-7 d-flex justify-content-start align-items-center">
+                    <div class="col-12 col-lg-7 d-flex justify-content-start align-items-center mb-3 mb-lg-0">
                         <img src="https://i.picsum.photos/id/192/485/330.jpg?hmac=HWxZZD3hyBMlis-JSIS97JMqyOPJo5PTqgdOFkafJiI" class="img-fluid rounded-border" />
                     </div>
                     <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center align-items-lg-start flex-column">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                     <div class="row justify-content-center align-items-center py-3 mb-3" data-aos="fade-left">
-                        <div class="col-12 col-lg-7 order-0 order-lg-1 d-flex justify-content-end align-items-center">
+                        <div class="col-12 col-lg-7 order-0 order-lg-1 d-flex justify-content-end align-items-center mb-3 mb-lg-0">
                             <img src="https://i.picsum.photos/id/776/485/330.jpg?hmac=AgJ7pC2_YzsNqGSJK4vdtxqh5-dinLd2VL3HMqFjNgY" class="img-fluid rounded-border" />
                         </div>
                         <div class="col-12 col-lg-5 order-1 order-lg-0 d-flex justify-content-center align-items-center align-items-lg-start flex-column">
@@ -85,7 +85,7 @@
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center mb-5 p-4">
                 <!-- Slider main container -->
-                <div class="swiper-container one d-flex justify-content-center align-items-center">
+                <div class="one d-flex justify-content-center align-items-center">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <div class="swiper-slide d-flex">
@@ -102,7 +102,7 @@
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
                                     <h2 class="font-3 lineheight-3">Restaurando um bioma</h2>
-                                    <p class="font-7">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                    <p class="font-19">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
                                 </div>
                             </div>
                             </div>
@@ -120,7 +120,7 @@
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
                                     <h2 class="font-3 lineheight-3">Projeto Tamar - Espécies bandeira</h2>
-                                    <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <p class="font-19">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
                                     <h2 class="font-3 lineheight-3">A revolução do hiperadobe</h2>
-                                    <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <p class="font-19">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                             </div>
                                 <div class="speaker-content text-white mt-5 p-4">
                                     <h2 class="font-3 lineheight-3 text-nowrap">O rio nos céus que nasce na Amazônia</h2>
-                                    <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
+                                    <p class="font-19">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat nulla non eros dignissim, a elementum ex tempus. Sed lacinia risus ut malesuada lobortis.</p>
                                 </div>
                             </div>
                         </div>
@@ -165,9 +165,9 @@
     </div>
 </section>
 
-<section class="tourism mt-5 pt-5" style="background-image: url({{ asset('images/banner/forum-turismo.jpg') }})" data-aos="fade-down">
-    <div class="container">
-        <div class="row justify-content-center align-items-center text-white mb-3">
+<section class="tourism" style="background-image: url({{ asset('images/banner/forum-turismo.jpg') }})" data-aos="fade-down">
+    <div class="container pt-3">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
             <div class="col d-flex align-items-center">
                 <p class="font-9">Fóruns</p>
             </div>
@@ -194,7 +194,7 @@
                     <div class="col mb-4">
                         @include('layout.svg.icone-turismo')
                     </div>
-                    <div class="col-12 col-lg-5 mb-3 mb-lg-5">
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
                         <p class="font-15 lineheight-3">Fórum Turismo</p>
                     </div>
                     <div class="col mb-3 text-center">
@@ -217,7 +217,7 @@
                             Integer condimentum elit lectus.
                         </p>
                     </div>
-                    <div class="col pb-5 mb-5">
+                    <div class="col pb-5">
                         <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
                     </div>
                 </div>
@@ -340,19 +340,19 @@
 
 <section class="oficinas pt-5">
 <div class="container">
-    <div class="row mt-5 pt-5">
+    <div class="row">
         <div class="col mb-5">
             <h2 class="font-13 brown-text">Oficinas oficiais</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col mb-5 d-flex justify-content-center align-items-center">
+        <div class="col position-relative mb-5 d-flex justify-content-center align-items-center">
             <div class="two d-flex justify-content-center align-items-center">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
-                            <h3 class="brown-text font-7 mb-0">18/09 - Espaço Painel</h3>
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
                             <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
@@ -362,7 +362,7 @@
                     <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
-                            <h3 class="brown-text font-7 mb-0">18/09 - Espaço Painel</h3>
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
                             <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
@@ -372,7 +372,7 @@
                     <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
-                            <h3 class="brown-text font-7 mb-0">18/09 - Espaço Painel</h3>
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
                             <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
@@ -382,7 +382,7 @@
                     <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
-                            <h3 class="brown-text font-7 mb-0">18/09 - Espaço Painel</h3>
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
                             <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
@@ -390,13 +390,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="two-prev p-4 d-none d-lg-block">@include('layout.svg.seta-fundo-marrom')</div>
-                <div class="two-next p-4 d-none d-lg-block">@include('layout.svg.seta-fundo-marrom')</div>
+                <div class="two-prev d-none d-lg-block">@include('layout.svg.seta-fundo-marrom')</div>
+                <div class="two-next d-none d-lg-block">@include('layout.svg.seta-fundo-marrom')</div>
             </div>
         </div>
         <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right d-block d-lg-none" />
     </div>
-    <div class="row mb-5 pb-5">
+    <div class="row pb-5">
         <div class="col-12 d-flex justify-content-center align-items-center flex-column my-5">
             <a href="#" class="btn text-white g-button">Ofereça uma oficina</a>
         </div>
@@ -404,7 +404,7 @@
 </div>
 </section>
 
-<section class="pt-5" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
+<section class="pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
     <div class="container">
         <div class="row text-white justify-content-center pt-5 mt-5">
             <div class="col-10 d-flex justify-content-center">
@@ -438,7 +438,7 @@
                             Integer condimentum elit lectus.
                         </p>
                     </div>
-                    <div class="col-10 col-lg-3 d-flex justify-content-start flex-column mb-5 pb-5">
+                    <div class="col-10 col-lg-3 d-flex justify-content-start flex-column pb-3">
                         <a href="#" class="btn rounded p-2 text-white g-button">Reserve sua cadeira</a>
                     </div>
                 </div>
@@ -447,7 +447,7 @@
     </div>
 </section>
 
-<section class="virada pt-5" style="background-image:url({{ asset('images/banner/banner-virada.jpg') }})">
+<section class="virada pt-3" style="background-image:url({{ asset('images/banner/banner-virada.jpg') }})">
     <div class="container">
         <div class="row justify-content-center pt-5 mt-5 align-items-center flex-column">
             <div class="col-10">
@@ -484,10 +484,10 @@
 </section>
 
 <section class="turning container-fluid">
-    <div class="container mb-5 pb-5">
-        <div class="row justify-content-center align-items-center">
+    <div class="container pb-5">
+        <div class="row justify-content-center">
             <div class="col-12">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center mb-5">
                 <div class="col-12 shadow info-dates">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-3 gx-0">
@@ -569,9 +569,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
                 {{--
                 <table>
@@ -781,8 +781,8 @@
                         </tbody>
                     </table>
                     --}}
-                        <div class="col-12 text-center pt-5 mt-5">
-                            <a href="#" class="btn rounded text-white g-button">Reservar ingressos</a>
+                        <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5">
+                            <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
                         </div>
                     </div>
                 </div>
@@ -791,7 +791,7 @@
     </div>
 </section>
 
-<section class="programacao bg-light pt-5 mt-5">
+<section class="programacao bg-light pt-5">
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
@@ -801,22 +801,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 shadow">
+            <div class="col-12">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-3 gx-0">
                         <p class="data5 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-left-radius:15px;">15/09</p>
                     </div>
                     <div class="col-3 gx-0">
-                        <p class="data6 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-left:3px solid orange">16/09</p>
+                        <p class="data6 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-left:4px solid orange">16/09</p>
                     </div>
                     <div class="col-3 gx-0">
-                        <p class="data7 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-right:3px solid orange;border-left:3px solid orange">17/09</p>
+                        <p class="data7 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-right:4px solid orange;border-left:4px solid orange">17/09</p>
                     </div>
                     <div class="col-3 gx-0">
                         <p class="data8 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-right-radius:15px;">18/09</p>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center shadow">
                     <div class="col gx-0">
                         <div class="accordion accordion-flush" id="accordionFlushExample2">
                             <div class="accordion-item orange-border-bottom">
@@ -831,6 +831,7 @@
                                     $count = 3;
                                     @endphp
                                     @for($i = 0; $i < $count; $i++)
+                                    <div class="d-none d-lg-block">
                                     <table class="pavilhao">
                                         <thead class="text-center">
                                             <th class="fw-lighter">Pavilhão B</th>
@@ -900,7 +901,86 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    </div>
                                     @endfor
+
+                                    <div class="three d-flex justify-content-center align-items-center flex-column d-block d-lg-none">
+                                    <div class="swiper-wrapper">
+                                        @for($i = 0; $i <= $count; $i++)
+                                        <div class="swiper-slide">
+                                    <table class="pavilhao">
+                                        <thead class="text-center">
+                                            <th class="fw-lighter">Pavilhão B</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="d-flex flex-column">
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mt-4 mb-0">10h</p>
+                                                    <p class="font-19 mt-4 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
+                                                    <p class="font-19 mb-0">10h</p>
+                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                        </div>
+                                        @endfor
+                                    </div>
+                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right2 mt-0 pt-2 d-block d-lg-none" />
                                 </div>
                                 </div>
                             </div>
@@ -929,28 +1009,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center pt-5 mt-5 mb-5 pb-5">
-                    <a href="#" class="btn rounded text-white g-button">Reservar ingressos</a>
+                <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5 mb-5 pb-5">
+                    <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="pt-5 mt-5">
+<section class="local bg-light pt-3">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="row">
-                    <div class="col">
-                        <p class="font-13 brown-text mb-3">Como chegar:</p>
+                    <div class="col gx-0 mb-4">
+                        <p class="font-16 brown-text">Como chegar:</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex align-items-start mb-3">
-                        <div class="row">
+                        <div class="row localization">
                         <div class="col-12 col-lg-7 m-2">
-                        <p class="localization font-5 brown-text mb-3">Endereço</p>
+                        <p class="font-5 brown-text mb-3">Endereço</p>
                         <p class="lbrown" style="font-size:0.8em;">Av. Pedro Álvares Cabral - Vila Mariana,
                         São Paulo - SP, 04094-050</p>
                     </div>
@@ -959,48 +1039,51 @@
                 </div>
                 <div class="row">
                     <div class="col d-flex align-items-start mb-3">
-                        <div class="row">
+                        <div class="row metro">
                             <div class="col m-2">
-                                <p class="metro font-5 brown-text mb-3">Metrô</p>
-                                <p class="font-7 lbrown mb-0">175T/10 Metrô Santana – Metrô Jabaquara</p>
-                                <p class="font-7 lbrown mb-0">175T/10 Metrô Santana – Metrô Jabaquara</p>
-                                <p class="font-7 lbrown mb-0">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <p class="font-5 brown-text mb-3">Metrô</p>
+                                <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <p class="font-7 lbrown mb-2">175T/10 Metrô Santana – Metrô Jabaquara</p>
+                                <button class="btn btn-outline-success font-7">Ver mais linhas</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex align-items-start mb-3">
-                        <div class="row">
+                        <div class="row bus">
                             <div class="col m-2">
-                                <p class="bus font-5 brown-text mb-3">Ônibus</p>
-                                <p class="font-7 lbrown mb-0">5391/10 Jd. Ângela - Lgo. São Francisco</p>
-                                <p class="font-7 lbrown mb-0">5391/10 Jd. Ângela - Lgo. São Francisco</p>
-                                <p class="font-7 lbrown mb-0">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <p class="font-5 brown-text mb-3">Ônibus</p>
+                                <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <p class="font-7 lbrown mb-2">5391/10 Jd. Ângela - Lgo. São Francisco</p>
+                                <button class="btn btn-outline-success font-7">Ver mais linhas</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col d-flex align-items-start mb-3">
-                        <div class="row">
+                    <div class="col d-flex align-items-start mb-5">
+                        <div class="row park">
                             <div class="col m-2">
-                                <p class="park font-5 brown-text mb-3">Estacionamentos</p>
-                                <p class="font-7 lbrown mb-0">Maxipark Fleury Ibirapuera</p>
-                                <p class="font-7 lbrown mb-0">Maxipark Fleury Ibirapuera</p>
-                                <p class="font-7 lbrown mb-0">Maxipark Fleury Ibirapuera</p>
+                                <p class="font-5 brown-text mb-3">Estacionamentos</p>
+                                <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
+                                <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
+                                <p class="font-7 lbrown mb-2">Maxipark Fleury Ibirapuera</p>
+                                <button class="btn btn-outline-success font-7">Ver mais</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-none d-lg-block">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14410.81960021496!2d-49.29428415!3d-25.448127649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1628703997804!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14410.81960021496!2d-49.29428415!3d-25.448127649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1628703997804!5m2!1spt-BR!2sbr" width="800" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 d-block d-lg-none">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14411.592924522613!2d-49.2129343!3d-25.441665699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1628735329762!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14411.592924522613!2d-49.2129343!3d-25.441665699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1628735329762!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>

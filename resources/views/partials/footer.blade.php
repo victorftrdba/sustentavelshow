@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-2 d-flex justify-content-center text-center text-lg-left text-white">
+            <div class="col-6 col-lg-2 d-flex justify-content-center text-white">
                 <ul class="list-unstyled text-nowrap">
                     <li class="font-13 mb-0 mb-lg-5">Evento</li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Comprar ingressos</a></li>
@@ -58,7 +58,7 @@
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Como chegar</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-lg-2 d-flex justify-content-center text-center text-lg-left text-white">
+            <div class="col-6 col-lg-2 d-flex justify-content-center text-white">
                 <ul class="list-unstyled">
                     <li class="font-13 mb-0 mb-lg-5">Sobre nós</li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Sustentável Show</a></li>

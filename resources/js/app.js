@@ -43,19 +43,22 @@ var x = setInterval(function() {
     // Optional parameters
     direction: 'horizontal',
     parallax:true,
-    slidesPerView: 'auto',
+    slidesPerView: 3.5,
     spaceBetween:20,
     autoplay: true,
     simulateTouch:true,
     breakpoints: {
         300: {
             slidesPerView:1,
+            spaceBetween: 20
         },
         768: {
-            slidesPerView:2,
+          slidesPerView: 2,
+          spaceBetween: 20
         },
         1024: {
-            slidesPerView:3,
+          slidesPerView: 3,
+          spaceBetween: 30
         },
         1200: {
             slidesPerView:'auto',
@@ -102,13 +105,6 @@ var x = setInterval(function() {
             slidesPerView:4,
         }
     },
-    effect: "cube", // select effect cube
-     cube: {         // set the options
-         slideShadows: true,
-         shadow: true,
-         shadowOffset: 20,
-         shadowScale: 0.94
-    },
 
     // If we need pagination
     pagination: {
@@ -121,4 +117,15 @@ var x = setInterval(function() {
       nextEl: '.two-next',
       prevEl: '.two-prev',
     },
+  });
+
+    const swiper2 = new Swiper('.three', {
+    // Optional parameters
+    direction: 'horizontal',
+    parallax:true,
+    slidesPerView: 1,
+    spaceBetween:40,
+    centeredSlides:true,
+    autoplay: true,
+    simulateTouch:true,
   });
