@@ -1953,9 +1953,9 @@ var swiper2 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.three', {
   // Optional parameters
   direction: 'horizontal',
   parallax: true,
+  loop: true,
   slidesPerView: 1,
   spaceBetween: 40,
-  centeredSlides: true,
   autoplay: true,
   simulateTouch: true
 });

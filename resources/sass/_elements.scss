@@ -153,6 +153,10 @@ header {
     background-color: $dgreen;
 }
 
+.bg-dgreen {
+    background-color: $dgreen;
+}
+
 .g-button {
     background: $lgreen;
 }
@@ -185,13 +189,6 @@ header {
     align-items: center;
 }
 
-.turning .btn {
-    width: 200px;
-    border-radius: 12px;
-    height: 45px;
-    border-radius: 16px;
-}
-
 .programacao .btn {
     width: 200px;
     border-radius: 12px;
@@ -201,18 +198,6 @@ header {
 
 .oficinas .swiper-slide {
     width: 30%;
-}
-
-.integration-center .btn {
-    background: $brown;
-    width: 230px;
-    height: 50px;
-    font-size: 1.2em;
-    border-radius: 12px;
-}
-
-.integration-center {
-    position: relative;
 }
 
 .integration-center .slide1,
@@ -242,21 +227,6 @@ header {
     margin-top: -20px;
 }
 
-#divID {
-    display: none;
-}
-
-#divID1,
-#divID2,
-#divID4,
-#divID5 {
-    display: none;
-}
-
-.cartoes {
-    margin-top: -135px;
-}
-
 .swipe-right {
     margin-top: -80px;
     height: 32px;
@@ -270,45 +240,6 @@ header {
     right: -50%;
 }
 
-.cartao {
-    width: 350px;
-    height: 60px;
-    position: relative;
-    cursor: pointer;
-}
-
-.cartao-3 {
-    margin-top: -92px;
-    border-radius: 15px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: column;
-    background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    width: 425px;
-    cursor: pointer;
-}
-
-.cartao-3 {
-    position: relative;
-}
-
-.cartao-3:before {
-    content: '';
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    border-radius: 20px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
 .dias,
 .horas,
 .min,
@@ -319,18 +250,101 @@ header {
     font-weight: lighter;
 }
 
-.accordion-button:not(.collapsed) {
-    color: $brown;
-    box-shadow: 0px white !important;
+.turning .accordion-button:not(.collapsed) {
+    color: transparent;
+    box-shadow: 0px white;
     background-color: white;
     border: 0px solid white;
+    display:none;
+
+    .orange-border {
+        border: 0px solid white;
+    }
 }
 
-.accordion-button:focus {
-    border: 0px solid white !important;
-    box-shadow: 0px white !important;
+.integration-center {
+    position: relative;
+    .btn {
+        background: $brown;
+        width: 230px;
+        height: 50px;
+        font-size: 1.2em;
+        border-radius: 12px;
+    }
+
+    .accordion {
+        margin-top:-180px;
+    }
+
+    .accordion-body {
+        height:450px;
+        width:450px;
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
+        background-position:center;
+        background-size:cover;
+        position:relative;
+        border-radius:15px;
+
+        &:before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+            top: 0;
+            left: 0;
+            position: absolute;
+            border-radius: 15px;
+            z-index: 0;
+        }
+    }
+
+    .text-above {
+        z-index:3;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: $brown;
+        box-shadow: 0px white;
+        background-color: white;
+        border: 0px solid white;
+        display: none;
+    }
+    .accordion-item {
+        border: 0px solid $dgreen;
+        width:390px;
+        border-radius:15px;
+    }
+    .accordion-button:focus {
+        border-color: white;
+        box-shadow: 0 0 0 0rem;
+    }
+    .accordion-button:after {
+        display:none;
+    }
 }
 
+.turning .accordion-button:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0rem;
+}
+
+.programacao {
+    .accordion-button:not(.collapsed) {
+        color: $brown;
+        box-shadow: 0px white;
+        background-color: white;
+        border: 0px solid white;
+    }
+    .accordion-button:focus {
+        border-color: white;
+        box-shadow: 0 0 0 0rem;
+    }
+}
 
 .data1 {
     border-top-left-radius: 20px;
@@ -533,9 +547,13 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 410px;
+    margin-top: 320px;
     margin-left: 30px;
     z-index: 9;
+}
+
+.sustainablewear .g-button {
+    border-radius:15px;
 }
 
 .calendar-border {
@@ -555,6 +573,13 @@ header {
         height: 250px;
         z-index: -1;
         margin-top: 260px;
+    }
+
+    .btn {
+        width: 200px;
+        border-radius: 12px;
+        height: 45px;
+        border-radius: 16px;
     }
 }
 
@@ -747,12 +772,13 @@ header {
 }
 
 .accordion-button:after {
-    background-image: url("../../public/images/icons/seta-marrom.svg") !important;
+    background-image: url("../../public/images/icons/seta-marrom.svg");
     background-size: 0.75rem !important;
     transform: rotate(-90deg);
 }
 
 .accordion-button:not(.collapsed)::after {
+    background-image: url("../../public/images/icons/seta-marrom.svg");
     transform: rotate(-270deg) !important;
 }
 
@@ -776,17 +802,27 @@ header {
         overflow-x: hidden;
     }
 
+    .integration-center {
+        .accordion {
+            margin-top:0;
+        }
+
+        .accordion-item {
+            width:90%;
+        }
+
+        .accordion-body {
+            height:450px;
+            width:100%;
+        }
+    }
+
     header {
         font-size: 0.8em;
     }
 
     .hero-image {
         height: 500px;
-    }
-
-    .cartoes {
-        margin-top: -15px;
-        padding-top: 80px;
     }
 
     .vertical {
@@ -802,21 +838,24 @@ header {
         display: none;
     }
 
-    .turning .accordion-header {
+    .turning {
+         .accordion-header {
         font-size: $size5;
+         }
+
+        .accordion-body {
+            font-size: $size7;
+        }
     }
 
-    .turning .accordion-body {
-        font-size: $size7;
-    }
-
-    .programacao .accordion-header {
+    .programacao {
+        .accordion-header {
         font-size: $size12;
     }
-
-    .programacao .accordion-body {
+    .accordion-body {
         font-size: $size7;
     }
+}
 
     .font-19 {
         font-size: $size19;
@@ -862,14 +901,6 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-    .cartao {
-        width: 90vw;
-    }
-
-    .cartao-3 {
-        width: 90vw;
-    }
-
     .one {
         width: 90vw;
         height: 100%;

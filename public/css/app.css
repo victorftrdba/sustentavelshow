@@ -152,6 +152,10 @@ header {
   background-color: #879836;
 }
 
+.bg-dgreen {
+  background-color: #879836;
+}
+
 .g-button {
   background: #a5bc39;
 }
@@ -184,13 +188,6 @@ header {
   align-items: center;
 }
 
-.turning .btn {
-  width: 200px;
-  border-radius: 12px;
-  height: 45px;
-  border-radius: 16px;
-}
-
 .programacao .btn {
   width: 200px;
   border-radius: 12px;
@@ -200,18 +197,6 @@ header {
 
 .oficinas .swiper-slide {
   width: 30%;
-}
-
-.integration-center .btn {
-  background: #603913;
-  width: 230px;
-  height: 50px;
-  font-size: 1.2em;
-  border-radius: 12px;
-}
-
-.integration-center {
-  position: relative;
 }
 
 .integration-center .slide1,
@@ -241,21 +226,6 @@ header {
   margin-top: -20px;
 }
 
-#divID {
-  display: none;
-}
-
-#divID1,
-#divID2,
-#divID4,
-#divID5 {
-  display: none;
-}
-
-.cartoes {
-  margin-top: -135px;
-}
-
 .swipe-right {
   margin-top: -80px;
   height: 32px;
@@ -269,45 +239,6 @@ header {
   right: -50%;
 }
 
-.cartao {
-  width: 350px;
-  height: 60px;
-  position: relative;
-  cursor: pointer;
-}
-
-.cartao-3 {
-  margin-top: -92px;
-  border-radius: 15px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  justify-content: flex-end;
-  flex-direction: column;
-  background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
-  background-size: cover;
-  background-position: center;
-  height: 450px;
-  width: 425px;
-  cursor: pointer;
-}
-
-.cartao-3 {
-  position: relative;
-}
-
-.cartao-3:before {
-  content: "";
-  background-color: black;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  border-radius: 20px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 .dias,
 .horas,
 .min,
@@ -318,16 +249,92 @@ header {
   font-weight: lighter;
 }
 
-.accordion-button:not(.collapsed) {
-  color: #603913;
-  box-shadow: 0px white !important;
+.turning .accordion-button:not(.collapsed) {
+  color: transparent;
+  box-shadow: 0px white;
   background-color: white;
+  border: 0px solid white;
+  display: none;
+}
+.turning .accordion-button:not(.collapsed) .orange-border {
   border: 0px solid white;
 }
 
-.accordion-button:focus {
-  border: 0px solid white !important;
-  box-shadow: 0px white !important;
+.integration-center {
+  position: relative;
+}
+.integration-center .btn {
+  background: #603913;
+  width: 230px;
+  height: 50px;
+  font-size: 1.2em;
+  border-radius: 12px;
+}
+.integration-center .accordion {
+  margin-top: -180px;
+}
+.integration-center .accordion-body {
+  height: 450px;
+  width: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(/images/foto-centro-negocios.jpg?00284fbd85f399418b0f3b5b7de46549);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+}
+.integration-center .accordion-body:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%);
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 15px;
+  z-index: 0;
+}
+.integration-center .text-above {
+  z-index: 3;
+}
+.integration-center .accordion-button:not(.collapsed) {
+  color: #603913;
+  box-shadow: 0px white;
+  background-color: white;
+  border: 0px solid white;
+  display: none;
+}
+.integration-center .accordion-item {
+  border: 0px solid #879836;
+  width: 390px;
+  border-radius: 15px;
+}
+.integration-center .accordion-button:focus {
+  border-color: white;
+  box-shadow: 0 0 0 0rem;
+}
+.integration-center .accordion-button:after {
+  display: none;
+}
+
+.turning .accordion-button:focus {
+  border-color: white;
+  box-shadow: 0 0 0 0rem;
+}
+
+.programacao .accordion-button:not(.collapsed) {
+  color: #603913;
+  box-shadow: 0px white;
+  background-color: white;
+  border: 0px solid white;
+}
+.programacao .accordion-button:focus {
+  border-color: white;
+  box-shadow: 0 0 0 0rem;
 }
 
 .data1 {
@@ -525,9 +532,13 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 410px;
+  margin-top: 320px;
   margin-left: 30px;
   z-index: 9;
+}
+
+.sustainablewear .g-button {
+  border-radius: 15px;
 }
 
 .calendar-border {
@@ -547,6 +558,12 @@ header {
   height: 250px;
   z-index: -1;
   margin-top: 260px;
+}
+.turning .btn {
+  width: 200px;
+  border-radius: 12px;
+  height: 45px;
+  border-radius: 16px;
 }
 
 .programacao {
@@ -730,12 +747,13 @@ header {
 }
 
 .accordion-button:after {
-  background-image: url(/images/seta-marrom.svg?6e1338559a2104c6783dfda9408bdb88) !important;
+  background-image: url(/images/seta-marrom.svg?6e1338559a2104c6783dfda9408bdb88);
   background-size: 0.75rem !important;
   transform: rotate(-90deg);
 }
 
 .accordion-button:not(.collapsed)::after {
+  background-image: url(/images/seta-marrom.svg?6e1338559a2104c6783dfda9408bdb88);
   transform: rotate(-270deg) !important;
 }
 
@@ -758,17 +776,23 @@ header {
     overflow-x: hidden;
   }
 
+  .integration-center .accordion {
+    margin-top: 0;
+  }
+  .integration-center .accordion-item {
+    width: 90%;
+  }
+  .integration-center .accordion-body {
+    height: 450px;
+    width: 100%;
+  }
+
   header {
     font-size: 0.8em;
   }
 
   .hero-image {
     height: 500px;
-  }
-
-  .cartoes {
-    margin-top: -15px;
-    padding-top: 80px;
   }
 
   .vertical {
@@ -787,7 +811,6 @@ header {
   .turning .accordion-header {
     font-size: 1.2em;
   }
-
   .turning .accordion-body {
     font-size: 0.8em;
   }
@@ -795,7 +818,6 @@ header {
   .programacao .accordion-header {
     font-size: 1.4em;
   }
-
   .programacao .accordion-body {
     font-size: 0.8em;
   }
@@ -842,14 +864,6 @@ header {
   }
 }
 @media only screen and (max-width: 768px) {
-  .cartao {
-    width: 90vw;
-  }
-
-  .cartao-3 {
-    width: 90vw;
-  }
-
   .one {
     width: 90vw;
     height: 100%;

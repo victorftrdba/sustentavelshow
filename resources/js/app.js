@@ -123,9 +123,9 @@ var x = setInterval(function() {
     // Optional parameters
     direction: 'horizontal',
     parallax:true,
+    loop:true,
     slidesPerView: 1,
     spaceBetween:40,
-    centeredSlides:true,
     autoplay: true,
     simulateTouch:true,
   });

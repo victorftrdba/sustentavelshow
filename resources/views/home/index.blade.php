@@ -234,7 +234,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-center pb-5">
-        <div class="col-10 col-lg-10 d-block d-lg-flex">
+        <div class="col-12 col-lg-10 d-block d-lg-flex">
             <div class="row flex-column text-white">
                 <div class="col-12 col-lg-8 mb-3 mt-4">
                     <p class="font-15 lineheight-3">Mão na massa</p>
@@ -260,76 +260,119 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 pt-lg-0 cartoes d-flex justify-content-center align-items-center align-items-lg-start flex-column text-white pb-5">
-
-                    <a class="dgreen-btn font-13 cartao rounded-0 mb-4 text-reset text-decoration-none p-3"
-                    onclick="toggle('divID1')" id="cartao">Espaço Paz</a>
-                    <div id="divID1" onclick="toggle('divID1')">
-                        <div class="cartao-3 mb-3 p-4">
-                            <p class="font-21 mb-0" style="z-index:3;">Espaço Paz</p>
-                            <p class="font-7 lineheight-4" style="z-index:3;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                Sed lacinia risus ut malesuada lobortis.
-                                Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            </p>
+                <div class="col-12 d-flex justify-content-center align-items-center flex-column pt-5 pb-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-4">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Espaço Paz
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white">
+                            <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Espaço Paz
+                                </p>
+                                <p class="font-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                    Sed lacinia risus ut malesuada lobortis.
+                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                </p>
+                            </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-
-                    <a class="dgreen-btn font-13 cartao rounded-0 mb-4 text-reset text-decoration-none p-3"
-                    onclick="toggle('divID2')" id="cartao">Colabora</a>
-                    <div id="divID2">
-                        <div class="cartao-3 mb-3 p-4" onclick="toggle('divID2')">
-                            <p class="font-21 mb-0" style="z-index:3;">Colabora</p>
-                            <p class="font-7 lineheight-4" style="z-index:3;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                Sed lacinia risus ut malesuada lobortis.
-                                Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            </p>
+                        <div class="accordion-item mb-4">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Colabora
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white">
+                                <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Colabora
+                                </p>
+                                <p class="font-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                    Sed lacinia risus ut malesuada lobortis.
+                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                </p>
+                                </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-
-                    <a class="dgreen-btn font-13 cartao rounded-0 mb-4 text-reset text-decoration-none p-3"
-                    onclick="toggle('divID3')" id="cartao">Centro de Negócios</a>
-                    <div id="divID3">
-                        <div class="cartao-3 mb-3 p-4" onclick="toggle('divID3')">
-                            <p class="font-21 mb-0" style="z-index:3;">Centro de Negócios</p>
-                            <p class="font-7 lineheight-4" style="z-index:3;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                Sed lacinia risus ut malesuada lobortis.
-                                Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            </p>
+                        <div class="accordion-item mb-4">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Centro de Negócios
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white">
+                                <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Centro de Negócios
+                                </p>
+                                <p class="font-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                    Sed lacinia risus ut malesuada lobortis.
+                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                </p>
+                                </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-
-                    <a class="dgreen-btn font-13 cartao rounded-0 mb-4 text-reset text-decoration-none p-3"
-                    onclick="toggle('divID4')" id="cartao">Espaço Infância</a>
-                    <div id="divID4">
-                        <div class="cartao-3 mb-3 p-4" onclick="toggle('divID4')">
-                            <p class="font-21 mb-0" style="z-index:3;">Espaço Infância</p>
-                            <p class="font-7 lineheight-4" style="z-index:3;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                Sed lacinia risus ut malesuada lobortis.
-                                Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            </p>
-                        </div>
-                    </div>
-
-                    <a class="dgreen-btn font-13 cartao rounded-0 mb-4 text-reset text-decoration-none p-3"
-                    onclick="toggle('divID5')" id="cartao">Espaço Painel</a>
-                    <div id="divID5">
-                        <div class="cartao-3 mb-3 p-4" onclick="toggle('divID5')">
-                            <p class="font-21 mb-0" style="z-index:3;">Espaço Painel</p>
-                            <p class="font-7 lineheight-4" style="z-index:3;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                Sed lacinia risus ut malesuada lobortis.
-                                Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            </p>
-                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Espaço Infância
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body text-white">
+                                <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Espaço Infância
+                                </p>
+                                <p class="font-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                    Sed lacinia risus ut malesuada lobortis.
+                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="headingFive">
+                              <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Espaço Painel
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                              <div class="accordion-body text-white">
+                                <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Espaço Painel
+                                </p>
+                                <p class="font-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                    Sed lacinia risus ut malesuada lobortis.
+                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -404,7 +447,7 @@
 </div>
 </section>
 
-<section class="pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
+<section class="sustainablewear pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
     <div class="container">
         <div class="row text-white justify-content-center pt-5 mt-5">
             <div class="col-10 d-flex justify-content-center">
@@ -439,7 +482,7 @@
                         </p>
                     </div>
                     <div class="col-10 col-lg-3 d-flex justify-content-start flex-column pb-3">
-                        <a href="#" class="btn rounded p-2 text-white g-button">Reserve sua cadeira</a>
+                        <a href="#" class="btn p-2 text-white g-button">Reserve sua cadeira</a>
                     </div>
                 </div>
             </div>
@@ -515,9 +558,9 @@
                                     </div>
                                     </button>
                                     </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body d-block text-center text-lg-start d-lg-flex">
-                                        <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid" />
+                                        <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid mb-3" />
                                         <div class="d-flex flex-column mt-2">
                                         <h3 class="ms-lg-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
                                         <p class="ms-lg-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
@@ -903,9 +946,6 @@
                                     </table>
                                     </div>
                                     @endfor
-                                </div>
-                            </div>
-                        </div>
 
                                     <div class="three d-flex justify-content-center align-items-center flex-column d-block d-lg-none">
                                     <div class="swiper-wrapper">
@@ -986,6 +1026,7 @@
                                     <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right2 mt-0 pt-2 d-block d-lg-none" />
                                 </div>
                                 </div>
+                        </div>
                             </div>
                             <div class="accordion-item orange-border-bottom">
                                 <h2 class="accordion-header pt-3 pb-3" id="flush-headingSix">
@@ -1100,19 +1141,6 @@ function openEvent(eventName) {
         x[i].style.display = "none";
     }
     document.getElementById(eventName).style.display = "block";
-}
-
-function toggle(id){
-    let element = document.getElementById(id);
-    let element2 = document.getElementById('cartao')
-    if(element.style.display === "block"){
-        element.style.display = "none";
-        element2.style.display = "block";
-
-    }else{
-        element.style.display = "block";
-        element2.style.display = "none";
-    }
 }
 </script>
 @endsection
