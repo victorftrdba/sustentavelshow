@@ -557,7 +557,6 @@ header {
   width: 250px;
   height: 250px;
   z-index: -1;
-  margin-top: 260px;
 }
 .turning .btn {
   width: 200px;
@@ -780,7 +779,7 @@ header {
     margin-top: 0;
   }
   .integration-center .accordion-item {
-    width: 90%;
+    width: 100%;
   }
   .integration-center .accordion-body {
     height: 450px;

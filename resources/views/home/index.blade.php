@@ -234,7 +234,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-center pb-5">
-        <div class="col-12 col-lg-10 d-block d-lg-flex">
+        <div class="col-10 col-lg-10 d-block d-lg-flex">
             <div class="row flex-column text-white">
                 <div class="col-12 col-lg-8 mb-3 mt-4">
                     <p class="font-15 lineheight-3">Mão na massa</p>
@@ -1063,8 +1063,8 @@
 
 <section class="local bg-light pt-3">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
+        <div class="row justify-content-center">
+            <div class="col-10 col-lg-6">
                 <div class="row">
                     <div class="col gx-0 mb-4">
                         <p class="font-16 brown-text">Como chegar:</p>
@@ -1107,7 +1107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col d-flex align-items-start mb-5">
                         <div class="row park">
                             <div class="col m-2">
