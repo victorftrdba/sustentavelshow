@@ -6,7 +6,7 @@
                   </div>
                   <div class="col-11 d-flex justify-content-end">
                     <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
-                      <ul class="navbar-nav menu-desktop" style="font-size:1em">
+                      <ul class="navbar-nav menu-desktop" style="font-size:0.9em">
                         <li class="nav-item">
                           <a class="nav-link p-2 me-1" aria-current="page" href="#"><span class="brown-text">Palestrantes</span></a>
                         </li>

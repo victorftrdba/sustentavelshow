@@ -392,7 +392,8 @@
         <div class="col position-relative mb-5 d-flex justify-content-center align-items-center">
             <div class="two d-flex justify-content-center align-items-center">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
+                    {{-- DESKTOP --}}
+                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -402,7 +403,19 @@
                                 Sed lacinia risus ut malesuada lobortis. </p>
                         </div>
                     </div>
-                    <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
+                    {{-- MOBILE --}}
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none align-items-center justify-content-center flex-column">
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
+                        <div class="enterprise-content-mobile mb-5 p-3">
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
+                            <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
+                            <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                Sed lacinia risus ut malesuada lobortis. </p>
+                        </div>
+                    </div>
+                    {{-- DESKTOP --}}
+                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -412,7 +425,19 @@
                                 Sed lacinia risus ut malesuada lobortis. </p>
                         </div>
                     </div>
-                    <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
+                    {{-- MOBILE --}}
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none justify-content-center flex-column">
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
+                        <div class="enterprise-content-mobile mb-5 p-3">
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
+                            <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
+                            <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                Sed lacinia risus ut malesuada lobortis. </p>
+                        </div>
+                    </div>
+                    {{-- DESKTOP --}}
+                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -422,9 +447,32 @@
                                 Sed lacinia risus ut malesuada lobortis. </p>
                         </div>
                     </div>
-                    <div class="swiper-slide enterprise-card d-flex justify-content-center flex-column">
+                    {{-- MOBILE --}}
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none d-lg-none justify-content-center flex-column">
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
+                        <div class="enterprise-content-mobile mb-5 p-3">
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
+                            <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
+                            <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                Sed lacinia risus ut malesuada lobortis. </p>
+                        </div>
+                    </div>
+                    {{-- DESKTOP --}}
+                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
+                            <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
+                            <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
+                            <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
+                                Sed lacinia risus ut malesuada lobortis. </p>
+                        </div>
+                    </div>
+                    {{-- MOBILE --}}
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none justify-content-center flex-column">
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
+                        <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
                             <p class="font-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -528,11 +576,7 @@
 
 <section class="turning container-fluid">
     <div class="container pb-5">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <div class="row justify-content-center align-items-center mb-5">
-                <div class="col-12 shadow info-dates">
-                    <div class="row justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center info-dates">
                         <div class="col-3 gx-0">
                             <p class="data1 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px">15/09</p>
                         </div>
@@ -558,8 +602,8 @@
                                     </div>
                                     </button>
                                     </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body d-block text-center text-lg-start d-lg-flex">
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body position-relative d-block text-center text-lg-start d-lg-flex">
                                         <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid mb-3" />
                                         <div class="d-flex flex-column mt-2">
                                         <h3 class="ms-lg-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
@@ -827,9 +871,6 @@
                         <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5">
                             <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
                         </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -837,14 +878,9 @@
 <section class="programacao bg-light pt-5">
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="row">
                     <div class="col">
                         <p class="font-13 brown-text mb-5">Programação completa</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-12">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-3 gx-0">
                         <p class="data5 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-left-radius:15px;">15/09</p>
@@ -869,7 +905,7 @@
                                 </button>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse show" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body p-5 text-white d-flex justify-content-between">
+                                <div class="accordion-body p-lg-5 text-white d-flex justify-content-lg-between">
                                     @php
                                     $count = 3;
                                     @endphp
@@ -1049,7 +1085,6 @@
                                 </div>
                             </div>
                             </div>
-                    </div>
                 </div>
             </div>
             <div class="row">
@@ -1070,54 +1105,38 @@
                         <p class="font-16 brown-text">Como chegar:</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col d-flex align-items-start mb-3">
                         <div class="row localization">
                         <div class="col-12 col-lg-7 m-2">
                         <p class="font-5 brown-text mb-3">Endereço</p>
                         <p class="lbrown" style="font-size:0.8em;">Av. Pedro Álvares Cabral - Vila Mariana,
                         São Paulo - SP, 04094-050</p>
                     </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="col d-flex align-items-start mb-3">
-                        <div class="row metro">
+                        <div class="row metro mb-3">
                             <div class="col m-2">
                                 <p class="font-5 brown-text mb-3">Metrô</p>
                                 <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
                                 <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
                                 <p class="font-7 lbrown mb-2">175T/10 Metrô Santana – Metrô Jabaquara</p>
                                 <button class="btn btn-outline-success font-7">Ver mais linhas</button>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col d-flex align-items-start mb-3">
-                        <div class="row bus">
+                        <div class="row bus mb-3">
                             <div class="col m-2">
                                 <p class="font-5 brown-text mb-3">Ônibus</p>
                                 <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
                                 <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
                                 <p class="font-7 lbrown mb-2">5391/10 Jd. Ângela - Lgo. São Francisco</p>
                                 <button class="btn btn-outline-success font-7">Ver mais linhas</button>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col d-flex align-items-start mb-5">
-                        <div class="row park">
+                        <div class="row park mb-5">
                             <div class="col m-2">
                                 <p class="font-5 brown-text mb-3">Estacionamentos</p>
                                 <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
                                 <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
                                 <p class="font-7 lbrown mb-2">Maxipark Fleury Ibirapuera</p>
                                 <button class="btn btn-outline-success font-7">Ver mais</button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

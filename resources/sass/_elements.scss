@@ -545,10 +545,8 @@ header {
 
 .calendar-turning {
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 320px;
-    margin-left: 30px;
+    top: 30px;
+    left: 35px;
     z-index: 9;
 }
 
@@ -683,6 +681,35 @@ header {
     }
 }
 
+.enterprise-card-mobile {
+    height: 430px;
+    transition: all 400ms;
+    display: flex;
+    border-radius: $rounded-border;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+
+    img {
+        margin-top: 50px;
+    }
+
+    .enterprise-content-mobile {
+        opacity: 1;
+        color: $gray;
+        visibility: visible;
+        display: flex;
+        height: 250px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+}
+
 .accordion-prog {
     background-color: #eee;
     color: #444;
@@ -801,6 +828,10 @@ header {
         overflow-x: hidden;
     }
 
+    .pavilhao {
+        margin-top: 0;
+    }
+
     .integration-center {
         .accordion {
             margin-top:0;
@@ -814,6 +845,10 @@ header {
             height:450px;
             width:100%;
         }
+    }
+
+    .info-dates {
+        margin-top:-750px;
     }
 
     header {
@@ -882,7 +917,8 @@ header {
     .data2,
     .data3,
     .data4 {
-        font-size: $size4;
+        font-size: $size18;
+        height:175px !important;
     }
 
     .data5,
@@ -897,9 +933,17 @@ header {
     header {
         font-size: 0.8em;
     }
+
+    .info-dates {
+        margin-top:-500px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    .info-dates {
+        margin-top:-610px;
+    }
+
     .one {
         width: 90vw;
         height: 100%;

@@ -33,10 +33,10 @@ var x = setInterval(function() {
 }, 0);
 
   // core version + navigation, pagination modules:
-  import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+  import SwiperCore, { Navigation, Pagination, Swiper, EffectCoverflow } from 'swiper/core';
 
   // configure Swiper to use modules
-  SwiperCore.use([Navigation, Pagination]);
+  SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 
   // init Swiper:
   const swiper = new Swiper('.one', {
@@ -86,17 +86,19 @@ var x = setInterval(function() {
   const swiper1 = new Swiper('.two', {
     // Optional parameters
     direction: 'horizontal',
-    parallax:true,
     slidesPerView: 4,
     spaceBetween:10,
     autoplay: true,
+    initialSlide: 1,
     simulateTouch:true,
     breakpoints: {
         300: {
             slidesPerView:1,
+            spaceBetween:30,
         },
         768: {
             slidesPerView:2,
+            spaceBetween:30,
         },
         1024: {
             slidesPerView:3,
