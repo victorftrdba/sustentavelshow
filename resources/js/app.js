@@ -45,6 +45,8 @@ var x = setInterval(function() {
     parallax:true,
     slidesPerView: 3.5,
     spaceBetween:20,
+    centeredSlides: true,
+    initialSlide: 1,
     autoplay: true,
     simulateTouch:true,
     breakpoints: {
@@ -89,7 +91,6 @@ var x = setInterval(function() {
     slidesPerView: 4,
     spaceBetween:10,
     autoplay: true,
-    initialSlide: 1,
     simulateTouch:true,
     breakpoints: {
         300: {
@@ -102,6 +103,7 @@ var x = setInterval(function() {
         },
         1024: {
             slidesPerView:3,
+            spaceBetween:30,
         },
         1200: {
             slidesPerView:4,
@@ -121,13 +123,18 @@ var x = setInterval(function() {
     },
   });
 
-    const swiper2 = new Swiper('.three', {
+  const swiper2 = new Swiper('.three', {
     // Optional parameters
     direction: 'horizontal',
-    parallax:true,
-    loop:true,
     slidesPerView: 1,
-    spaceBetween:40,
     autoplay: true,
     simulateTouch:true,
-  });
+    spaceBetween: 60,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+});
+

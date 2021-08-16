@@ -363,6 +363,13 @@ header {
   transform-origin: left;
 }
 
+.data-ativo {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+  transform-origin: left;
+}
+
 .data4 {
   border-top-right-radius: 20px;
   border-left: 4px solid #f9a022;
@@ -406,6 +413,27 @@ header {
   color: white;
 }
 
+.data5:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+  transform-origin: left;
+}
+
+.data8:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+  transform-origin: right;
+}
+
+.data6:hover,
+.data7:hover {
+  background-color: orange;
+  color: white;
+  transform: scaleX(1.07);
+}
+
 .info-dates {
   position: relative;
   margin-top: -640px;
@@ -418,6 +446,11 @@ header {
 
 .one {
   width: 100vw;
+  height: 100%;
+}
+
+.three {
+  width: 80vw;
   height: 100%;
 }
 
@@ -550,8 +583,8 @@ header {
 .turning:after {
   content: url(/images/pontinhos.svg?e80846a9ae457c951a5a5209a1016597);
   position: absolute;
-  top: 0;
-  right: 20px;
+  bottom: 5px;
+  right: 0;
   width: 250px;
   height: 250px;
   z-index: -1;
@@ -701,7 +734,7 @@ header {
 
 .bus {
   position: relative;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .bus:before {
   content: url(/images/onibus.svg?7e89447e41d3326403ad7e4a8aaa0e26);
@@ -716,7 +749,7 @@ header {
 
 .metro {
   position: relative;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .metro:before {
   content: url(/images/metro.svg?e0f77d29ea53350a613854010ec3b7eb);
@@ -731,7 +764,7 @@ header {
 
 .localization {
   position: relative;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .localization:before {
   content: url(/images/endereco.svg?b9f6079b290a55735e20c385294470fc);
@@ -746,7 +779,7 @@ header {
 
 .park {
   position: relative;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .park:before {
   content: url(/images/estacionamento.svg?684a793aeb2113b54ceb43e31bfb474f);
@@ -758,16 +791,14 @@ header {
   left: -20px;
 }
 
-.pavilhao {
-  height: 350px;
+.table-pavilion {
+  width: 31%;
+  height: 100%;
   background-color: #f9a022;
-  width: 300px;
-  border: 1px solid #f9a022;
-  margin-top: -50px;
 }
 
-.pavilion-item {
-  border-bottom: 1px solid white;
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #f9a022 !important;
 }
 
 .accordion-button:after {
@@ -795,15 +826,20 @@ header {
   background-color: transparent !important;
 }
 
-@media only screen and (max-width: 1023px) {
-  html {
-    overflow-x: hidden;
+@media only screen and (min-width: 1001px) and (max-width: 1199px) {
+  header {
+    font-size: 0.8em;
   }
 
-  .pavilhao {
-    margin-top: 0;
+  .info-dates {
+    margin-top: -550px !important;
   }
 
+  .oficinas .swiper-slide {
+    width: 30% !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
   .integration-center .accordion {
     margin-top: 0;
   }
@@ -816,7 +852,7 @@ header {
   }
 
   .info-dates {
-    margin-top: -750px;
+    margin-top: -650px;
   }
 
   header {
@@ -825,6 +861,18 @@ header {
 
   .hero-image {
     height: 500px;
+  }
+
+  .hero .btn,
+.tourism .btn,
+.oficinas .btn,
+.sustainablewear .g-button,
+.turning .btn,
+.integration-center .btn,
+.programacao .btn {
+    font-size: 0.8em;
+    width: 205px;
+    height: 35px;
   }
 
   .vertical {
@@ -880,29 +928,23 @@ header {
 .data2,
 .data3,
 .data4 {
-    font-size: 1.7em;
-    height: 175px !important;
+    font-size: 1.4em;
+    height: 60px !important;
   }
 
   .data5,
 .data6,
 .data7,
 .data8 {
-    font-size: 1.8em;
+    font-size: 1.4em;
+    height: 80px !important;
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  header {
-    font-size: 0.8em;
-  }
-
-  .info-dates {
-    margin-top: -500px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .info-dates {
-    margin-top: -610px;
+@media only screen and (max-width: 750px) {
+  .table-pavilion {
+    width: 100%;
+    height: 100%;
+    background-color: #f9a022;
   }
 
   .one {
@@ -914,10 +956,37 @@ header {
     width: 90vw;
     height: 100%;
   }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .info-dates {
+    margin-top: -750px;
+  }
 
-  .three {
-    width: 120vw;
-    height: 100%;
+  .data1,
+.data2,
+.data3,
+.data4 {
+    height: 180px !important;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 499px) {
+  .data1,
+.data2,
+.data3,
+.data4 {
+    height: 140px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .info-dates {
+    margin-top: -600px;
+  }
+
+  .data1,
+.data2,
+.data3,
+.data4 {
+    height: 120px !important;
   }
 }
 

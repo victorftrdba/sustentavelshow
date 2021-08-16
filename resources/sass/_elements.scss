@@ -372,6 +372,13 @@ header {
     transform-origin: left;
 }
 
+.data-ativo {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin: left;
+}
+
 .data4 {
     border-top-right-radius: 20px;
     border-left: 4px solid $orange;
@@ -415,6 +422,27 @@ header {
     color: $white;
 }
 
+.data5:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin: left;
+}
+
+.data8:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+    transform-origin: right;
+}
+
+.data6:hover,
+.data7:hover {
+    background-color: orange;
+    color: white;
+    transform: scaleX(1.07);
+}
+
 .info-dates {
     position: relative;
     margin-top: -640px;
@@ -430,8 +458,13 @@ header {
     height: 100%;
 }
 
+.three {
+    width: 80vw;
+    height: 100%;
+}
+
 .one .swiper-slide {
-    width: 27%
+    width: 27%;
 }
 
 .two {
@@ -565,8 +598,8 @@ header {
     &:after {
         content: url('../../public/images/backgrounds/pontinhos.svg');
         position: absolute;
-        top: 0;
-        right: 20px;
+        bottom:5px;
+        right: 0;
         width: 250px;
         height: 250px;
         z-index: -1;
@@ -724,7 +757,7 @@ header {
 
 .bus {
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
 
     &:before {
         content: url('../../public/images/icons/onibus.svg');
@@ -740,7 +773,7 @@ header {
 
 .metro {
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
 
     &:before {
         content: url('../../public/images/icons/metro.svg');
@@ -756,7 +789,7 @@ header {
 
 .localization {
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
 
     &:before {
         content: url('../../public/images/icons/endereco.svg');
@@ -772,7 +805,7 @@ header {
 
 .park {
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
 
     &:before {
         content: url('../../public/images/icons/estacionamento.svg');
@@ -785,16 +818,14 @@ header {
     }
 }
 
-.pavilhao {
-    height: 350px;
+.table-pavilion {
+    width:31%;
+    height:100%;
     background-color: $orange;
-    width: 300px;
-    border: 1px solid $orange;
-    margin-top: -50px;
 }
 
-.pavilion-item {
-    border-bottom: 1px solid $white;
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: $orange !important;
 }
 
 .accordion-button:after {
@@ -823,15 +854,20 @@ header {
     }
 }
 
-@media only screen and (max-width:1023px) {
-    html {
-        overflow-x: hidden;
+@media only screen and (min-width:1001px) and (max-width: 1199px) {
+    header {
+        font-size: 0.8em;
+    }
+    .info-dates {
+        margin-top:-550px !important;
     }
 
-    .pavilhao {
-        margin-top: 0;
+    .oficinas .swiper-slide {
+        width: 30% !important;
     }
+}
 
+@media only screen and (max-width:1000px) {
     .integration-center {
         .accordion {
             margin-top:0;
@@ -848,7 +884,7 @@ header {
     }
 
     .info-dates {
-        margin-top:-750px;
+        margin-top:-650px;
     }
 
     header {
@@ -857,6 +893,18 @@ header {
 
     .hero-image {
         height: 500px;
+    }
+
+    .hero .btn,
+    .tourism .btn,
+    .oficinas .btn,
+    .sustainablewear .g-button,
+    .turning .btn,
+    .integration-center .btn,
+    .programacao .btn {
+        font-size: $size7;
+        width:205px;
+        height:35px;
     }
 
     .vertical {
@@ -917,31 +965,24 @@ header {
     .data2,
     .data3,
     .data4 {
-        font-size: $size18;
-        height:175px !important;
+        font-size: $size12;
+        height:60px !important;
     }
 
     .data5,
     .data6,
     .data7,
     .data8 {
-        font-size: $size4;
+        font-size: $size12;
+        height:80px !important;
     }
 }
 
-@media only screen and (min-width:1024px) and (max-width: 1200px) {
-    header {
-        font-size: 0.8em;
-    }
-
-    .info-dates {
-        margin-top:-500px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .info-dates {
-        margin-top:-610px;
+@media only screen and (max-width: 750px) {
+    .table-pavilion {
+        width:100%;
+        height:100%;
+        background-color: $orange;
     }
 
     .one {
@@ -953,9 +994,40 @@ header {
         width: 90vw;
         height: 100%;
     }
+}
 
-    .three {
-        width: 120vw;
-        height: 100%;
+@media only screen and (min-width:500px) and (max-width: 1000px) {
+    .info-dates {
+        margin-top: -750px;
+    }
+
+    .data1,
+    .data2,
+    .data3,
+    .data4 {
+        height:180px !important;
     }
 }
+
+@media only screen and (min-width:401px) and (max-width: 499px) {
+    .data1,
+    .data2,
+    .data3,
+    .data4 {
+        height:140px !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .info-dates {
+        margin-top:-600px;
+    }
+
+    .data1,
+    .data2,
+    .data3,
+    .data4 {
+        height:120px !important;
+    }
+}
+

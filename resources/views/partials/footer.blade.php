@@ -5,7 +5,7 @@
             <div class="col-12 col-lg-8">
                 <div class="row">
                     <div class="col-12 col-lg-6 mb-5 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center justify-content-lg-start">
-                    <a href="#" class="gy-0">@include('layout.svg.footer')</a>
+                    <a href="#">@include('layout.svg.footer')</a>
                     <ul class="d-flex list-unstyled justify-content-center justify-content-lg-start">
                         <li>
                         <a class="nav-link faceboo p-2" target="_blank" href="https://www.facebook.com/epsengenhariaprojetoseservicos" title="Facebook">
@@ -31,26 +31,26 @@
                     </ul>
                     </div>
                 </div>
-                <div class="row text-white">
-                    <div class="col-12 col-lg-8 d-flex justify-content-center justify-content-lg-start font-21">
+                <div class="row justify-content-center justify-content-lg-start text-white">
+                    <div class="col-12 col-lg-8 d-flex justify-content-center justify-content-lg-start font-5">
                         <p>Receba novidades em primeira mão</p>
                     </div>
                 </div>
-                <div class="row text-white">
-                    <div class="col-12 d-flex justify-content-center justify-content-lg-start align-items-center mb-3">
-                        <input type="email" class="input-group mb-lg-0 w-50 p-3 brown-text" placeholder="Seu e-mail" />
-                        <a href="#" class="btn text-white g-button ms-2 rounded-0 p-3 w-25">Assinar</a>
+                <div class="row justify-content-center justify-content-lg-start text-white">
+                    <div class="col-11 d-flex justify-content-center justify-content-lg-start align-items-center mb-3">
+                        <input type="email" class="input-group mb-lg-0 w-50 p-2 brown-text" placeholder="Seu e-mail" />
+                        <a href="#" class="btn text-white g-button ms-2 rounded-0 p-2" style="width:120px">Assinar</a>
                     </div>
                 </div>
-                <div class="row text-white">
+                <div class="row justify-content-center justify-content-lg-start text-white">
                     <div class="col mb-5 mb-lg-0 d-flex justify-content-center justify-content-lg-start font-7">
                         <p><input type="checkbox"> Li e concordo com a <a class="text-reset" href="#">Política de Privacidade</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-lg-2 d-flex justify-content-center text-white">
-                <ul class="list-unstyled text-nowrap">
-                    <li class="font-13 mb-0 mb-lg-5">Evento</li>
+                <ul class="list-unstyled text-center text-lg-start">
+                    <li class="font-13 mb-2 mb-lg-5">Evento</li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Comprar ingressos</a></li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Participar como expositor</a></li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Voluntariado</a></li>
@@ -59,8 +59,8 @@
                 </ul>
             </div>
             <div class="col-6 col-lg-2 d-flex justify-content-center text-white">
-                <ul class="list-unstyled">
-                    <li class="font-13 mb-0 mb-lg-5">Sobre nós</li>
+                <ul class="list-unstyled text-center text-lg-start">
+                    <li class="font-13 mb-2 mb-lg-5">Sobre nós</li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Sustentável Show</a></li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Eventos realizados</a></li>
                     <li class="font-20 mb-4"><a href="#" class="text-reset text-decoration-none">Imprensa</a></li>

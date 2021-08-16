@@ -1883,6 +1883,8 @@ var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.one', {
   parallax: true,
   slidesPerView: 3.5,
   spaceBetween: 20,
+  centeredSlides: true,
+  initialSlide: 1,
   autoplay: true,
   simulateTouch: true,
   breakpoints: {
@@ -1923,7 +1925,6 @@ var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
   slidesPerView: 4,
   spaceBetween: 10,
   autoplay: true,
-  initialSlide: 1,
   simulateTouch: true,
   breakpoints: {
     300: {
@@ -1935,7 +1936,8 @@ var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
       spaceBetween: 30
     },
     1024: {
-      slidesPerView: 3
+      slidesPerView: 3,
+      spaceBetween: 30
     },
     1200: {
       slidesPerView: 4
@@ -1955,12 +1957,15 @@ var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
 var swiper2 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.three', {
   // Optional parameters
   direction: 'horizontal',
-  parallax: true,
-  loop: true,
   slidesPerView: 1,
-  spaceBetween: 40,
   autoplay: true,
-  simulateTouch: true
+  simulateTouch: true,
+  spaceBetween: 60,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  }
 });
 
 /***/ }),

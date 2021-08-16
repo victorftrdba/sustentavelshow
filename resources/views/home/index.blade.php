@@ -40,12 +40,12 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-10">
                 <div class="row justify-content-center align-items-center py-5" data-aos="fade-right">
-                    <div class="col-12 col-lg-7 d-flex justify-content-start align-items-center mb-3 mb-lg-0">
+                    <div class="col-12 col-md-7 d-flex justify-content-start align-items-center mb-3 mb-md-0">
                         <img src="https://i.picsum.photos/id/192/485/330.jpg?hmac=HWxZZD3hyBMlis-JSIS97JMqyOPJo5PTqgdOFkafJiI" class="img-fluid rounded-border" />
                     </div>
-                    <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center align-items-lg-start flex-column">
-                                <h2 class="font-2 text-center text-lg-start brown-text mb-2">Propósito</h2>
-                                <p class="font-3 lineheight-2 text-center text-lg-start gray-text">A inclusão através do conhecimento, o desenvolvimento
+                    <div class="col-12 col-md-5 d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                                <h2 class="font-2 text-center text-md-start brown-text mb-2">Propósito</h2>
+                                <p class="font-3 lineheight-2 text-center text-md-start gray-text">A inclusão através do conhecimento, o desenvolvimento
                                     sustentável e o consumo consciente. Expor novos hábitos,
                                     boas práticas, soluções e tecnologias inovadoras para que
                                     a sustentabilidade seja incorporada nas atividades
@@ -53,12 +53,12 @@
                     </div>
                 </div>
                     <div class="row justify-content-center align-items-center py-3 mb-3" data-aos="fade-left">
-                        <div class="col-12 col-lg-7 order-0 order-lg-1 d-flex justify-content-end align-items-center mb-3 mb-lg-0">
+                        <div class="col-12 col-md-7 order-0 order-md-1 d-flex justify-content-end align-items-center mb-3 mb-lg-0">
                             <img src="https://i.picsum.photos/id/776/485/330.jpg?hmac=AgJ7pC2_YzsNqGSJK4vdtxqh5-dinLd2VL3HMqFjNgY" class="img-fluid rounded-border" />
                         </div>
-                        <div class="col-12 col-lg-5 order-1 order-lg-0 d-flex justify-content-center align-items-center align-items-lg-start flex-column">
-                                <h2 class="font-2 text-center text-lg-start brown-text mb-2">Evento</h2>
-                                <p class="font-3 lineheight-2 text-center text-lg-start gray-text">Ao longo de 4 dias, com exposição, 12 fóruns
+                        <div class="col-12 col-md-5 order-1 order-md-0 d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                                <h2 class="font-2 text-center text-md-start brown-text mb-2">Evento</h2>
+                                <p class="font-3 lineheight-2 text-center text-md-start gray-text">Ao longo de 4 dias, com exposição, 12 fóruns
                                     temáticos, painéis de dicussão, oficinas, desfile, espaço infância e
                                     ações de responsabilidade social, o Sustentável Show será o mais
                                     completo evento de sustentabilidade do país.</p>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center mb-5 p-4">
                 <!-- Slider main container -->
-                <div class="one d-flex justify-content-center align-items-center">
+                <div class="one p-md-3 p-xl-0 d-flex justify-content-center align-items-center">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <div class="swiper-slide d-flex">
@@ -171,7 +171,7 @@
             <div class="col d-flex align-items-center">
                 <p class="font-9">Fóruns</p>
             </div>
-            <div class="col d-flex align-items-center">
+            <div class="col d-none d-lg-flex align-items-center">
                 <ul class="d-flex font-8 list-unstyled p-3">
                     <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Ar</a></li>
                     <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Água</a></li>
@@ -186,6 +186,22 @@
                     <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Mobilidade</a></li>
                     <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none menu-ativo">Turismo</a></li>
                 </ul>
+            </div>
+            <div class="col d-flex d-lg-none align-items-center">
+                <select class="d-flex font-8 list-unstyled p-2 input-group">
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Ar</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Água</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Alimento</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Energia</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Reciclagem</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Lar&Horta</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">CuidadoPet</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">EcoCidade</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Esporte</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Moda&Beleza</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Mobilidade</a></option>
+                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none menu-ativo">Turismo</a></option>
+                </select>
             </div>
         </div>
         <div class="row justify-content-center align-items-center pb-5">
@@ -393,7 +409,7 @@
             <div class="two d-flex justify-content-center align-items-center">
                 <div class="swiper-wrapper">
                     {{-- DESKTOP --}}
-                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -404,7 +420,7 @@
                         </div>
                     </div>
                     {{-- MOBILE --}}
-                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none align-items-center justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none align-items-center justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -415,7 +431,7 @@
                         </div>
                     </div>
                     {{-- DESKTOP --}}
-                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -426,7 +442,7 @@
                         </div>
                     </div>
                     {{-- MOBILE --}}
-                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -437,7 +453,7 @@
                         </div>
                     </div>
                     {{-- DESKTOP --}}
-                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -448,7 +464,7 @@
                         </div>
                     </div>
                     {{-- MOBILE --}}
-                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none d-lg-none justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -459,7 +475,7 @@
                         </div>
                     </div>
                     {{-- DESKTOP --}}
-                    <div class="swiper-slide enterprise-card d-none d-lg-flex justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -470,7 +486,7 @@
                         </div>
                     </div>
                     {{-- MOBILE --}}
-                    <div class="swiper-slide enterprise-card-mobile d-flex d-lg-none justify-content-center flex-column">
+                    <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
                         <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
@@ -578,7 +594,7 @@
     <div class="container pb-5">
                     <div class="row justify-content-center align-items-center info-dates">
                         <div class="col-3 gx-0">
-                            <p class="data1 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px">15/09</p>
+                            <p class="data1 data-ativo font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px">15/09</p>
                         </div>
                         <div class="col-3 gx-0">
                             <p class="data2 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;">16/09</p>
@@ -603,11 +619,11 @@
                                     </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body position-relative d-block text-center text-lg-start d-lg-flex">
+                                    <div class="accordion-body position-relative d-block text-center text-md-start d-md-flex">
                                         <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid mb-3" />
                                         <div class="d-flex flex-column mt-2">
-                                        <h3 class="ms-lg-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
-                                        <p class="ms-lg-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                        <h3 class="ms-md-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
+                                        <p class="ms-md-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
                                         <div class="calendar-turning text-white text-center">
                                             <p class="calendar-border mb-0 p-1 font-7">16/09</p>
                                             <p class="calendar-border border-top-0 p-1 font-7">14:30h</p>
@@ -644,7 +660,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header pt-3" id="flush-headingFour">
-                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    <button class="accordion-button collapsed font-7 orange-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                         <div class="d-flex align-items-center text-lg-center">
                                         <p class="orange-border text-center p-2 ms-4">16h</p>
                                         <p class="ms-4">Cordel do Fogo Encantado</p>
@@ -868,7 +884,7 @@
                         </tbody>
                     </table>
                     --}}
-                        <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5">
+                        <div class="col-12 d-flex justify-content-center align-items-center pt-5 mb-5">
                             <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
                         </div>
         </div>
@@ -895,9 +911,9 @@
                         <p class="data8 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-right-radius:15px;">18/09</p>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center shadow">
+                <div class="row justify-content-center align-items-center">
                     <div class="col gx-0">
-                        <div class="accordion accordion-flush" id="accordionFlushExample2">
+                        <div class="accordion accordion-flush shadow" id="accordionFlushExample2">
                             <div class="accordion-item orange-border-bottom">
                                 <h2 class="accordion-header pt-3 pb-3" id="flush-headingFive">
                                 <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
@@ -905,164 +921,57 @@
                                 </button>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse show" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body p-lg-5 text-white d-flex justify-content-lg-between">
-                                    @php
-                                    $count = 3;
-                                    @endphp
-                                    @for($i = 0; $i < $count; $i++)
-                                    <div class="d-none d-lg-block">
-                                    <table class="pavilhao">
-                                        <thead class="text-center">
-                                            <th class="fw-lighter">Pavilhão B</th>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="d-flex flex-column">
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mt-4 mb-0">10h</p>
-                                                    <p class="font-19 mt-4 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    </div>
-                                    @endfor
+                                    <div class="accordion-body text-white d-none d-md-flex justify-content-between p-5 pt-0">
 
-                                    <div class="three d-flex justify-content-center align-items-center flex-column d-block d-lg-none">
-                                    <div class="swiper-wrapper">
-                                        @for($i = 0; $i <= $count; $i++)
+                                        @php
+                                        $count = 2;
+                                        $count2 = 10;
+                                        @endphp
+                                        @for ($i = 0; $i <= $count; $i++)
+                                        <div class="table-pavilion pb-4">
+                                            <div class="text-center pt-3 mb-lg-4">
+                                                <p class="font-5 mb-0">Pavilhão B</p>
+                                            </div>
+                                            @for ($i2 = 0; $i2 < $count2; $i2++)
+                                            <div class="font-19 p-1 d-flex justify-content-between" style="border-bottom: 1px solid white">
+                                                <p class="mb-0 ms-2 mt-3">10h</p>
+                                                <p class="mb-0 me-2 mt-3">Cadastramento Oficial</p>
+                                            </div>
+                                            @endfor
+                                        </div>
+                                        @endfor
+
+                                    </div>
+
+                                    <div class="accordion-body text-white d-flex d-md-none justify-content-center p-4 pt-0">
+
+                                        @php
+                                        $count = 2;
+                                        $count2 = 10;
+                                        @endphp
+                                        <div class="three">
+                                            <div class="swiper-wrapper">
+                                        @for ($i = 0; $i <= $count; $i++)
                                         <div class="swiper-slide">
-                                    <table class="pavilhao">
-                                        <thead class="text-center">
-                                            <th class="fw-lighter">Pavilhão B</th>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="d-flex flex-column">
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mt-4 mb-0">10h</p>
-                                                    <p class="font-19 mt-4 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                                <td>
-                                                <div class="d-flex pavilion-item p-2 flex-row justify-content-between">
-                                                    <p class="font-19 mb-0">10h</p>
-                                                    <p class="font-19 mb-0">Cadastramento Oficial</p>
-                                                </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                        <div class="table-pavilion mb-2">
+                                            <div class="text-center pt-3 mb-lg-4">
+                                                <p class="mb-0">Pavilhão B</p>
+                                            </div>
+                                            @for ($i2 = 0; $i2 < $count2; $i2++)
+                                            <div class="font-19 p-1 d-flex justify-content-between" style="border-bottom: 1px solid white">
+                                                <p class="mb-0 ms-2 mt-3">10h</p>
+                                                <p class="mb-0 me-2 mt-3">Cadastramento Oficial</p>
+                                            </div>
+                                            @endfor
+                                            </div>
                                         </div>
                                         @endfor
                                     </div>
-                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right2 mt-0 pt-2 d-block d-lg-none" />
                                 </div>
+
+                                    </div>
+                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid mb-5 mt-0 swipe-right d-flex d-md-none" />
                                 </div>
-                        </div>
                             </div>
                             <div class="accordion-item orange-border-bottom">
                                 <h2 class="accordion-header pt-3 pb-3" id="flush-headingSix">
@@ -1085,6 +994,7 @@
                                 </div>
                             </div>
                             </div>
+                        </div>
                 </div>
             </div>
             <div class="row">
