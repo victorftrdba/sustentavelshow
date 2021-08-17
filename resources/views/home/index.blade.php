@@ -406,7 +406,7 @@
     </div>
     <div class="row">
         <div class="col position-relative mb-5 d-flex justify-content-center align-items-center">
-            <div class="two d-flex justify-content-center align-items-center">
+            <div class="two p-5 p-lg-0 d-flex justify-content-center align-items-center">
                 <div class="swiper-wrapper">
                     {{-- DESKTOP --}}
                     <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
