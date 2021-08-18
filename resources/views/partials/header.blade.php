@@ -8,25 +8,25 @@
                     <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
                       <ul class="navbar-nav menu-desktop" style="font-size:0.95em">
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" aria-current="page" href="#"><span class="brown-text">Palestrantes</span></a>
+                          <a class="nav-link p-2 me-1" aria-current="page" href="#" onclick="scrolldiv('card-slide')"><span class="brown-text">Palestrantes</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Programação</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('programacao')"><span class="brown-text">Programação</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Fóruns</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('tourism')"><span class="brown-text">Fóruns</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Centro de integração</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('integration-center')"><span class="brown-text">Centro de integração</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Oficinas</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('oficinas')"><span class="brown-text">Oficinas</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Desfile</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('sustainablewear')"><span class="brown-text">Desfile</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link p-2 me-1" href="#"><span class="brown-text">Virada sustentável</span></a>
+                          <a class="nav-link p-2 me-1" href="#" onclick="scrolldiv('virada')"><span class="brown-text">Virada sustentável</span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link text-center text-white rounded-border g-button p-2 me-1" href="#" style="width:160px">Seja um expositor</a>

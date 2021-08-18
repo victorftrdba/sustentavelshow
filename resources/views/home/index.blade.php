@@ -75,7 +75,7 @@
             <div class="col-10">
                 <div class="row">
             <div class="col-12">
-                <h3 class="font-4 brown-text">Palestrantes confirmados</h3>
+                <h3 class="font-4 brown-text" id="card-slide">Palestrantes confirmados</h3>
             </div>
             <div class="col-12 justify-content-end d-flex">
                 <div class="prev ms-5 font-2">@include('layout.svg.seta-marrom')</div>
@@ -168,7 +168,7 @@
 <section class="tourism" style="background-image: url({{ asset('images/banner/forum-turismo.jpg') }})" data-aos="fade-down">
     <div class="container pt-3">
         <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
-            <div class="col d-flex align-items-center">
+            <div class="col d-flex align-items-center" id="tourism">
                 <p class="font-9">Fóruns</p>
             </div>
             <div class="col d-none d-lg-flex align-items-center">
@@ -245,7 +245,7 @@
 <section class="integration-center background-green pb-5 mb-5" data-aos="fade-up">
 <div class="container pb-5">
     <div class="row text-white mb-4">
-        <div class="col-12 col-lg-10 pt-5">
+        <div class="col-12 col-lg-10 pt-5" id="integration-center">
             <p class="font-13">Centro de Integração</p>
         </div>
     </div>
@@ -400,7 +400,7 @@
 <section class="oficinas pt-5">
 <div class="container">
     <div class="row">
-        <div class="col mb-5">
+        <div class="col mb-5" id="oficinas">
             <h2 class="font-13 brown-text">Oficinas oficiais</h2>
         </div>
     </div>
@@ -514,7 +514,7 @@
 <section class="sustainablewear pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
     <div class="container">
         <div class="row text-white justify-content-center pt-5 mt-5">
-            <div class="col-10 d-flex justify-content-center">
+            <div class="col-10 d-flex justify-content-center" id="sustainablewear">
                 <div class="row text-white flex-column mb-5 pb-5">
                     <div class="col mb-3">
                         <img src="{{ asset('images/icons/farm-logo.png') }}" />
@@ -558,7 +558,7 @@
     <div class="container">
         <div class="row justify-content-center pt-5 mt-5 align-items-center flex-column">
             <div class="col-10">
-                <div class="row text-white">
+                <div class="row text-white" id="virada">
                     <div class="col mb-3">
                         <img src="{{ asset('images/icons/redbull.png') }}" />
                         <p>apresenta</p>
@@ -895,7 +895,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center">
                     <div class="col">
-                        <p class="font-13 brown-text mb-5">Programação completa</p>
+                        <p class="font-13 brown-text mb-5" id="programacao">Programação completa</p>
                     </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-3 gx-0">
@@ -1070,6 +1070,20 @@ function openEvent(eventName) {
         x[i].style.display = "none";
     }
     document.getElementById(eventName).style.display = "block";
+}
+
+function scrolldiv(div) {
+                window.scrollTo(0,
+          findPosition(document.getElementById(div)));
+            }
+    function findPosition(obj) {
+            var currenttop = 0;
+                if (obj.offsetParent) {
+                    do {
+                        currenttop += obj.offsetTop;
+                    } while ((obj = obj.offsetParent));
+                    return [currenttop];
+        }
 }
 </script>
 @endsection
