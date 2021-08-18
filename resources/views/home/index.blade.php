@@ -78,8 +78,8 @@
                 <h3 class="font-4 brown-text" id="card-slide">Palestrantes confirmados</h3>
             </div>
             <div class="col-12 justify-content-end d-flex">
-                <div class="prev ms-5 font-2">@include('layout.svg.seta-marrom')</div>
-                <div class="next ms-5 font-2 seta">@include('layout.svg.seta-marrom')</div>
+                <div class="prev ms-5 font-2" style="cursor:pointer;">@include('layout.svg.seta-marrom')</div>
+                <div class="next ms-5 font-2 seta" style="cursor:pointer;">@include('layout.svg.seta-marrom')</div>
             </div>
                 </div>
             </div>

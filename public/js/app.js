@@ -1882,10 +1882,11 @@ var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.one', {
   direction: 'horizontal',
   parallax: true,
   slidesPerView: 3.5,
-  spaceBetween: 20,
+  spaceBetween: 40,
   centeredSlides: true,
   initialSlide: 1,
   autoplay: true,
+  loop: true,
   simulateTouch: true,
   breakpoints: {
     300: {
