@@ -272,6 +272,7 @@ header {
 }
 .integration-center .accordion {
   margin-top: -180px;
+  cursor: pointer;
 }
 .integration-center .accordion-body {
   height: 450px;
@@ -623,6 +624,7 @@ header {
   position: relative;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
   z-index: 0;
 }
 .speaker-card:after {

@@ -43,28 +43,28 @@
             <button type="button" class="btn-close mt-2 bg-light fw-bold mx-5 p-2 text-reset bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             <ul class="d-flex list-unstyled justify-content-center align-items-center flex-column">
         <li class="nav-item mt-3">
-            <a class="nav-link text-white mb-3" aria-current="page" href="#">Palestrantes</a>
+            <a class="nav-link text-white mb-3" aria-current="page" href="#" onclick="scrolldiv('card-slide')">Palestrantes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Programação</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('programacao')">Programação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Fóruns</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('tourism')">Fóruns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Centro de integração</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('integration-center')">Centro de integração</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Oficinas</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('oficinas')">Oficinas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Desfile</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('sustainablewear')">Desfile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Virada sustentável</a>
+            <a class="nav-link text-white mb-3" href="#" onclick="scrolldiv('virada')">Virada sustentável</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mb-3" href="#">Seja um expositor</a>
+            <a class="nav-link text-center text-white rounded-border g-button p-2 me-1" href="#" style="width:160px">Seja um expositor</a>
           </li>
           <li>
             <a class="nav-link text-center" href="#">@include('layout.svg.footer')</a>

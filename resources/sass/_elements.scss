@@ -274,6 +274,7 @@ header {
 
     .accordion {
         margin-top:-180px;
+        cursor:pointer;
     }
 
     .accordion-body {
@@ -641,6 +642,7 @@ header {
     position: relative;
     background-repeat: no-repeat;
     border-radius: $rounded-border;
+    cursor:pointer;
     z-index: 0;
 
     &:after {
