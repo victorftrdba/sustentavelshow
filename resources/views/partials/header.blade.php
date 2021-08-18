@@ -40,7 +40,9 @@
 
         <div class="col-12">
           <div class="offcanvas w-100 h-100 brown-background offcanvas-start offcanvas-collapse" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" >
-            <button type="button" class="btn-close mt-2 bg-light fw-bold mx-5 p-2 text-reset bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn w-25 rounded-border g-button ms-2 mt-2 fw-bold text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+              <span class="text-white">FECHAR</span>
+            </button>
             <ul class="d-flex list-unstyled justify-content-center align-items-center flex-column">
         <li class="nav-item mt-3">
             <a class="nav-link text-white mb-3" aria-current="page" href="#" onclick="scrolldiv('card-slide')">Palestrantes</a>

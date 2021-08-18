@@ -255,7 +255,7 @@ header {
     box-shadow: 0px white;
     background-color: white;
     border: 0px solid white;
-    display:none;
+    display: none;
 
     .orange-border {
         border: 0px solid white;
@@ -264,6 +264,7 @@ header {
 
 .integration-center {
     position: relative;
+
     .btn {
         background: $brown;
         width: 230px;
@@ -273,22 +274,22 @@ header {
     }
 
     .accordion {
-        margin-top:-180px;
-        cursor:pointer;
+        margin-top: -180px;
+        cursor: pointer;
     }
 
     .accordion-body {
-        height:450px;
-        width:450px;
+        height: 450px;
+        width: 450px;
         background-color: white;
-        display:flex;
+        display: flex;
         flex-direction: column;
-        justify-content:flex-end;
+        justify-content: flex-end;
         background-image: url('../../public/images/banner/foto-centro-negocios.jpg');
-        background-position:center;
-        background-size:cover;
-        position:relative;
-        border-radius:15px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        border-radius: 15px;
 
         &:before {
             content: "";
@@ -305,7 +306,7 @@ header {
     }
 
     .text-above {
-        z-index:3;
+        z-index: 3;
     }
 
     .accordion-button:not(.collapsed) {
@@ -315,17 +316,20 @@ header {
         border: 0px solid white;
         display: none;
     }
+
     .accordion-item {
         border: 0px solid $dgreen;
-        width:390px;
-        border-radius:15px;
+        width: 390px;
+        border-radius: 15px;
     }
+
     .accordion-button:focus {
         border-color: white;
         box-shadow: 0 0 0 0rem;
     }
+
     .accordion-button:after {
-        display:none;
+        display: none;
     }
 }
 
@@ -341,6 +345,7 @@ header {
         background-color: white;
         border: 0px solid white;
     }
+
     .accordion-button:focus {
         border-color: white;
         box-shadow: 0 0 0 0rem;
@@ -585,7 +590,7 @@ header {
 }
 
 .sustainablewear .g-button {
-    border-radius:15px;
+    border-radius: 15px;
 }
 
 .calendar-border {
@@ -599,7 +604,7 @@ header {
     &:after {
         content: url('../../public/images/backgrounds/pontinhos.svg');
         position: absolute;
-        bottom:5px;
+        bottom: 5px;
         right: 0;
         width: 250px;
         height: 250px;
@@ -642,7 +647,7 @@ header {
     position: relative;
     background-repeat: no-repeat;
     border-radius: $rounded-border;
-    cursor:pointer;
+    cursor: pointer;
     z-index: 0;
 
     &:after {
@@ -680,7 +685,7 @@ header {
     margin-bottom: 10px;
     margin-right: 50px;
     transition: all 200ms;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .enterprise-content {
@@ -822,8 +827,8 @@ header {
 }
 
 .table-pavilion {
-    width:31%;
-    height:100%;
+    width: 31%;
+    height: 100%;
     background-color: $orange;
 }
 
@@ -861,8 +866,9 @@ header {
     header {
         font-size: 0.8em;
     }
+
     .info-dates {
-        margin-top:-550px !important;
+        margin-top: -550px !important;
     }
 
     .oficinas .swiper-slide {
@@ -873,21 +879,21 @@ header {
 @media only screen and (max-width:1000px) {
     .integration-center {
         .accordion {
-            margin-top:0;
+            margin-top: 0;
         }
 
         .accordion-item {
-            width:100%;
+            width: 100%;
         }
 
         .accordion-body {
-            height:450px;
-            width:100%;
+            height: 450px;
+            width: 100%;
         }
     }
 
     .info-dates {
-        margin-top:-650px;
+        margin-top: -650px;
     }
 
     header {
@@ -906,8 +912,8 @@ header {
     .integration-center .btn,
     .programacao .btn {
         font-size: $size7;
-        width:205px;
-        height:35px;
+        width: 205px;
+        height: 35px;
     }
 
     .vertical {
@@ -924,9 +930,9 @@ header {
     }
 
     .turning {
-         .accordion-header {
-        font-size: $size5;
-         }
+        .accordion-header {
+            font-size: $size5;
+        }
 
         .accordion-body {
             font-size: $size7;
@@ -935,12 +941,13 @@ header {
 
     .programacao {
         .accordion-header {
-        font-size: $size12;
+            font-size: $size12;
+        }
+
+        .accordion-body {
+            font-size: $size7;
+        }
     }
-    .accordion-body {
-        font-size: $size7;
-    }
-}
 
     .font-19 {
         font-size: $size19;
@@ -969,7 +976,7 @@ header {
     .data3,
     .data4 {
         font-size: $size12;
-        height:60px !important;
+        height: 60px !important;
     }
 
     .data5,
@@ -977,14 +984,14 @@ header {
     .data7,
     .data8 {
         font-size: $size12;
-        height:80px !important;
+        height: 80px !important;
     }
 }
 
 @media only screen and (max-width: 750px) {
     .table-pavilion {
-        width:100%;
-        height:100%;
+        width: 100%;
+        height: 100%;
         background-color: $orange;
     }
 
@@ -1008,29 +1015,29 @@ header {
     .data2,
     .data3,
     .data4 {
-        height:180px !important;
+        height: 180px !important;
     }
 }
 
 @media only screen and (min-width:401px) and (max-width: 499px) {
+
     .data1,
     .data2,
     .data3,
     .data4 {
-        height:140px !important;
+        height: 140px !important;
     }
 }
 
 @media only screen and (max-width:400px) {
     .info-dates {
-        margin-top:-600px;
+        margin-top: -600px;
     }
 
     .data1,
     .data2,
     .data3,
     .data4 {
-        height:120px !important;
+        height: 120px !important;
     }
 }
-
