@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="hero" style="background-image: url({{ asset('images/banner/banner-home.jpg') }})" data-aos="fade-up">
+<section class="hero" style="background-image: url({{ asset('images/banner/banner-home.jpg') }})" data-aos="fade-up" alt="Banner - Sustentável Show">
 <div class="container-fluid">
     <div class="row text-white flex-column justify-content-center align-items-center pb-5">
         <div class="col text-center pt-5 mt-5 font-1">
@@ -41,7 +41,7 @@
         <div class="col-10">
                 <div class="row justify-content-center align-items-center py-5" data-aos="fade-right">
                     <div class="col-12 col-md-7 d-flex justify-content-start align-items-center mb-3 mb-md-0">
-                        <img src="https://i.picsum.photos/id/192/485/330.jpg?hmac=HWxZZD3hyBMlis-JSIS97JMqyOPJo5PTqgdOFkafJiI" class="img-fluid rounded-border" />
+                        <img src="https://i.picsum.photos/id/192/485/330.jpg?hmac=HWxZZD3hyBMlis-JSIS97JMqyOPJo5PTqgdOFkafJiI" loading="lazy" alt="Propósito - Sustentável Show" class="img-fluid rounded-border" />
                     </div>
                     <div class="col-12 col-md-5 d-flex justify-content-center align-items-center align-items-md-start flex-column">
                                 <h2 class="font-2 text-center text-md-start brown-text mb-2">Propósito</h2>
@@ -54,7 +54,7 @@
                 </div>
                     <div class="row justify-content-center align-items-center py-3 mb-3" data-aos="fade-left">
                         <div class="col-12 col-md-7 order-0 order-md-1 d-flex justify-content-end align-items-center mb-3 mb-lg-0">
-                            <img src="https://i.picsum.photos/id/776/485/330.jpg?hmac=AgJ7pC2_YzsNqGSJK4vdtxqh5-dinLd2VL3HMqFjNgY" class="img-fluid rounded-border" />
+                            <img src="https://i.picsum.photos/id/776/485/330.jpg?hmac=AgJ7pC2_YzsNqGSJK4vdtxqh5-dinLd2VL3HMqFjNgY" loading="lazy"  alt="Evento - Sustentável Show" class="img-fluid rounded-border" />
                         </div>
                         <div class="col-12 col-md-5 order-1 order-md-0 d-flex justify-content-center align-items-center align-items-md-start flex-column">
                                 <h2 class="font-2 text-center text-md-start brown-text mb-2">Evento</h2>
@@ -242,7 +242,7 @@
     </div>
 </section>
 
-<section class="integration-center background-green pb-5 mb-5" data-aos="fade-up">
+<section class="integration-center background-green pb-5 mb-5">
 <div class="container pb-5">
     <div class="row text-white mb-4">
         <div class="col-12 col-lg-10 pt-5" id="integration-center">
@@ -410,7 +410,7 @@
                 <div class="swiper-wrapper">
                     {{-- DESKTOP --}}
                     <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -421,7 +421,7 @@
                     </div>
                     {{-- MOBILE --}}
                     <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none align-items-center justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-1.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -432,7 +432,7 @@
                     </div>
                     {{-- DESKTOP --}}
                     <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -443,7 +443,7 @@
                     </div>
                     {{-- MOBILE --}}
                     <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-2.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -454,7 +454,7 @@
                     </div>
                     {{-- DESKTOP --}}
                     <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -465,7 +465,7 @@
                     </div>
                     {{-- MOBILE --}}
                     <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-3.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -476,7 +476,7 @@
                     </div>
                     {{-- DESKTOP --}}
                     <div class="swiper-slide enterprise-card d-none d-xl-flex justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -487,7 +487,7 @@
                     </div>
                     {{-- MOBILE --}}
                     <div class="swiper-slide enterprise-card-mobile d-flex d-xl-none justify-content-center flex-column">
-                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}"/>
+                        <img width="130" class="img-fluid mb-5" src="{{ asset('images/enterprises/logo-4.png') }}" loading="lazy" alt="Espaço Painel - Sustentável Show" />
                         <div class="enterprise-content-mobile mb-5 p-3">
                             <h3 class="brown-text font-7 mb-2">18/09 - Espaço Painel</h3>
                             <h2 class="font-14 brown-text mb-3">A energia 100% renovável é só o começo</h2>
@@ -501,7 +501,7 @@
                 <div class="two-next d-none d-lg-block">@include('layout.svg.seta-fundo-marrom')</div>
             </div>
         </div>
-        <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right d-block d-lg-none" />
+        <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid swipe-right d-block d-lg-none" loading="lazy" alt="Deslize para ver mais slides..." />
     </div>
     <div class="row pb-5">
         <div class="col-12 d-flex justify-content-center align-items-center flex-column my-5">
@@ -511,13 +511,13 @@
 </div>
 </section>
 
-<section class="sustainablewear pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})">
+<section class="sustainablewear pt-3" style="background-size:cover;background-image:url({{ asset('images/banner/foto-sustainablewear.jpg') }})" loading="lazy" alt="Sustainablewear - Sustentável Show">
     <div class="container">
         <div class="row text-white justify-content-center pt-5 mt-5">
             <div class="col-10 d-flex justify-content-center" id="sustainablewear">
                 <div class="row text-white flex-column mb-5 pb-5">
                     <div class="col mb-3">
-                        <img src="{{ asset('images/icons/farm-logo.png') }}" />
+                        <img src="{{ asset('images/icons/farm-logo.png') }}" loading="lazy" alt="Logo Farm - Sustentável Show" />
                         <p>apresenta</p>
                     </div>
                     <div class="col mb-3">
@@ -554,13 +554,13 @@
     </div>
 </section>
 
-<section class="virada pt-3" style="background-image:url({{ asset('images/banner/banner-virada.jpg') }})">
+<section class="virada pt-3" style="background-image:url({{ asset('images/banner/banner-virada.jpg') }})" alt="Virada - Sustentável Show">
     <div class="container">
         <div class="row justify-content-center pt-5 mt-5 align-items-center flex-column">
             <div class="col-10">
                 <div class="row text-white" id="virada">
                     <div class="col mb-3">
-                        <img src="{{ asset('images/icons/redbull.png') }}" />
+                        <img src="{{ asset('images/icons/redbull.png') }}" loading="lazy" alt="RedBull Logo - Sustentável Show" />
                         <p>apresenta</p>
                     </div>
                 </div>
@@ -620,7 +620,7 @@
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body position-relative d-block text-center text-md-start d-md-flex">
-                                        <img src="{{ asset('images/banner/foto-virada.jpeg') }}" width="375" class="img-fluid mb-3" />
+                                        <img src="{{ asset('images/banner/foto-virada.jpeg') }}" loading="lazy" width="375" class="img-fluid mb-3" />
                                         <div class="d-flex flex-column mt-2">
                                         <h3 class="ms-md-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
                                         <p class="ms-md-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
@@ -970,7 +970,7 @@
                                 </div>
 
                                     </div>
-                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid mb-5 mt-0 swipe-right d-flex d-md-none" />
+                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid mb-5 mt-0 swipe-right d-flex d-md-none" loading="lazy" alt="Deslize para ver mais slides..." />
                                 </div>
                             </div>
                             <div class="accordion-item orange-border-bottom">

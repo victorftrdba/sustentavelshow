@@ -8,22 +8,22 @@
                     <a href="#">@include('layout.svg.footer')</a>
                     <ul class="d-flex list-unstyled justify-content-center justify-content-lg-start">
                         <li>
-                        <a class="nav-link faceboo p-2" target="_blank" href="https://www.facebook.com/epsengenhariaprojetoseservicos" title="Facebook">
+                        <a class="nav-link facebook p-2" target="_blank" href="https://pt-br.facebook.com/sustentavelshow/" title="Facebook - Sustentável Show">
                             @include('layout.svg.facebook')
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link instagram p-2" target="_blank" href="https://www.instagram.com/eps.eng/" title="Instagram">
+                        <a class="nav-link instagram p-2" target="_blank" href="https://www.instagram.com/sustentavelshow/" title="Instagram - Sustentável Show">
                             @include('layout.svg.instagram')
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link linkedin p-2" target="_blank" href="https://www.linkedin.com/company/eps---engenharia-projetos-e-servi-os-ltda/?viewAsMember=true" title="Linkedin">
+                        <a class="nav-link linkedin p-2" target="_blank" href="https://www.linkedin.com/showcase/sustentavel-show" title="Linkedin - Sustentável Show">
                             @include('layout.svg.linkedin')
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link linkedin p-2" target="_blank" href="https://www.linkedin.com/company/eps---engenharia-projetos-e-servi-os-ltda/?viewAsMember=true" title="Linkedin">
+                        <a class="nav-link twitter p-2" target="_blank" href="https://www.twitter.com/" title="Twitter - Sustentável Show">
                             @include('layout.svg.twitter')
                         </a>
                         </li>
@@ -83,7 +83,7 @@
                         <p class="font-19 mb-2 mb-lg-0 text-center text-lg-start">Sustentável Show 2021 - Todos os direitos reservados | Política de Privacidade</p>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center">
-                        <p class="font-19 mb-0">Powered by TNB.studio</p>
+                        <p class="font-19 mb-0">Powered by <a href="https://www.tnb.studio/" target="_blank" class="text-white text-decoration-none">TNB.studio</a></p>
                     </div>
                 </div>
             </div>
