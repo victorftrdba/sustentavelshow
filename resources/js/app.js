@@ -127,10 +127,10 @@ const swiper1 = new Swiper('.two', {
 let menu = ['Ar', 'Água', 'Alimento', 'Energia', 'Reciclagem', 'Lar&Horta', 'CuidadoPet', 'EcoCidade', 'Esporte', 'Moda&Beleza', 'Mobilidade', 'Turismo'];
 const swiper3 = new Swiper('.tourism', {
     effect: 'fade',
-    speed: 3000,
+    speed: 1000,
     loop: true,
     autoplay: {
-        delay: 3000,
+        delay: 1000,
         disableOnInteraction: false
     },
     pagination: {
