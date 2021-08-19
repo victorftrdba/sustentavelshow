@@ -274,7 +274,7 @@ header {
     }
 
     .accordion {
-        margin-top: -250px;
+        margin-top: -220px;
         cursor: pointer;
     }
 
@@ -859,6 +859,9 @@ header {
 
     &:hover {
         background-color: transparent !important;
+        background-color: $lgreen !important;
+        color: $white !important;
+        transition: background-color 200ms !important;
     }
 }
 

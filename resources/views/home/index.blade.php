@@ -755,11 +755,11 @@
                         </div>
                         <div class="accordion-item mb-4">
                           <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                               Centro de Negócios
                             </button>
                           </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body text-white">
                                 <div class="text-above p-2">
                                 <p class="font-12 mb-1">
@@ -776,11 +776,11 @@
                         </div>
                         <div class="accordion-item mb-4">
                             <h2 class="accordion-header" id="headingFour">
-                              <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <button class="accordion-button bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Espaço Infância
                               </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                               <div class="accordion-body text-white">
                                 <div class="text-above p-2">
                                 <p class="font-12 mb-1">

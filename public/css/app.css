@@ -271,7 +271,7 @@ header {
   border-radius: 12px;
 }
 .integration-center .accordion {
-  margin-top: -250px;
+  margin-top: -220px;
   cursor: pointer;
 }
 .integration-center .accordion-body {
@@ -827,6 +827,9 @@ header {
 }
 .btn-outline-success:hover {
   background-color: transparent !important;
+  background-color: #a5bc39 !important;
+  color: white !important;
+  transition: background-color 200ms !important;
 }
 
 .tourism .elements {
