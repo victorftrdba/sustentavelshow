@@ -190,7 +190,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Ar</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -231,7 +231,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Água</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -272,7 +272,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Alimento</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -314,7 +314,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Energia</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -355,7 +355,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Reciclagem</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -397,7 +397,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Lar&Horta</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -438,7 +438,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum CuidadoPet</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -481,7 +481,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum EcoCidade</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -523,7 +523,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Esporte</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -564,7 +564,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Moda&Beleza</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -605,7 +605,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Mobilidade</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -646,7 +646,7 @@
                         <p class="orange-border border-top-0 p-1">14:30h</p>
                     </div>
                     <div class="col">
-                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                        <h2 class="font-21 mb-3">Conheça o Fórum Turismo</h2>
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
@@ -1047,22 +1047,22 @@
 
 <section class="turning container-fluid">
     <div class="container pb-5">
-                    <div class="row justify-content-center align-items-center info-dates">
+                    <div class="row justify-content-center align-items-center info-dates" id="datas-virada">
                         <div class="col-3 gx-0">
-                            <p class="data1 data-ativo font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px">15/09</p>
+                            <p class="data1 data-virada data-ativo font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px" onClick="openEvent('data1')">15/09</p>
                         </div>
                         <div class="col-3 gx-0">
-                            <p class="data2 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;">16/09</p>
+                            <p class="data2 data-virada font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;" onClick="openEvent('data2')">16/09</p>
                         </div>
                         <div class="col-3 gx-0">
-                            <p class="data3 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;">17/09</p>
+                            <p class="data3 data-virada font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;" onClick="openEvent('data3')">17/09</p>
                         </div>
                         <div class="col-3 gx-0">
-                            <p class="data4 font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;">18/09</p>
+                            <p class="data4 data-virada font-22 d-flex justify-content-center align-items-center mb-0" style="height:250px;" onClick="openEvent('data4')">18/09</p>
                         </div>
                     </div>
                     <div class="row justify-content-center align-items-center">
-                        <div class="col gx-0">
+                        <div class="col gx-0 event-date" id="data1">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item" style="border-bottom:3px solid orange">
                                     <h2 class="accordion-header pt-3 pb-3" id="flush-headingOne">
@@ -1129,219 +1129,214 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                {{--
-                <table>
-                    <thead class="d-flex list-unstyled text-white">
-                        <th class="data1 p-5" onclick="openEvent('data1')">15/09</th>
-                        <th class="data2 p-5" onclick="openEvent('data2')">16/09</th>
-                        <th class="data3 p-5" onclick="openEvent('data3')">17/09</th>
-                        <th class="data4 p-5" onclick="openEvent('data4')">18/09</th>
-                    </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                            <div id="data1" class="text-white event-date">
-                                <div class="accordion accordion-flush orange-font" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Painel: Turismo com observação de baleias</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body d-flex">
-                                            <img src="{{ asset('images/banner/foto-virada.jpeg') }}" class="img-fluid mb-3" />
-                                            <div class="ms-5 mt-3">
-                                            <p class="brown-text" style="font-size:1.3em;">Painel: Turismo com observação de baleias</p>
-                                            <p style="font-size:0.8em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa,
-                                            Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão,
-                                            de 600 hectares de Aimorés, Minas Gerais.</p>
-                                            </div>
+                    <div class="row">
+                        <div class="col gx-0 event-date" id="data2" style="display:none;">
+                            <div class="accordion accordion-flush" id="accordionFlushExampleB">
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3 pb-3" id="flush-headingA">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA" aria-expanded="false" aria-controls="flush-collapseA">
+                                    <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Painel: Turismo com observação de baleias</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseA" class="accordion-collapse collapse show" aria-labelledby="flush-headingA" data-bs-parent="#accordionFlushExampleB">
+                                    <div class="accordion-body position-relative d-block text-center text-md-start d-md-flex">
+                                        <img src="https://i.picsum.photos/id/684/380/250.jpg?hmac=OlGiteKg7TTSlaGO1NdyicU9I1ZWV8368utdcC2eP4U" loading="lazy" width="375" class="img-fluid mb-3" />
+                                        <div class="d-flex flex-column mt-2">
+                                        <h3 class="ms-md-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
+                                        <p class="ms-md-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                        <div class="calendar-turning text-white text-center">
+                                            <p class="calendar-border mb-0 p-1 font-7">16/09</p>
+                                            <p class="calendar-border border-top-0 p-1 font-7">14:30h</p>
                                         </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Grupo de Teatro Somos Show</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                        </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Cordel do Fogo Encantado</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingB">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseB" aria-expanded="false" aria-controls="flush-collapseB">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Grupo de Teatro Somos Show</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseB" class="accordion-collapse collapse" aria-labelledby="flush-headingB" data-bs-parent="#accordionFlushExampleB">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingC">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseC" aria-expanded="false" aria-controls="flush-collapseC">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Nação Zumbi</p>
                                         </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseC" class="accordion-collapse collapse" aria-labelledby="flush-headingC" data-bs-parent="#accordionFlushExampleB">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header pt-3" id="flush-headingD">
+                                    <button class="accordion-button collapsed font-7 orange-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseD" aria-expanded="false" aria-controls="flush-collapseD">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Cordel do Fogo Encantado</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseD" class="accordion-collapse collapse" aria-labelledby="flush-headingD" data-bs-parent="#accordionFlushExampleB">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                                     </div>
                                 </div>
                             </div>
-                        </tr>
-                    </td>
-                    <tr>
-                        <td>
-                            <div id="data2" class="text-white event-date" style="display:none">
-                                <div class="accordion accordion-flush orange-font" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Painel: Turismo com observação de baleias</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body d-flex">
-                                            <img src="{{ asset('images/banner/foto-virada.jpeg') }}" class="img-fluid mb-3" />
-                                            <div class="ms-5 mt-3">
-                                            <p class="brown-text" style="font-size:1.3em;">Painel: Turismo com observação de baleias</p>
-                                            <p style="font-size:0.8em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa,
-                                            Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão,
-                                            de 600 hectares de Aimorés, Minas Gerais.</p>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Grupo de Teatro Somos Show</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Cordel do Fogo Encantado</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </tr>
-                    </td>
-                    <tr>
-                        <td>
-                            <div id="data3" class="text-white event-date" style="display:none">
-                                <div class="accordion accordion-flush orange-font" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Painel: Turismo com observação de baleias</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body d-flex">
-                                            <img src="{{ asset('images/banner/foto-virada.jpeg') }}" class="img-fluid mb-3" />
-                                            <div class="ms-5 mt-3">
-                                            <p class="brown-text" style="font-size:1.3em;">Painel: Turismo com observação de baleias</p>
-                                            <p style="font-size:0.8em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa,
-                                            Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão,
-                                            de 600 hectares de Aimorés, Minas Gerais.</p>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Grupo de Teatro Somos Show</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Cordel do Fogo Encantado</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </tr>
-                    </td>
-                    <tr>
-                        <td>
-                            <div id="data4" class="text-white event-date" style="display:none">
-                                <div class="accordion accordion-flush orange-font" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Painel: Turismo com observação de baleias</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body d-flex">
-                                            <img src="{{ asset('images/banner/foto-virada.jpeg') }}" class="img-fluid mb-3" />
-                                            <div class="ms-5 mt-3">
-                                            <p class="brown-text" style="font-size:1.3em;">Painel: Turismo com observação de baleias</p>
-                                            <p style="font-size:0.8em;">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa,
-                                            Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão,
-                                            de 600 hectares de Aimorés, Minas Gerais.</p>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Grupo de Teatro Somos Show</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed orange-font" style="font-size:0.7em;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            <p class="orange-border text-center p-2">16h</p>
-                                            <p class="ms-3">Cordel do Fogo Encantado</p>
-                                        </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </tr>
-                    </td>
-                        </tbody>
-                    </table>
-                    --}}
-                        <div class="col-12 d-flex justify-content-center align-items-center pt-5 mb-5">
-                            <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
                         </div>
+                    </div>
+                        <div class="row">
+                        <div class="col gx-0 event-date" id="data3" style="display:none;">
+                            <div class="accordion accordion-flush" id="accordionFlushExampleC">
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3 pb-3" id="flush-headingE">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseE" aria-expanded="false" aria-controls="flush-collapseE">
+                                    <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Painel: Turismo com observação de baleias</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseE" class="accordion-collapse collapse show" aria-labelledby="flush-headingE" data-bs-parent="#accordionFlushExampleC">
+                                    <div class="accordion-body position-relative d-block text-center text-md-start d-md-flex">
+                                        <img src="https://i.picsum.photos/id/652/380/250.jpg?hmac=nzskXSwb94uQSdTJP0VSBGjC9YVqgFJPrQUkO35YGgw" loading="lazy" width="375" class="img-fluid mb-3" />
+                                        <div class="d-flex flex-column mt-2">
+                                        <h3 class="ms-md-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
+                                        <p class="ms-md-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                        <div class="calendar-turning text-white text-center">
+                                            <p class="calendar-border mb-0 p-1 font-7">16/09</p>
+                                            <p class="calendar-border border-top-0 p-1 font-7">14:30h</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingF">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseF" aria-expanded="false" aria-controls="flush-collapseF">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Grupo de Teatro Somos Show</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseF" class="accordion-collapse collapse" aria-labelledby="flush-headingF" data-bs-parent="#accordionFlushExampleC">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingG">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseG" aria-expanded="false" aria-controls="flush-collapseG">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Nação Zumbi</p>
+                                        </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseG" class="accordion-collapse collapse" aria-labelledby="flush-headingG" data-bs-parent="#accordionFlushExampleC">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header pt-3" id="flush-headingH">
+                                    <button class="accordion-button collapsed font-7 orange-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseH" aria-expanded="false" aria-controls="flush-collapseH">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Cordel do Fogo Encantado</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseH" class="accordion-collapse collapse" aria-labelledby="flush-headingH" data-bs-parent="#accordionFlushExampleC">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col gx-0 event-date" id="data4" style="display:none;">
+                            <div class="accordion accordion-flush" id="accordionFlushExampleD">
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3 pb-3" id="flush-headingI">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseI" aria-expanded="false" aria-controls="flush-collapseI">
+                                    <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Painel: Turismo com observação de baleias</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseI" class="accordion-collapse collapse show" aria-labelledby="flush-headingI" data-bs-parent="#accordionFlushExampleD">
+                                    <div class="accordion-body position-relative d-block text-center text-md-start d-md-flex">
+                                        <img src="https://i.picsum.photos/id/932/380/250.jpg?hmac=fsgpOVCrJpOY0TKY0Teus2Zbc7MOh8IOjzUL1PHYCm0" loading="lazy" width="375" class="img-fluid mb-3" />
+                                        <div class="d-flex flex-column mt-2">
+                                        <h3 class="ms-md-4 brown-text font-18">Painel: Turismo com observação de baleias</h3>
+                                        <p class="ms-md-4 orange-font">Como o fotógrafo brasileiro Sebastião Salgado e sua esposa, Lélia Wanick, decidiram reanimar o verde de seu pedaço de terra - a fazenda Bulcão, de 600 hectares de Aimorés, Minas Gerais.</p>
+                                        <div class="calendar-turning text-white text-center">
+                                            <p class="calendar-border mb-0 p-1 font-7">16/09</p>
+                                            <p class="calendar-border border-top-0 p-1 font-7">14:30h</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingJ">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJ" aria-expanded="false" aria-controls="flush-collapseJ">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Grupo de Teatro Somos Show</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseJ" class="accordion-collapse collapse" aria-labelledby="flush-headingJ" data-bs-parent="#accordionFlushExampleD">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-bottom:3px solid orange">
+                                    <h2 class="accordion-header pt-3" id="flush-headingK">
+                                    <button class="accordion-button collapsed font-7 orange-font" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseK" aria-expanded="false" aria-controls="flush-collapseK">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Nação Zumbi</p>
+                                        </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseK" class="accordion-collapse collapse" aria-labelledby="flush-headingK" data-bs-parent="#accordionFlushExampleD">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header pt-3" id="flush-headingL">
+                                    <button class="accordion-button collapsed font-7 orange-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseL" aria-expanded="false" aria-controls="flush-collapseL">
+                                        <div class="d-flex align-items-center text-lg-center">
+                                        <p class="orange-border text-center p-2 ms-4">16h</p>
+                                        <p class="ms-4">Cordel do Fogo Encantado</p>
+                                    </div>
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseL" class="accordion-collapse collapse" aria-labelledby="flush-headingL" data-bs-parent="#accordionFlushExampleD">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12 d-flex justify-content-center align-items-center pt-5 mb-5">
+                <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
+            </div>
         </div>
     </div>
 </section>
@@ -1352,32 +1347,32 @@
                     <div class="col">
                         <p class="font-13 brown-text mb-5" id="programacao">Programação completa</p>
                     </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center" id="datas">
                     <div class="col-3 gx-0">
-                        <p class="data5 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-left-radius:15px;">15/09</p>
+                        <p class="data data-ativo2 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-left-radius:15px;" onClick="openEvent2('data5')">15/09</p>
                     </div>
                     <div class="col-3 gx-0">
-                        <p class="data6 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-left:4px solid orange">16/09</p>
+                        <p class="data font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-left:4px solid orange" onClick="openEvent2('data6')">16/09</p>
                     </div>
                     <div class="col-3 gx-0">
-                        <p class="data7 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-right:4px solid orange;border-left:4px solid orange">17/09</p>
+                        <p class="data font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-right:4px solid orange;border-left:4px solid orange" onClick="openEvent2('data7')">17/09</p>
                     </div>
                     <div class="col-3 gx-0">
-                        <p class="data8 font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-right-radius:15px;">18/09</p>
+                        <p class="data font-9 d-flex justify-content-center align-items-center mb-0" style="height:120px;border-top-right-radius:15px;" onClick="openEvent2('data8')">18/09</p>
                     </div>
                 </div>
+            </div>
                 <div class="row justify-content-center align-items-center">
-                    <div class="col gx-0">
+                    <div class="col event-date2" id="data5">
                         <div class="accordion accordion-flush shadow" id="accordionFlushExample2">
                             <div class="accordion-item orange-border-bottom">
-                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingFive">
-                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA1">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA1" aria-expanded="false" aria-controls="flush-collapseA1">
                                     Palestras
                                 </button>
                                 </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse show" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2">
+                                <div id="flush-collapseA1" class="accordion-collapse collapse show" aria-labelledby="flush-headingA1" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body text-white d-none d-md-flex justify-content-between p-5 pt-0">
-
                                         @php
                                         $count = 2;
                                         $count2 = 10;
@@ -1395,22 +1390,45 @@
                                             @endfor
                                         </div>
                                         @endfor
-
                                     </div>
-
-                                    <div class="accordion-body text-white d-flex d-md-none justify-content-center p-4 pt-0">
-
-                                        @php
-                                        $count = 2;
-                                        $count2 = 10;
-                                        @endphp
-                                        <div class="three">
-                                            <div class="swiper-wrapper">
+                                </div>
+                            </div>
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA2">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA2" aria-expanded="false" aria-controls="flush-collapseA2">
+                                    Centro de Integração
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA2" class="accordion-collapse collapse" aria-labelledby="flush-headingA2" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA3">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA3" aria-expanded="false" aria-controls="flush-collapseA3">
+                                    Fóruns
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA3" class="accordion-collapse collapse" aria-labelledby="flush-headingA3" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col event-date2" id="data6" style="display:none;">
+                        <div class="accordion accordion-flush shadow" id="accordionFlushExample3">
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA4">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA4" aria-expanded="false" aria-controls="flush-collapseA4">
+                                    Palestras 2
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA4" class="accordion-collapse collapse show" aria-labelledby="flush-headingA4" data-bs-parent="#accordionFlushExample3">
+                                    <div class="accordion-body text-white d-none d-md-flex justify-content-between p-5 pt-0">
                                         @for ($i = 0; $i <= $count; $i++)
-                                        <div class="swiper-slide">
-                                        <div class="table-pavilion mb-2">
+                                        <div class="table-pavilion pb-4">
                                             <div class="text-center pt-3 mb-lg-4">
-                                                <p class="mb-0">Pavilhão B</p>
+                                                <p class="font-5 mb-0">Pavilhão B</p>
                                             </div>
                                             @for ($i2 = 0; $i2 < $count2; $i2++)
                                             <div class="font-19 p-1 d-flex justify-content-between" style="border-bottom: 1px solid white">
@@ -1418,49 +1436,137 @@
                                                 <p class="mb-0 me-2 mt-3">Cadastramento Oficial</p>
                                             </div>
                                             @endfor
-                                            </div>
                                         </div>
                                         @endfor
                                     </div>
                                 </div>
-
-                                    </div>
-                                    <img src="{{ asset('images/icons/swipe-right.svg') }}" class="img-fluid mb-5 mt-0 swipe-right d-flex d-md-none" loading="lazy" alt="Deslize para ver mais slides..." />
-                                </div>
                             </div>
                             <div class="accordion-item orange-border-bottom">
-                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingSix">
-                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA5">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA5" aria-expanded="false" aria-controls="flush-collapseA5">
                                     Centro de Integração
                                 </button>
                                 </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample2">
+                                <div id="flush-collapseA5" class="accordion-collapse collapse" aria-labelledby="flush-headingA5" data-bs-parent="#accordionFlushExample3">
                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingSeven">
-                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA6">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA6" aria-expanded="false" aria-controls="flush-collapseA6">
                                     Fóruns
                                 </button>
                                 </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                <div id="flush-collapseA6" class="accordion-collapse collapse" aria-labelledby="flush-headingA6" data-bs-parent="#accordionFlushExample3">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col event-date2" id="data7" style="display:none;">
+                        <div class="accordion accordion-flush shadow" id="accordionFlushExample4">
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA7">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA7" aria-expanded="false" aria-controls="flush-collapseA7">
+                                    Palestras 3
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA7" class="accordion-collapse collapse show" aria-labelledby="flush-headingA7" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body text-white d-none d-md-flex justify-content-between p-5 pt-0">
+                                        @for ($i = 0; $i <= $count; $i++)
+                                        <div class="table-pavilion pb-4">
+                                            <div class="text-center pt-3 mb-lg-4">
+                                                <p class="font-5 mb-0">Pavilhão B</p>
+                                            </div>
+                                            @for ($i2 = 0; $i2 < $count2; $i2++)
+                                            <div class="font-19 p-1 d-flex justify-content-between" style="border-bottom: 1px solid white">
+                                                <p class="mb-0 ms-2 mt-3">10h</p>
+                                                <p class="mb-0 me-2 mt-3">Cadastramento Oficial</p>
+                                            </div>
+                                            @endfor
+                                        </div>
+                                        @endfor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA8">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA8" aria-expanded="false" aria-controls="flush-collapseA8">
+                                    Centro de Integração
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA8" class="accordion-collapse collapse" aria-labelledby="flush-headingA8" data-bs-parent="#accordionFlushExample4">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA9">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA9" aria-expanded="false" aria-controls="flush-collapseA9">
+                                    Fóruns
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA9" class="accordion-collapse collapse" aria-labelledby="flush-headingA9" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
                             </div>
                         </div>
-                </div>
+                    </div>
+                    <div class="col event-date2" id="data8" style="display:none;">
+                        <div class="accordion accordion-flush shadow" id="accordionFlushExample5">
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA10">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA10" aria-expanded="false" aria-controls="flush-collapseA10">
+                                    Palestras 4
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA10" class="accordion-collapse collapse show" aria-labelledby="flush-headingA10" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body text-white d-none d-md-flex justify-content-between p-5 pt-0">
+                                        @for ($i = 0; $i <= $count; $i++)
+                                        <div class="table-pavilion pb-4">
+                                            <div class="text-center pt-3 mb-lg-4">
+                                                <p class="font-5 mb-0">Pavilhão B</p>
+                                            </div>
+                                            @for ($i2 = 0; $i2 < $count2; $i2++)
+                                            <div class="font-19 p-1 d-flex justify-content-between" style="border-bottom: 1px solid white">
+                                                <p class="mb-0 ms-2 mt-3">10h</p>
+                                                <p class="mb-0 me-2 mt-3">Cadastramento Oficial</p>
+                                            </div>
+                                            @endfor
+                                        </div>
+                                        @endfor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item orange-border-bottom">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA11">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA11" aria-expanded="false" aria-controls="flush-collapseA11">
+                                    Centro de Integração
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA11" class="accordion-collapse collapse" aria-labelledby="flush-headingA11" data-bs-parent="#accordionFlushExample5">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header pt-3 pb-3" id="flush-headingA12">
+                                <button class="accordion-button font-7 collapsed brown-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA12" aria-expanded="false" aria-controls="flush-collapseA12">
+                                    Fóruns
+                                </button>
+                                </h2>
+                                <div id="flush-collapseA12" class="accordion-collapse collapse" aria-labelledby="flush-headingA12" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5 mb-5 pb-5">
-                    <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
-
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center pt-5 mt-5 mb-5 pb-5">
+            <a href="#" class="btn d-flex justify-content-center align-items-center text-white g-button">Reservar ingressos</a>
+        </div>
+    </div>
 <section class="local bg-light pt-3">
     <div class="container">
         <div class="row justify-content-center">
@@ -1483,7 +1589,7 @@
                                 <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
                                 <p class="font-7 lbrown mb-1">175T/10 Metrô Santana – Metrô Jabaquara</p>
                                 <p class="font-7 lbrown mb-2">175T/10 Metrô Santana – Metrô Jabaquara</p>
-                                <button class="btn btn-outline-success font-7">Ver mais linhas</button>
+                                <button class="btn btn-outline-light font-7">Ver mais linhas</button>
                     </div>
                 </div>
                         <div class="row bus mb-3">
@@ -1492,7 +1598,7 @@
                                 <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
                                 <p class="font-7 lbrown mb-1">5391/10 Jd. Ângela - Lgo. São Francisco</p>
                                 <p class="font-7 lbrown mb-2">5391/10 Jd. Ângela - Lgo. São Francisco</p>
-                                <button class="btn btn-outline-success font-7">Ver mais linhas</button>
+                                <button class="btn btn-outline-light font-7">Ver mais linhas</button>
                     </div>
                 </div>
                         <div class="row park mb-5">
@@ -1501,7 +1607,7 @@
                                 <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
                                 <p class="font-7 lbrown mb-1">Maxipark Fleury Ibirapuera</p>
                                 <p class="font-7 lbrown mb-2">Maxipark Fleury Ibirapuera</p>
-                                <button class="btn btn-outline-success font-7">Ver mais</button>
+                                <button class="btn btn-outline-light font-7">Ver mais</button>
                     </div>
                 </div>
             </div>
@@ -1525,6 +1631,37 @@ function openEvent(eventName) {
         x[i].style.display = "none";
     }
     document.getElementById(eventName).style.display = "block";
+}
+
+function openEvent2(eventName2) {
+    var i2;
+    var xx = document.getElementsByClassName("event-date2");
+    for (i2 = 0; i2 < xx.length; i2++) {
+        xx[i2].style.display = "none";
+    }
+    document.getElementById(eventName2).style.display = "block";
+}
+
+// Datas da section virada
+var header_virada = document.getElementById("datas-virada");
+var btns_virada = header_virada.getElementsByClassName("data-virada");
+for (var i2 = 0; i2 < btns_virada.length; i2++) {
+  btns_virada[i2].addEventListener("click", function() {
+  var current2 = document.getElementsByClassName("data-ativo");
+  current2[0].className = current2[0].className.replace(" data-ativo", "");
+  this.className += " data-ativo";
+  });
+}
+
+// Datas da section programacao
+var header = document.getElementById("datas");
+var btns = header.getElementsByClassName("data");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("data-ativo2");
+  current[0].className = current[0].className.replace(" data-ativo2", "");
+  this.className += " data-ativo2";
+  });
 }
 
 function scrolldiv(div) {

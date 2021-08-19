@@ -127,6 +127,23 @@ header {
   background-position: center;
   background-size: cover;
 }
+.tourism .container-fluid:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.tourism .col {
+  z-index: 1;
+}
+.tourism .col-12 {
+  z-index: 1;
+}
 
 .propevent p {
   width: 90%;
@@ -215,7 +232,7 @@ header {
 }
 
 .gray-text {
-  color: silver;
+  color: #a5a5a5;
 }
 
 .rounded-border {
@@ -357,18 +374,38 @@ header {
   cursor: pointer;
 }
 
+.data-virada {
+  background-color: white;
+  color: #603913;
+  height: 280px;
+  z-index: 2;
+  font-size: 375%;
+  border-bottom: 4px solid #f9a022;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.data {
+  background-color: white;
+  color: #f9a022;
+  border-bottom: 4px solid #f9a022;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.data-ativo, .data-virada:hover {
+  background-color: orange;
+  color: white;
+}
+
+.data-ativo2, .data:hover {
+  background-color: orange;
+  color: white;
+}
+
 .data1:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
-  transform-origin: left;
-}
-
-.data-ativo {
-  background-color: orange;
-  color: white;
-  transform: scaleX(1.07);
-  transform-origin: left;
 }
 
 .data4 {
@@ -379,8 +416,6 @@ header {
 .data4:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
-  transform-origin: right;
 }
 
 .data3 {
@@ -391,7 +426,6 @@ header {
 .data3:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
 }
 
 .data5,
@@ -417,22 +451,17 @@ header {
 .data5:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
-  transform-origin: left;
 }
 
 .data8:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
-  transform-origin: right;
 }
 
 .data6:hover,
 .data7:hover {
   background-color: orange;
   color: white;
-  transform: scaleX(1.07);
 }
 
 .info-dates {
@@ -685,7 +714,7 @@ header {
 }
 .enterprise-card:hover .enterprise-content {
   opacity: 1;
-  color: silver;
+  color: #a5a5a5;
   visibility: visible;
   position: absolute;
   display: flex;
@@ -714,7 +743,7 @@ header {
 }
 .enterprise-card-mobile .enterprise-content-mobile {
   opacity: 1;
-  color: silver;
+  color: #a5a5a5;
   visibility: visible;
   display: flex;
   height: 250px;
@@ -815,7 +844,7 @@ header {
   transform: rotate(-270deg) !important;
 }
 
-.btn-outline-success {
+.btn-outline-light {
   color: #a5bc39 !important;
   border-color: #a5bc39 !important;
   width: 120px;
@@ -825,7 +854,7 @@ header {
   justify-content: center;
   border-radius: 8px;
 }
-.btn-outline-success:hover {
+.btn-outline-light:hover {
   background-color: transparent !important;
   background-color: #a5bc39 !important;
   color: white !important;
