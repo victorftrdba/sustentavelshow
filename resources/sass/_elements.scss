@@ -274,7 +274,7 @@ header {
     }
 
     .accordion {
-        margin-top: -180px;
+        margin-top: -250px;
         cursor: pointer;
     }
 
@@ -860,6 +860,37 @@ header {
     &:hover {
         background-color: transparent !important;
     }
+}
+
+.tourism .elements {
+    z-index:10;
+	position: fixed;
+	top: 70px;
+	right: -350px;
+	width: 100% !important;
+	left: auto !important;
+	margin: 0;
+}
+.tourism .swiper-pagination-bullet {
+	border-radius: 0;
+	width: 5.3%;
+	height: 30px;
+    font-size:0.7em;
+    text-align:center;
+	line-height: 30px;
+	color:#fff;
+	opacity: 1;
+	background: transparent;
+}
+
+.tourism .swiper-pagination-bullet:hover {
+    border-bottom: 4px solid $lgreen;
+    transition: width 600ms;
+    cursor: pointer;
+}
+
+.tourism .swiper-pagination-bullet-active {
+    border-bottom: 4px solid $lgreen;
 }
 
 @media only screen and (min-width:1001px) and (max-width: 1199px) {

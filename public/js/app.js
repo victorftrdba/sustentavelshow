@@ -1955,6 +1955,23 @@ var swiper1 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.two', {
     prevEl: '.two-prev'
   }
 });
+var menu = ['Ar', 'Água', 'Alimento', 'Energia', 'Reciclagem', 'Lar&Horta', 'CuidadoPet', 'EcoCidade', 'Esporte', 'Moda&Beleza', 'Mobilidade', 'Turismo'];
+var swiper3 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.tourism', {
+  effect: 'fade',
+  speed: 3000,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: '.elements',
+    clickable: true,
+    renderBullet: function renderBullet(index, className) {
+      return '<div class="' + className + '">' + menu[index] + '</div>';
+    }
+  }
+});
 var swiper2 = new swiper_core__WEBPACK_IMPORTED_MODULE_0__.default('.three', {
   // Optional parameters
   direction: 'horizontal',

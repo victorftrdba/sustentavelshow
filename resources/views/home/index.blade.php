@@ -165,43 +165,471 @@
     </div>
 </section>
 
-<section class="tourism" style="background-image: url({{ asset('images/banner/forum-turismo.jpg') }})" data-aos="fade-down">
-    <div class="container pt-3">
+<section class="tourism" data-aos="fade-down">
+    <div class="swiper-wrapper position-relative">
+
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/329/1600/900.jpg?hmac=tpfTYm2OKmUXIDQqL3i_-D9oKrQRl2BHlGnurFcvS-M)" >
+        <div class="container">
         <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
             <div class="col d-flex align-items-center" id="tourism">
                 <p class="font-9">Fóruns</p>
             </div>
-            <div class="col d-none d-lg-flex align-items-center">
-                <ul class="d-flex font-8 list-unstyled p-3">
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Ar</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Água</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Alimento</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Energia</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Reciclagem</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Lar&Horta</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">CuidadoPet</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">EcoCidade</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Esporte</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Moda&Beleza</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Mobilidade</a></li>
-                    <li class="p-2"><a href="#" class="slide-item text-reset text-decoration-none menu-ativo">Turismo</a></li>
-                </ul>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Ar</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum AR é
+                            compartilhar boas práticas e soluções
+                            sustentáveis para proteção, monitoramento e
+                            purificação do ar.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
             </div>
-            <div class="col d-flex d-lg-none align-items-center">
-                <select class="d-flex font-8 list-unstyled p-2 input-group">
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Ar</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Água</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Alimento</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Energia</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Reciclagem</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Lar&Horta</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">CuidadoPet</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">EcoCidade</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Esporte</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Moda&Beleza</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none">Mobilidade</a></option>
-                    <option class="p-2"><a href="#" class="slide-item text-reset text-decoration-none menu-ativo">Turismo</a></option>
-                </select>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/942/1600/900.jpg?hmac=rtjhnYluwU-Na7B3a28RtxxaE1pR__F4Nw1LkFQHcO0)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Água</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum ÁGUA é
+                            compartilhar boas práticas e soluções
+                            sustentáveis para captação, distribuição, uso
+                            e tratamento da água.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/261/1600/900.jpg?hmac=mTGFi5tN-U_CMJ46G0OUXOmYlRy-gwuelxx8ZKVjnTc)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Alimento</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum ALIMENTO
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para produção de alimentos em
+                            larga escala mais eficiente, com menor custo
+                            e com menos impactos ao meio ambiente.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/363/1600/900.jpg?hmac=VEoFUSxTX1O81ITX1-W_L5D0yJrarBTVhwIObwtGvT0)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Energia</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum ENERGIA
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para geração, distribuição,
+                            mercado, armazenamento e uso de energia.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/435/1600/900.jpg?hmac=-6Il_4D79Pvbsss1fWwppu-FsDc7EmOWmK9aDMVV630)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Reciclagem</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum RECICLAGEM
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para reciclagem, e expor seus
+                            resultados expressivos tanto no campo
+                            ambiental como no econômico e social.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/329/1600/900.jpg?hmac=tpfTYm2OKmUXIDQqL3i_-D9oKrQRl2BHlGnurFcvS-M)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Lar&Horta</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum LAR&HORTA
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para hortas urbanas e lares
+                            confortáveis e amigos do meio ambiente
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/81/1600/900.jpg?hmac=EeEFp2f2AE0-k5zXDI4hFhOUJyoU4UwDpz4C9MrQ0CU)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum CuidadoPet</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum CUIDADOPET
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para a interação de nossos
+                            companheiros com as residências, cidades e
+                            meio ambiente, visando o bem-estar de todos
+                            e o respeito à saúde e natureza.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/88/1600/900.jpg?hmac=X2F0LqvXkBjeftciZ40Z4j4FVWTXuFwWA_Q-hwxZeUY)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum EcoCidade</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum ECOCIDADE
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para construções,
+                            processos construtivo, infraestrutura
+                            verde, acessível e inclusiva.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/449/1600/900.jpg?hmac=efrTURA27YE4PM7eFMRYli7MBcJJvaiUR8oCaaSyGaE)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Esporte</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum ESPORTE
+                            é buscar a integração social através
+                            da inclusão de grupos vulneráveis e de
+                            acessibilidade na prática esportiva.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/22/1600/900.jpg?hmac=uLWQ-QJrENqwG046VwkC0k6d0UHH2Tt6u5TMgA6hzBE)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Moda&Beleza</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum MODA&BELEZA
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para a indústria de vestuários,
+                            cosméticos e higiene.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-size:cover;background-image: url(https://i.picsum.photos/id/520/1600/900.jpg?hmac=vAOiopvaC0hM6S6wMsHezClIh3z7RRheHcr9E8zybfk)" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-10">
+                <div class="row flex-column text-white">
+                    <div class="col mb-4">
+                        @include('layout.svg.icone-turismo')
+                    </div>
+                    <div class="col-12 col-lg-5 mb-3 mb-lg-3">
+                        <p class="font-15 lineheight-3">Fórum Mobilidade</p>
+                    </div>
+                    <div class="col mb-3 text-center">
+                        <p class="orange-border mb-0 p-1">16/09</p>
+                        <p class="orange-border border-top-0 p-1">14:30h</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="font-21 mb-3">Painel: Turismo com observação de baleias</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="font-3 lineheight-4 mb-5">
+                            O principal objetivo do Fórum MOBILIDADE
+                            é compartilhar boas práticas e soluções
+                            sustentáveis para modais de transporte de
+                            pessoas e mercadorias.
+                        </p>
+                    </div>
+                    <div class="col pb-5">
+                        <a href="#" class="btn g-button rounded-border text-white">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+        <div class="swiper-slide">
+    <div class="container-fluid pt-3" style="height:925px;background-image: url({{ asset('images/banner/forum-turismo.jpg') }})" >
+        <div class="container">
+        <div class="row justify-content-center align-items-center text-white mt-5 mb-3">
+            <div class="col d-flex align-items-center" id="tourism">
+                <p class="font-9">Fóruns</p>
             </div>
         </div>
         <div class="row justify-content-center align-items-center pb-5">
@@ -222,15 +650,11 @@
                     </div>
                     <div class="col-12 col-lg-9">
                         <p class="font-3 lineheight-4 mb-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                            Sed lacinia risus ut malesuada lobortis. Quisque massa enim, aliquet sit amet faucibus eget,
-                            molestie sit amet enim. Etiam interdum a est ac laoreet.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Aliquam quis metus fringilla, pharetra mauris ut, tincidunt dolor. Nunc metus purus, auctor a pharetra et,
-                            suscipit vel odio. Aenean luctus dapibus auctor. Sed non lacus a erat vestibulum consequat.
-                            Nunc quis odio ut magna lobortis porttitor.
-                            Integer condimentum elit lectus.
+                            O principal objetivo do Fórum TURISMO
+                            é compartilhar boas práticas e
+                            soluções sustentáveis na atividade
+                            turística, infraestrutura e seus aspectos
+                            socioeconômicos
                         </p>
                     </div>
                     <div class="col pb-5">
@@ -240,6 +664,11 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+
+    </div>
+        <div class="elements gx-0"></div>
 </section>
 
 <section class="integration-center background-green pb-5 mb-5">
@@ -260,13 +689,16 @@
                 </div>
                 <div class="col-12 col-lg-10 mb-3">
                     <p class="font-3">
-                        Nunc metus purus, auctor a pharetra et, suscipit vel odio.
-                        Aenean luctus dapibus auctor. Sed non lacus a erat vestibulum consequat.
-                        Nunc quis odio ut magna lobortis porttitor. Integer condimentum elit lectus.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                        Sed lacinia risus ut malesuada lobortis.
-                        Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                        A área de exposição proporcionará aos visitantes a oportunidade de além de
+                        conhecer serviços e produtos que possam incorporar mais sustentabilidade em seus
+                        hábitos cotidianos, também saber as práticas empresariais das marcas que já fazem
+                        parte do seu dia a dia e como a escolha consciente de seu consumo são essenciais
+                        para o cuidado com o meio ambiente.
+                    </p>
+                    <p class="font-3">
+                        Buscando promover uma experiência completa,
+                        o evento contará com um espaços de atividades
+                        diversas, conforme descrito a seguir nos blocos
                     </p>
                 </div>
                 <div class="col-10 col-lg-6 d-flex justify-content-center align-items-center align-items-lg-start flex-column">
@@ -291,10 +723,9 @@
                                     Espaço Paz
                                 </p>
                                 <p class="font-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                    Sed lacinia risus ut malesuada lobortis.
-                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                    Espaço descontraído de descanso para recarregar as energias, para
+                                    proporcionar relaxamentoe interação dos participantes, contará com local para
+                                    carregamento de celulares e demais dispositivos móveis.
                                 </p>
                             </div>
                             </div>
@@ -313,10 +744,10 @@
                                     Colabora
                                 </p>
                                 <p class="font-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                    Sed lacinia risus ut malesuada lobortis.
-                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                    Convidamos nossos expositores a oferecer seus serviços e produtos de
+                                    sustentabilidade a instituições filantrópicas e, através do COLABORA, o Sustentável
+                                    Show fomenta a viabilização econômica desses projetos, bem como incentiva o
+                                    público presente no evento a contribuir com essas atividades sociais.
                                 </p>
                                 </div>
                             </div>
@@ -335,10 +766,9 @@
                                     Centro de Negócios
                                 </p>
                                 <p class="font-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                    Sed lacinia risus ut malesuada lobortis.
-                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                    Com consultores qualificados o centro de negócios atuará como catalizador de
+                                    projetos, identificando as melhores soluções para cada demanda bem como formas
+                                    de viabilização e linhas de crédito disponíveis.
                                 </p>
                                 </div>
                             </div>
@@ -357,10 +787,13 @@
                                     Espaço Infância
                                 </p>
                                 <p class="font-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                    Sed lacinia risus ut malesuada lobortis.
-                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                    No Espaço Infância convidamos educadores e instituições de ensino a entreter as
+                                    crianças em atividades lúdicas que reforce ainda mais a consciência socioambiental
+                                    dessa geração já privilegiada e tão conectada.
+                                </p>
+                                <p class="font-7">
+                                    Educadores e instituições, abordando a sustentabilidade de forma lúdica,
+                                    despertando a curiosidade e interesse das crianças aos temas.
                                 </p>
                                 </div>
                             </div>
@@ -379,10 +812,41 @@
                                     Espaço Painel
                                 </p>
                                 <p class="font-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                                    Sed lacinia risus ut malesuada lobortis.
-                                    Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                                Inspirado no modelo World Cafe, o Espaço Painel tem uma dinâmica flexível, sensível
+                                e poderosa para gerar diálogos colaborativos entre os indivíduos, nos quais eles
+                                podem compartilhar seus conhecimentos e descobrir novas
+                                oportunidades de ação conjunta.
+                                </p>
+                                <p class="font-7">
+                                Baseado nos sistemas vivos, este enfoque inovador cria redes dinâmicas de
+                                conversação que acessam e aproveitam a inteligência coletiva de organizações e
+                                comunidades para responder a perguntas significativas.
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                            <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="headingSix">
+                              <button class="accordion-button collapsed bg-dgreen text-white font-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Espaço Oficinas
+                              </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                              <div class="accordion-body text-white">
+                                <div class="text-above p-2">
+                                <p class="font-12 mb-1">
+                                    Espaço Oficinas
+                                </p>
+                                <p class="font-7">
+                                O Espaço Oficinas oferece aos participantes uma experiência mais imersiva em
+                                aprofundar conhecimentos. Oferecida pelas empresas parceiras, a dinâmica
+                                permite aos participantes ampliar seus conhecimentos e
+                                direcionar sua capacitação profissional.
+                                </p>
+                                <p class="font-7">
+                                Diferentemente dos fóruns, que são exclusivamente técnicos, o Espaço Oficinas
+                                permite apresentações comerciais de produtos ou serviços.
                                 </p>
                                 </div>
                             </div>
@@ -532,17 +996,9 @@
                     </div>
                     <div class="col-12 col-lg-10 mb-3 mb-lg-5">
                         <p class="font-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                            Sed lacinia risus ut malesuada lobortis.
-                            Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
-                            Etiam interdum a est ac laoreet.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Aliquam quis metus fringilla, pharetra mauris ut, tincidunt dolor.
-                            Nunc metus purus, auctor a pharetra et, suscipit vel odio.
-                            Aenean luctus dapibus auctor. Sed non lacus a erat vestibulum consequat.
-                            Nunc quis odio ut magna lobortis porttitor.
-                            Integer condimentum elit lectus.
+                            O desfile tem o propósito de mostrar a beleza na sua forma mais espontânea e
+                            natural, estimulando a autoestima e bem estar do sociedade e, aliando tudo isso, às
+                            boas práticas e assim, serem ainda mais valorizadas e apreciadas.
                         </p>
                     </div>
                     <div class="col-10 col-lg-3 d-flex justify-content-start flex-column pb-3">
@@ -578,10 +1034,9 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <p class="font-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur placerat nulla non eros dignissim, a elementum ex tempus.
-                        Sed lacinia risus ut malesuada lobortis.
-                        Quisque massa enim, aliquet sit amet faucibus eget, molestie sit amet enim.
+                        A celebração final, a reunião de todos os atores queridos desse evento gratificante.
+                        Com muita arte local, música e descontração, encerramos as atividades com a
+                        certeza da missão cumprida e das energias renovadas para os próximos desafios.
                     </p>
                 </div>
             </div>
